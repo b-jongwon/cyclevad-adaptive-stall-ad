@@ -1,0 +1,7 @@
+{
+  "status": "boundary_analysis_complete",
+  "scope": "E14A existing boundary/interior results only; new order-preserving jump controls and post-window recovery remain pending",
+  "cases": 15640,
+  "models_refit": false,
+  "warning": "Interior is a different conditional subset/time window. Filter state still carries boundary history; this is not proof of independence from edit discontinuities. Skip has no interior."
+}

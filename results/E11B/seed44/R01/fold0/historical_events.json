@@ -1,0 +1,10 @@
+[
+{"id":"R01/testing/01:event0","source_id":"R01/testing/01","onset":43,"end":184,"deadline_frames":46,"delay_primary":[0,0,0,0,0,null,0],"hit_full_interval":[true,true,true,true,true,false,true]},
+{"id":"R01/testing/02:event0","source_id":"R01/testing/02","onset":46,"end":173,"deadline_frames":46,"delay_primary":[0,0,0,0,0,null,0],"hit_full_interval":[true,true,true,true,true,false,true]},
+{"id":"R01/testing/03:event0","source_id":"R01/testing/03","onset":65,"end":260,"deadline_frames":46,"delay_primary":[0,0,0,0,0,null,0],"hit_full_interval":[true,true,true,true,true,true,true]},
+{"id":"R01/testing/04:event0","source_id":"R01/testing/04","onset":54,"end":144,"deadline_frames":46,"delay_primary":[0,0,0,0,0,null,0],"hit_full_interval":[true,true,true,true,true,false,true]},
+{"id":"R01/testing/05:event0","source_id":"R01/testing/05","onset":94,"end":186,"deadline_frames":46,"delay_primary":[0,0,0,0,0,null,0],"hit_full_interval":[true,true,true,true,true,false,true]},
+{"id":"R01/testing/06:event0","source_id":"R01/testing/06","onset":10,"end":230,"deadline_frames":46,"delay_primary":[0,0,0,0,0,null,0],"hit_full_interval":[true,true,true,true,true,false,true]},
+{"id":"R01/testing/07:event0","source_id":"R01/testing/07","onset":5,"end":200,"deadline_frames":46,"delay_primary":[0,0,0,0,0,null,0],"hit_full_interval":[true,true,true,true,true,false,true]},
+{"id":"R01/testing/08:event0","source_id":"R01/testing/08","onset":30,"end":224,"deadline_frames":46,"delay_primary":[0,0,0,0,0,null,0],"hit_full_interval":[true,true,true,true,true,false,true]}
+]

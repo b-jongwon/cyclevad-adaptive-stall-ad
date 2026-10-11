@@ -1,0 +1,4 @@
+PASS 12 throughput runs: 24,576 input frames, batch1, fixed 16 sources, 3 repeats, current/held score semantics.
+PASS 4 paced runs: 2,048 input frames at configured 30/60 FPS; arrival/service/wait and deadline counts checked.
+PASS 768 fresh observations across 8 source/cadence sequences match the reference causal tracker and conditional/process heads; encoder equals original batch1 path.
+PASS Repeat scores and alarms identical; maximum tracker/replay tolerances checked; no cached feature throughput reported.

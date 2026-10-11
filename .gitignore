@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+.cache/
+runs/
+logs/
+IPAD_dataset/
+*.joblib
+*.pt
+*.pth
+*.npz
+*.npy
+*.zip
+.env
+.env.*
+artifacts/
+*.tmp
+
+# Local raster previews and JUnit output; published figures are SVG.
+docs/figures/*.png
+results/E0/tests.xml
+
+# Public numeric benchmark metadata, distinct from local feature/model caches.
+!results/E16/runs/
+!results/E16/runs/*.json

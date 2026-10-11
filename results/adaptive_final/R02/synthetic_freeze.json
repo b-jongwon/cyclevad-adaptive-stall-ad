@@ -1,0 +1,2594 @@
+[
+  {
+    "id": "R02/training/07",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 6
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "phase_combined",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 6
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 4
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "phase_combined",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 4
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 5
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "phase_combined",
+    "hit": true,
+    "delay_sampled_frames": 9
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 5
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 6
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "phase_combined",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 6
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 4
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "phase_combined",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 4
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 5
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "phase_combined",
+    "hit": true,
+    "delay_sampled_frames": 9
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 5
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 6
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "phase_combined",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 6
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 4
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "phase_combined",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 4
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 5
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "phase_combined",
+    "hit": true,
+    "delay_sampled_frames": 9
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 5
+  },
+  {
+    "id": "R02/training/07",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 4
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "phase_combined",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 4
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 4
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "phase_combined",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 4
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 5
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "phase_combined",
+    "hit": true,
+    "delay_sampled_frames": 6
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 5
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 4
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "phase_combined",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 4
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 4
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "phase_combined",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 4
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 5
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "phase_combined",
+    "hit": true,
+    "delay_sampled_frames": 6
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 5
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 4
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "phase_combined",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 4
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 4
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "phase_combined",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 4
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 5
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "phase_combined",
+    "hit": true,
+    "delay_sampled_frames": 6
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 5
+  },
+  {
+    "id": "R02/training/26",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 5
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "phase_combined",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 5
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 5
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "phase_combined",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 5
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 6
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "phase_combined",
+    "hit": true,
+    "delay_sampled_frames": 7
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 6
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 5
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "phase_combined",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 5
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 5
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "phase_combined",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 5
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 6
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "phase_combined",
+    "hit": true,
+    "delay_sampled_frames": 7
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 6
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 5
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "phase_combined",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 5
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 5
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "phase_combined",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 5
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 6
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "phase_combined",
+    "hit": true,
+    "delay_sampled_frames": 7
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 6
+  },
+  {
+    "id": "R02/training/27",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 6
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "phase_combined",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 6
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.05,
+    "onset_fraction": 0.2,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 3
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "phase_combined",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 3
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.05,
+    "onset_fraction": 0.4,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 6
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "phase_combined",
+    "hit": true,
+    "delay_sampled_frames": 7
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 6
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.05,
+    "onset_fraction": 0.6,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 6
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "phase_combined",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 6
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.1,
+    "onset_fraction": 0.2,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 3
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "phase_combined",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 3
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.1,
+    "onset_fraction": 0.4,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 6
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "phase_combined",
+    "hit": true,
+    "delay_sampled_frames": 7
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 6
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.1,
+    "onset_fraction": 0.6,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 6
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "phase_combined",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 6
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.2,
+    "onset_fraction": 0.2,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 3
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "phase_combined",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 3
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.2,
+    "onset_fraction": 0.4,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "fixed_cyclevad",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "intensity_threshold",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "intensity_threshold_with_stall",
+    "hit": true,
+    "delay_sampled_frames": 6
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "phase_combined",
+    "hit": true,
+    "delay_sampled_frames": 7
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "phase_branch",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "warmup_phase",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "adaptive_ema",
+    "hit": false,
+    "delay_sampled_frames": null
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "stall",
+    "hit": true,
+    "delay_sampled_frames": 6
+  },
+  {
+    "id": "R02/training/30",
+    "fraction": 0.2,
+    "onset_fraction": 0.6,
+    "method": "adaptive_with_stall",
+    "hit": false,
+    "delay_sampled_frames": null
+  }
+]

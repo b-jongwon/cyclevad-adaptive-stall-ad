@@ -1,0 +1,27 @@
+{
+  "device": "cuda",
+  "scenes": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12"
+  ],
+  "method_count": 16,
+  "seed": 42,
+  "max_epochs": 30,
+  "patience": 4,
+  "normal_only_training": true,
+  "test_comparison_status": "exploratory; no fresh untouched test set"
+}

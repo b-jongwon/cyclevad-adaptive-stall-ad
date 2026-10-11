@@ -1,0 +1,2 @@
+PASS E11: 60 units, 5706 per-video/readout metrics, 11730 edited cases; thresholds recomputed from normal saved scores.
+PASS E11: shared splits/hyperparameters, identity and score prefix invariance; max prefix score difference 1.78e-15.

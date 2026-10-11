@@ -1,0 +1,1 @@
+PASS E14A: 15640 case analyses; original windows read from saved normal scores; interior coverage matched manifest.

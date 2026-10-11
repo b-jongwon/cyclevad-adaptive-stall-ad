@@ -1,0 +1,47 @@
+{
+  "combined": {
+    "frames": 9618,
+    "valid_frames": 7706,
+    "unknown_frames": 1912,
+    "anomaly_frames": 2612,
+    "auroc": 0.9163054634134024,
+    "ap": 0.874478226330014,
+    "fpr": 0.01060070671378092,
+    "recall": 0.48545176110260335,
+    "threshold": 5.993129826427043,
+    "events": 15,
+    "detected_events": 8,
+    "event_coverage": 0.5333333333333333,
+    "median_detected_event_delay_frames": 8.5
+  },
+  "appearance": {
+    "frames": 9618,
+    "valid_frames": 7706,
+    "unknown_frames": 1912,
+    "anomaly_frames": 2612,
+    "auroc": 0.7972030121615616,
+    "ap": 0.7272758622431186,
+    "fpr": 0.01099332548095799,
+    "recall": 0.3652373660030628,
+    "threshold": 5.2999826458670976,
+    "events": 15,
+    "detected_events": 4,
+    "event_coverage": 0.26666666666666666,
+    "median_detected_event_delay_frames": 0.5
+  },
+  "cycle_conditioned": {
+    "frames": 9618,
+    "valid_frames": 7706,
+    "unknown_frames": 1912,
+    "anomaly_frames": 2612,
+    "auroc": 0.797255997657515,
+    "ap": 0.7274147451957932,
+    "fpr": 0.01099332548095799,
+    "recall": 0.3652373660030628,
+    "threshold": 5.2999826458670976,
+    "events": 15,
+    "detected_events": 4,
+    "event_coverage": 0.26666666666666666,
+    "median_detected_event_delay_frames": 0.5
+  }
+}

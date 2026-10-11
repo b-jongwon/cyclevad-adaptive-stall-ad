@@ -1,0 +1,490 @@
+{
+  "metrics": [
+    {
+      "scene": "R01",
+      "fold": 0,
+      "partition": "reference",
+      "cell": "C-00",
+      "readout": "full",
+      "frames": 930,
+      "valid_frames": 930,
+      "unknown_frames": 0,
+      "anomaly_frames": 0,
+      "auroc": null,
+      "ap": null,
+      "fpr": 0.0,
+      "recall": null,
+      "threshold": 7.463292054382657,
+      "video_mean_fpr": 0.0,
+      "events": 0,
+      "detected_events": 0,
+      "event_coverage": null
+    },
+    {
+      "scene": "R01",
+      "fold": 0,
+      "partition": "threshold",
+      "cell": "C-00",
+      "readout": "full",
+      "frames": 899,
+      "valid_frames": 899,
+      "unknown_frames": 0,
+      "anomaly_frames": 0,
+      "auroc": null,
+      "ap": null,
+      "fpr": 0.008898776418242492,
+      "recall": null,
+      "threshold": 7.463292054382657,
+      "video_mean_fpr": 0.008938305794291468,
+      "events": 0,
+      "detected_events": 0,
+      "event_coverage": null
+    },
+    {
+      "scene": "R01",
+      "fold": 0,
+      "partition": "normal_evaluation",
+      "cell": "C-00",
+      "readout": "full",
+      "frames": 1605,
+      "valid_frames": 1605,
+      "unknown_frames": 0,
+      "anomaly_frames": 0,
+      "auroc": null,
+      "ap": null,
+      "fpr": 0.0,
+      "recall": null,
+      "threshold": 7.463292054382657,
+      "video_mean_fpr": 0.0,
+      "events": 0,
+      "detected_events": 0,
+      "event_coverage": null
+    },
+    {
+      "scene": "R01",
+      "fold": 0,
+      "partition": "historical_test",
+      "cell": "C-00",
+      "readout": "full",
+      "frames": 3685,
+      "valid_frames": 3685,
+      "unknown_frames": 0,
+      "anomaly_frames": 1254,
+      "auroc": 0.8463208149388841,
+      "ap": 0.6485539967365032,
+      "fpr": 0.47922665569724393,
+      "recall": 1.0,
+      "threshold": 7.463292054382657,
+      "video_mean_fpr": 0.6331388834023978,
+      "events": 8,
+      "detected_events": 8,
+      "event_coverage": 1.0
+    },
+    {
+      "scene": "R02",
+      "fold": 0,
+      "partition": "reference",
+      "cell": "C-00",
+      "readout": "full",
+      "frames": 2391,
+      "valid_frames": 2391,
+      "unknown_frames": 0,
+      "anomaly_frames": 0,
+      "auroc": null,
+      "ap": null,
+      "fpr": 0.015056461731493099,
+      "recall": null,
+      "threshold": 5.478135793123873,
+      "video_mean_fpr": 0.015680408122932307,
+      "events": 0,
+      "detected_events": 0,
+      "event_coverage": null
+    },
+    {
+      "scene": "R02",
+      "fold": 0,
+      "partition": "threshold",
+      "cell": "C-00",
+      "readout": "full",
+      "frames": 2354,
+      "valid_frames": 2354,
+      "unknown_frames": 0,
+      "anomaly_frames": 0,
+      "auroc": null,
+      "ap": null,
+      "fpr": 0.0076465590484282074,
+      "recall": null,
+      "threshold": 5.478135793123873,
+      "video_mean_fpr": 0.0076769648483955965,
+      "events": 0,
+      "detected_events": 0,
+      "event_coverage": null
+    },
+    {
+      "scene": "R02",
+      "fold": 0,
+      "partition": "normal_evaluation",
+      "cell": "C-00",
+      "readout": "full",
+      "frames": 3518,
+      "valid_frames": 3518,
+      "unknown_frames": 0,
+      "anomaly_frames": 0,
+      "auroc": null,
+      "ap": null,
+      "fpr": 0.009664582148948267,
+      "recall": null,
+      "threshold": 5.478135793123873,
+      "video_mean_fpr": 0.009553405843324455,
+      "events": 0,
+      "detected_events": 0,
+      "event_coverage": null
+    },
+    {
+      "scene": "R02",
+      "fold": 0,
+      "partition": "historical_test",
+      "cell": "C-00",
+      "readout": "full",
+      "frames": 9618,
+      "valid_frames": 7706,
+      "unknown_frames": 1912,
+      "anomaly_frames": 2612,
+      "auroc": 0.9064524534464171,
+      "ap": 0.8447092679205549,
+      "fpr": 0.011778563015312132,
+      "recall": 0.36370597243491576,
+      "threshold": 5.478135793123873,
+      "video_mean_fpr": 0.010526284937316673,
+      "events": 15,
+      "detected_events": 5,
+      "event_coverage": 0.3333333333333333
+    },
+    {
+      "scene": "R03",
+      "fold": 0,
+      "partition": "reference",
+      "cell": "C-00",
+      "readout": "full",
+      "frames": 2074,
+      "valid_frames": 2074,
+      "unknown_frames": 0,
+      "anomaly_frames": 0,
+      "auroc": null,
+      "ap": null,
+      "fpr": 0.020732883317261332,
+      "recall": null,
+      "threshold": 5.336576078665127,
+      "video_mean_fpr": 0.020711344633084373,
+      "events": 0,
+      "detected_events": 0,
+      "event_coverage": null
+    },
+    {
+      "scene": "R03",
+      "fold": 0,
+      "partition": "threshold",
+      "cell": "C-00",
+      "readout": "full",
+      "frames": 2131,
+      "valid_frames": 2131,
+      "unknown_frames": 0,
+      "anomaly_frames": 0,
+      "auroc": null,
+      "ap": null,
+      "fpr": 0.009385265133740028,
+      "recall": null,
+      "threshold": 5.336576078665127,
+      "video_mean_fpr": 0.009557190085046963,
+      "events": 0,
+      "detected_events": 0,
+      "event_coverage": null
+    },
+    {
+      "scene": "R03",
+      "fold": 0,
+      "partition": "normal_evaluation",
+      "cell": "C-00",
+      "readout": "full",
+      "frames": 3429,
+      "valid_frames": 3429,
+      "unknown_frames": 0,
+      "anomaly_frames": 0,
+      "auroc": null,
+      "ap": null,
+      "fpr": 0.07115777194517352,
+      "recall": null,
+      "threshold": 5.336576078665127,
+      "video_mean_fpr": 0.0728579966261984,
+      "events": 0,
+      "detected_events": 0,
+      "event_coverage": null
+    },
+    {
+      "scene": "R03",
+      "fold": 0,
+      "partition": "historical_test",
+      "cell": "C-00",
+      "readout": "full",
+      "frames": 12005,
+      "valid_frames": 12005,
+      "unknown_frames": 0,
+      "anomaly_frames": 5068,
+      "auroc": 0.6040073538154133,
+      "ap": 0.5070893308960309,
+      "fpr": 0.04281389649704483,
+      "recall": 0.07655880031570639,
+      "threshold": 5.336576078665127,
+      "video_mean_fpr": 0.03559282499871802,
+      "events": 17,
+      "detected_events": 12,
+      "event_coverage": 0.7058823529411765
+    },
+    {
+      "scene": "R04",
+      "fold": 0,
+      "partition": "reference",
+      "cell": "C-00",
+      "readout": "full",
+      "frames": 1129,
+      "valid_frames": 1129,
+      "unknown_frames": 0,
+      "anomaly_frames": 0,
+      "auroc": null,
+      "ap": null,
+      "fpr": 0.0,
+      "recall": null,
+      "threshold": 6.505928357270203,
+      "video_mean_fpr": 0.0,
+      "events": 0,
+      "detected_events": 0,
+      "event_coverage": null
+    },
+    {
+      "scene": "R04",
+      "fold": 0,
+      "partition": "threshold",
+      "cell": "C-00",
+      "readout": "full",
+      "frames": 1117,
+      "valid_frames": 1117,
+      "unknown_frames": 0,
+      "anomaly_frames": 0,
+      "auroc": null,
+      "ap": null,
+      "fpr": 0.008952551477170993,
+      "recall": null,
+      "threshold": 6.505928357270203,
+      "video_mean_fpr": 0.009057971014492754,
+      "events": 0,
+      "detected_events": 0,
+      "event_coverage": null
+    },
+    {
+      "scene": "R04",
+      "fold": 0,
+      "partition": "normal_evaluation",
+      "cell": "C-00",
+      "readout": "full",
+      "frames": 2080,
+      "valid_frames": 2080,
+      "unknown_frames": 0,
+      "anomaly_frames": 0,
+      "auroc": null,
+      "ap": null,
+      "fpr": 0.015384615384615385,
+      "recall": null,
+      "threshold": 6.505928357270203,
+      "video_mean_fpr": 0.015520168570699872,
+      "events": 0,
+      "detected_events": 0,
+      "event_coverage": null
+    },
+    {
+      "scene": "R04",
+      "fold": 0,
+      "partition": "historical_test",
+      "cell": "C-00",
+      "readout": "full",
+      "frames": 8154,
+      "valid_frames": 8154,
+      "unknown_frames": 0,
+      "anomaly_frames": 4578,
+      "auroc": 0.7817438938098072,
+      "ap": 0.8218047407046127,
+      "fpr": 0.04082774049217002,
+      "recall": 0.3302752293577982,
+      "threshold": 6.505928357270203,
+      "video_mean_fpr": 0.02603348638309569,
+      "events": 26,
+      "detected_events": 20,
+      "event_coverage": 0.7692307692307693
+    }
+  ],
+  "normal_score_quantiles": [
+    {
+      "scene": "R01",
+      "partition": "reference",
+      "normal_frames": 930,
+      "p50_p90_p99": [
+        1.665465743903763,
+        3.474319646491118,
+        5.232177564043492
+      ]
+    },
+    {
+      "scene": "R01",
+      "partition": "threshold",
+      "normal_frames": 899,
+      "p50_p90_p99": [
+        1.2358134101815947,
+        3.845883202923601,
+        7.463292054382657
+      ]
+    },
+    {
+      "scene": "R01",
+      "partition": "normal_evaluation",
+      "normal_frames": 1605,
+      "p50_p90_p99": [
+        1.258119167695893,
+        3.3758795736778655,
+        5.049856007249537
+      ]
+    },
+    {
+      "scene": "R01",
+      "partition": "historical_test",
+      "normal_frames": 2431,
+      "p50_p90_p99": [
+        7.163593795528895,
+        8.840610405888807,
+        10.187172776240246
+      ]
+    },
+    {
+      "scene": "R02",
+      "partition": "reference",
+      "normal_frames": 2391,
+      "p50_p90_p99": [
+        1.8484756986699078,
+        3.2920845163857786,
+        5.834810737062605
+      ]
+    },
+    {
+      "scene": "R02",
+      "partition": "threshold",
+      "normal_frames": 2354,
+      "p50_p90_p99": [
+        1.8726379479489876,
+        3.7553691953827695,
+        5.478135793123873
+      ]
+    },
+    {
+      "scene": "R02",
+      "partition": "normal_evaluation",
+      "normal_frames": 3518,
+      "p50_p90_p99": [
+        1.5661127876957268,
+        2.954117237831913,
+        5.478135793123873
+      ]
+    },
+    {
+      "scene": "R02",
+      "partition": "historical_test",
+      "normal_frames": 5094,
+      "p50_p90_p99": [
+        2.3339835144516083,
+        3.8686978806897723,
+        5.701279344438083
+      ]
+    },
+    {
+      "scene": "R03",
+      "partition": "reference",
+      "normal_frames": 2074,
+      "p50_p90_p99": [
+        1.7069159842111619,
+        3.864322343742585,
+        6.029723259225072
+      ]
+    },
+    {
+      "scene": "R03",
+      "partition": "threshold",
+      "normal_frames": 2131,
+      "p50_p90_p99": [
+        1.846147563275029,
+        3.4196534664830662,
+        5.336576078665127
+      ]
+    },
+    {
+      "scene": "R03",
+      "partition": "normal_evaluation",
+      "normal_frames": 3429,
+      "p50_p90_p99": [
+        2.09398372717961,
+        5.000103842043914,
+        7.614646563380662
+      ]
+    },
+    {
+      "scene": "R03",
+      "partition": "historical_test",
+      "normal_frames": 6937,
+      "p50_p90_p99": [
+        1.8961579838496903,
+        3.6138094809240235,
+        7.7222613921555165
+      ]
+    },
+    {
+      "scene": "R04",
+      "partition": "reference",
+      "normal_frames": 1129,
+      "p50_p90_p99": [
+        1.9137474463463733,
+        3.7359043927587994,
+        5.422303346329028
+      ]
+    },
+    {
+      "scene": "R04",
+      "partition": "threshold",
+      "normal_frames": 1117,
+      "p50_p90_p99": [
+        2.1044875736059234,
+        4.141369500866964,
+        6.502619836520264
+      ]
+    },
+    {
+      "scene": "R04",
+      "partition": "normal_evaluation",
+      "normal_frames": 2080,
+      "p50_p90_p99": [
+        2.1565730722421517,
+        4.036008985209137,
+        6.754226679715618
+      ]
+    },
+    {
+      "scene": "R04",
+      "partition": "historical_test",
+      "normal_frames": 3576,
+      "p50_p90_p99": [
+        2.313242387468034,
+        5.239981789535073,
+        7.9850343990192005
+      ]
+    }
+  ],
+  "status": "complete",
+  "diagnostic_scope": "fold0, C-00 full; historical test normal frames are diagnostic only",
+  "no_threshold_retuning": true,
+  "annotations_completed": 0
+}

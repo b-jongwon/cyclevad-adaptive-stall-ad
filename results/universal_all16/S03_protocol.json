@@ -1,0 +1,72 @@
+{
+  "splits": {
+    "validation": [
+      "S03/training/20",
+      "S03/training/31",
+      "S03/training/33",
+      "S03/training/37",
+      "S03/training/41",
+      "S03/training/46",
+      "S03/training/53",
+      "S03/training/55"
+    ],
+    "reference": [
+      "S03/training/01",
+      "S03/training/04",
+      "S03/training/07",
+      "S03/training/14",
+      "S03/training/15",
+      "S03/training/30",
+      "S03/training/42",
+      "S03/training/48"
+    ],
+    "threshold": [
+      "S03/training/09",
+      "S03/training/18",
+      "S03/training/21",
+      "S03/training/25",
+      "S03/training/35",
+      "S03/training/36",
+      "S03/training/43",
+      "S03/training/50"
+    ],
+    "fit": [
+      "S03/training/02",
+      "S03/training/03",
+      "S03/training/05",
+      "S03/training/06",
+      "S03/training/08",
+      "S03/training/10",
+      "S03/training/11",
+      "S03/training/12",
+      "S03/training/13",
+      "S03/training/16",
+      "S03/training/17",
+      "S03/training/19",
+      "S03/training/22",
+      "S03/training/23",
+      "S03/training/24",
+      "S03/training/26",
+      "S03/training/27",
+      "S03/training/28",
+      "S03/training/29",
+      "S03/training/32",
+      "S03/training/34",
+      "S03/training/38",
+      "S03/training/39",
+      "S03/training/40",
+      "S03/training/44",
+      "S03/training/45",
+      "S03/training/47",
+      "S03/training/49",
+      "S03/training/51",
+      "S03/training/52",
+      "S03/training/54"
+    ]
+  },
+  "base_threshold": 10.774281305078231,
+  "stall_threshold": 3.318109744169833,
+  "normal_baseline": 0.37465834740464476,
+  "ranking_score": "original CycleVAD combined, unchanged",
+  "test_labels_used_for_selection": false
+}

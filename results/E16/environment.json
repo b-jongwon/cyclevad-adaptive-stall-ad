@@ -1,0 +1,54 @@
+{
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "torch": "2.9.1+cu128",
+  "cuda": "12.8",
+  "python": "3.12.3",
+  "cpu": "x86_64",
+  "torch_threads": 4,
+  "interop_threads": 1,
+  "encoder_identity": {
+    "family": "dinov2",
+    "model_id": "facebook/dinov2-base",
+    "revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+    "image_size": 336,
+    "patch_grid": 6,
+    "patch_dim": 64,
+    "feature_layers": [
+      -1,
+      -3
+    ],
+    "seed": 42,
+    "device": "cuda",
+    "resolved_revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+    "extractor_version": 1,
+    "preprocessing": "full_frame_letterbox",
+    "torch": "2.9.1+cu128"
+  },
+  "batch_size": 1,
+  "prefetch": false,
+  "instrumented_encoder_matches_original_batch1": true,
+  "warmup_frames": 100,
+  "warmup_seconds": 1.4934906590060564,
+  "encoder_load_seconds": 1.7045667900092667,
+  "first_frame_before_warmup_ms": 421.2428440077929,
+  "os_page_cache": "not flushed; repeated files may be cached",
+  "input_format": "source JPEG frame sequence; no H264/H265/camera/network capture",
+  "readouts": [
+    "CP",
+    "Full"
+  ],
+  "strides": [
+    1,
+    2
+  ],
+  "cadence1_scope": "runtime-only sensitivity of frozen stride2 model with dt=1; accuracy/calibration not revalidated",
+  "checkpoint_sha256": {
+    "R01": "f24d8bbb99ef99f6a305b91fe038ba2ff7a144e797684b0158cda95682f11135",
+    "R02": "95d3253ebf96520cff7cbac850adb6167a77b761679b2725c4e35cf23e1dabea",
+    "R03": "f5a8da38a5f041de390ecc762093c908ca77e802eb4f414353bfa139e2882c7b",
+    "R04": "41f909353f17334963006478cf9b92f5be4aeb58f68de13ad7172122468ab819"
+  },
+  "scoring_source_sha256": "83485512ba3484cd104f52bc33eb90742c6897770cb09a27e7d3cd9046e99ce6",
+  "runner_source_sha256": "7de2a7b05ee0b83db5e97d8eb73bd40b9b44650a68269c8ed572d30328eeec1e",
+  "cpu_model": "AMD Ryzen 5 5600X 6-Core Processor"
+}

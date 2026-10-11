@@ -1,0 +1,1 @@
+Validated 13 scene-result files: split disjointness, common label masks, thresholds, metric ranges, original-branch agreement.

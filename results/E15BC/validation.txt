@@ -1,0 +1,3 @@
+PASS E15BC: 60 units; 11730 raw edited windows recalibrated; all 30 calibration/alpha/policy decisions and delays recomputed.
+PASS E15BC: 396 calibration-specific historical events; 1194 frame strata; normal grid/frame alarms; exact G0 arrays; normal-only threshold recomputation.
+PASS E15BC: checkpoint/config/baseline hashes and split separation verified; max causal prefix/replay error 1.78e-15.

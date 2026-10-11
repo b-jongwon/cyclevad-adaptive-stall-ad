@@ -1,0 +1,188 @@
+{
+  "status": "complete",
+  "scene": "R03",
+  "seed": 42,
+  "fold": 0,
+  "stride": 2,
+  "splits": {
+    "validation": [
+      "R03/training/09",
+      "R03/training/06",
+      "R03/training/03"
+    ],
+    "reference": [
+      "R03/training/10",
+      "R03/training/17",
+      "R03/training/02"
+    ],
+    "threshold": [
+      "R03/training/12",
+      "R03/training/11",
+      "R03/training/20"
+    ],
+    "fit": [
+      "R03/training/16",
+      "R03/training/14",
+      "R03/training/21",
+      "R03/training/08",
+      "R03/training/22",
+      "R03/training/13",
+      "R03/training/05",
+      "R03/training/15"
+    ],
+    "normal_evaluation": [
+      "R03/training/19",
+      "R03/training/04",
+      "R03/training/01",
+      "R03/training/07",
+      "R03/training/18"
+    ]
+  },
+  "T": 705.5,
+  "D": 141,
+  "W": 282,
+  "arms": [
+    "P0",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "P8",
+    "P9"
+  ],
+  "threshold_quantiles": [
+    0.9,
+    0.95,
+    0.975,
+    0.99,
+    0.995
+  ],
+  "window_thresholds": [
+    [
+      4.461107341311227,
+      4.461107341311227,
+      5.154254521871173,
+      5.847401702431117,
+      5.847401702431117,
+      5.847401702431117,
+      5.844510134151319,
+      5.844510134151319,
+      5.847401702431117,
+      5.336576078665127
+    ],
+    [
+      5.847401702431117,
+      5.847401702431117,
+      5.847401702431117,
+      6.252866810539282,
+      6.252866810539282,
+      6.249975242259483,
+      5.847401702431117,
+      5.847401702431117,
+      6.252866810539282,
+      5.847401702431117
+    ],
+    [
+      5.847401702431117,
+      5.847401702431117,
+      5.847401702431117,
+      6.252866810539282,
+      6.252866810539282,
+      6.249975242259483,
+      5.847401702431117,
+      5.847401702431117,
+      6.252866810539282,
+      5.847401702431117
+    ],
+    [
+      5.847401702431117,
+      5.847401702431117,
+      5.847401702431117,
+      6.252866810539282,
+      6.252866810539282,
+      6.249975242259483,
+      5.847401702431117,
+      5.847401702431117,
+      6.252866810539282,
+      5.847401702431117
+    ],
+    [
+      5.847401702431117,
+      5.847401702431117,
+      5.847401702431117,
+      6.252866810539282,
+      6.252866810539282,
+      6.249975242259483,
+      5.847401702431117,
+      5.847401702431117,
+      6.252866810539282,
+      5.847401702431117
+    ]
+  ],
+  "frame_thresholds": [
+    4.461107341311227,
+    4.461107341311227,
+    5.154254521871173,
+    5.000103842043914,
+    5.336576078665127,
+    4.863680881139593,
+    4.745897845483217,
+    5.154254521871173,
+    5.336576078665127,
+    5.336576078665127
+  ],
+  "threshold_window_counts": {
+    "R03/training/12": 9,
+    "R03/training/11": 8,
+    "R03/training/20": 8
+  },
+  "AR1_selection": [
+    {
+      "ridge": 0.01,
+      "normal_validation_mse": 0.013840794885053664
+    },
+    {
+      "ridge": 0.1,
+      "normal_validation_mse": 0.02470906661919677
+    },
+    {
+      "ridge": 1.0,
+      "normal_validation_mse": 0.17170992478078742
+    }
+  ],
+  "AR1_selected_ridge": 0.01,
+  "identity_max_score_error": 0.0,
+  "edited_cases": 175,
+  "normal_sources": 5,
+  "code_fingerprint": "90df7f8c7fd5ddf8bc4bb5460819fb7665fc44d819736d9e5990cdec24192889",
+  "protocol_sha256": "03c87d9e81f0b7c1bfde36fd03fddf2dcc331e714704de56689a917b723aaa5a",
+  "cache_signatures": {
+    "R03/training/09": "3927917efa896583dc2adbad8f1b45627e84d6979452e6182b623929a8e443e1",
+    "R03/training/06": "a91296cc54ee8cb12504d383439d52ba7cf56f1878d42491492e6c95244134de",
+    "R03/training/03": "0f38f080bd24cf54443dc51a407ce7bb1b04f96948acf3c8463d478e4e1a63c9",
+    "R03/training/10": "43f7fff51d00508d459af569a40218079eec914401cd64a219dad699664b7960",
+    "R03/training/17": "cdc4e4885f0aacfa360eb66ab3e18d5517d6284c59d7699b60eb986ecc192f34",
+    "R03/training/02": "37bcf6d88e8628cfba41f4baee6305f4986271ca035b1d36dec4f476a76c7c8f",
+    "R03/training/12": "ca0334eb50e01fbc1805907ef93e0664dd4ef49fefa038f5ffe6cb7e500f502a",
+    "R03/training/11": "79d4f051805ad7a2ba4cd49bef8b634cf8023c2d77164a38eadf1e041af485b5",
+    "R03/training/20": "1cc9628d39da297a99ba7f2f08da5a192341c0db4597636b93c332340b8a4a78",
+    "R03/training/16": "2186ac4d52767893d4b0dc09d554711c020dffa07275273e6e0ae7ca9ce07ea2",
+    "R03/training/14": "bccc02bbcfca347519589767f5e1189aff6d0f131b6a6b717bf2e898f7957d65",
+    "R03/training/21": "8e34d311d7b3eb396e6813ee759cca414d1eedaaa7d7cbc5c779b9ac3c03df61",
+    "R03/training/08": "0cc2805c57b8fbc96eaa49cad48fc695296e1dc9c312fae4aff4cffb424f5f34",
+    "R03/training/22": "1da86dee61cdf4c16b14192770c26ba72b5e65816d1214c560e9bd3d272c056c",
+    "R03/training/13": "3a5235cdbd23e32719bf78fcf2b65e6bfc49c6475f46e817b273c27595dbf3dc",
+    "R03/training/05": "1ae6d63270b301514bb492678c4dfa3ba5bea1f7ccb3dbeb2e628e1ab1068b0a",
+    "R03/training/15": "1087c4cdf2d555423707b1d7d4791e08b5ec6cea25d1bcf83aca466cc7d6d38a",
+    "R03/training/19": "8af37d2af512ed105117d075eb9ecd3cfae9baeeef2d968948f9543efe5d2fe5",
+    "R03/training/04": "1981d494aa7cbf4fe2e2c8ad5e7a8d09a76ee6f8af1581d32cd9a68f9b98bcb4",
+    "R03/training/01": "5b735656dcd14c14431fecc405507d9a06e9b682b274cce9a2b4a696c1d3f083",
+    "R03/training/07": "d735ac9d1fe456f7dd3fb07d1935df9f7b191a82b60d36b9097469b53453a812",
+    "R03/training/18": "f0f97edbe20f13110abd9da749ea94729b9a303aaa45a466ab9cb017b5fcd65f"
+  },
+  "wall_seconds": 5.51817955399747,
+  "claim_scope": "Controlled temporal edits, not verified industrial fault types or phase accuracy"
+}

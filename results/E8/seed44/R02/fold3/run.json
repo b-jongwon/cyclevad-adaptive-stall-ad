@@ -1,0 +1,166 @@
+{
+  "scene": "R02",
+  "fold": 3,
+  "splits": {
+    "validation": [
+      "R02/training/28",
+      "R02/training/03",
+      "R02/training/09",
+      "R02/training/21"
+    ],
+    "reference": [
+      "R02/training/15",
+      "R02/training/13",
+      "R02/training/20",
+      "R02/training/27"
+    ],
+    "threshold": [
+      "R02/training/23",
+      "R02/training/02",
+      "R02/training/22",
+      "R02/training/10"
+    ],
+    "fit": [
+      "R02/training/04",
+      "R02/training/01",
+      "R02/training/16",
+      "R02/training/14",
+      "R02/training/19",
+      "R02/training/30",
+      "R02/training/29",
+      "R02/training/17",
+      "R02/training/07",
+      "R02/training/25",
+      "R02/training/24",
+      "R02/training/11"
+    ],
+    "normal_evaluation": [
+      "R02/training/18",
+      "R02/training/08",
+      "R02/training/26",
+      "R02/training/05",
+      "R02/training/12",
+      "R02/training/06"
+    ]
+  },
+  "status": "complete",
+  "config": {
+    "seed": 42,
+    "scenes": [
+      "R01",
+      "R02",
+      "R03",
+      "R04"
+    ],
+    "stride": 2,
+    "batch_size": 8,
+    "workers": 4,
+    "encoder": {
+      "family": "dinov2",
+      "model_id": "facebook/dinov2-base",
+      "revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+      "image_size": 336,
+      "patch_grid": 6,
+      "patch_dim": 64,
+      "feature_layers": [
+        -1,
+        -3
+      ],
+      "seed": 42,
+      "device": "cuda"
+    },
+    "model": {
+      "seed": 44,
+      "cycle_grid": 128,
+      "cycle_latent": 24,
+      "harmonics_candidates": [
+        8
+      ],
+      "ridge_candidates": [
+        0.01
+      ],
+      "fit_samples": 4096,
+      "subspace_rank": 64,
+      "local_memory": 96,
+      "threshold_quantile": 0.99,
+      "process_weight": 1.0
+    }
+  },
+  "code_fingerprint": "889872bf3e5ae3f6d642dd9f351752dd1ac66976c7dea1f3ee46555690159c5f",
+  "diagnostics": {
+    "conditional_subspace": {
+      "rank": 64,
+      "samples": 3540,
+      "retained_variance": 0.747188925743103,
+      "variance_target_met": false
+    },
+    "pooled_subspace": {
+      "rank": 44,
+      "samples": 3540,
+      "retained_variance": 0.9500563144683838,
+      "variance_target_met": true
+    },
+    "cycle": {
+      "normal_cycle_candidates": 12,
+      "median_period_source_frames": 588.0,
+      "template_temperature": 0.03,
+      "period_q10_q90": [
+        568.6,
+        601.8
+      ]
+    },
+    "mean_fit_cycle_confidence": 0.8322611542204261,
+    "selected_harmonics": 8,
+    "selected_ridge": 0.01,
+    "selection": [
+      {
+        "harmonics": 8,
+        "ridge": 0.01,
+        "normal_validation_mse": 8.226020327128936e-06
+      }
+    ]
+  },
+  "encoder_identity": "{\"device\": \"cuda\", \"extractor_version\": 1, \"family\": \"dinov2\", \"feature_layers\": [-1, -3], \"image_size\": 336, \"model_id\": \"facebook/dinov2-base\", \"patch_dim\": 64, \"patch_grid\": 6, \"preprocessing\": \"full_frame_letterbox\", \"resolved_revision\": \"f9e44c814b77203eaa57a6bdbbd535f21ede1415\", \"revision\": \"main\", \"seed\": 42, \"torch\": \"2.9.1+cu128\"}",
+  "cache_signatures": {
+    "R02/training/28": "ed4686778cb892da97838d3a5fb96e00f2902e0556209809dcac33e0c25410fc",
+    "R02/training/03": "5f066e51b3c4dcfe99345097390b713d5fce31b89b0788bc5bbc38be1d9c4921",
+    "R02/training/09": "a33b4adc57140a4121a13caa5bfcd458b85add6740a8936725e82417a831f936",
+    "R02/training/21": "0653ba8889d333446624c995501e823ef123548bc17698003413ab1f266c977f",
+    "R02/training/15": "0069e2cb7c79122f454a863e9cd895955a5608c4db76662003592f9281aba1f1",
+    "R02/training/13": "1cf4a6f085a40aa9e293964056c85ef050f7e788cd6f1831ac6d70d52c9d478d",
+    "R02/training/20": "37d0a39221a190b69b3bc0d55530d55304058767c359d151fe78c001ba5f63b3",
+    "R02/training/27": "dc47d091d56562f0cd399263f4b249e3347b707fec0ebead866214c51ddb9e34",
+    "R02/training/23": "92036f2c046a35fe023a48a56c8a46ad066807f68993dc7b88cbfe53eefa1a98",
+    "R02/training/02": "9ba9458134868375ce2fa89d15efbc01b243501270405a5182492ce0f3c8ced3",
+    "R02/training/22": "b0b1bc24bce73c16de3d25a81c615c9b8572fc2a5a8e76dc3141de777c58a266",
+    "R02/training/10": "b324dcab4dc9ac65a2b4675493c5269be3f6bd673ba04b0fe48f74e8d6c3a028",
+    "R02/training/04": "ae34cf74e28b4b57a97389388b199473977c1cee8fa89541d9ffb144634535f7",
+    "R02/training/01": "f529d2e81c27d9113972668041ca7aed1d99e05b09eb44d9d01b0cff5bbf2c5c",
+    "R02/training/16": "193aedc8fb4dfbc7074cf7e4ce1d260f71f03e5a9ba9959d8956e30e241bb2f0",
+    "R02/training/14": "39f8d63d327c05096a5ac7b5c2005f4d20857e26a9b04e1637cb20380bbc9bb6",
+    "R02/training/19": "23c23539dffa2973d77afba559a16894716d1f2ba35aa7fbc55cdfd3f4cb7774",
+    "R02/training/30": "c6c8c84eac6f6347742aca8027c0d200fa26d09ff0e27d2c8f851148c34d4724",
+    "R02/training/29": "0190abe25b9cc1aed5abb7dddce7011e5f128dc039be34ec20991965b9d41f81",
+    "R02/training/17": "8baee920e58a3064214a5c422133131b4bb173a0bfcd2cf31103d32b0e6b0944",
+    "R02/training/07": "e5fcd40e771f605717153052b69bb87b692c9a0146944909f3b10f07e15f0daf",
+    "R02/training/25": "e2068b0810e641f2e8cc58aa1a55cdc74a21cd5e4aeab5882703c6d22458132b",
+    "R02/training/24": "ea6df8113fdea60f003ea4687dca8fbcdde6a7c61cdcca63cd0063c30d0f8ba8",
+    "R02/training/11": "852c29800367044725e809f51ec06583979bd690951fe77622b53c2283bcf043",
+    "R02/training/18": "a94f5f1c19e885a0d9ab1eab704d8238d7d53375f2d5e1dc42538246f07b2f91",
+    "R02/training/08": "13672a3b0c9b51b282c6c815b0c5cca9c175c99daa9f7825b289c98d7fdfb0b3",
+    "R02/training/26": "1fbfe222c20e7cb645a61bfce93408288b9700bfd13b5d83bc69073cf10a12db",
+    "R02/training/05": "2e11e7a3aeb68d4c2e984e50c20a94f351f1937ab7d9c1f6b505ccfbdd684ecd",
+    "R02/training/12": "5fb40b6c52870396ba52d85eabb9989fbc88205b5471900215099fa221fa5379",
+    "R02/training/06": "4341a7038fd2671404fd4a3fa2bb26658f7dcc07ddc7ecfe244e86642a1ea0eb"
+  },
+  "shared_tracker_and_appearance": true,
+  "legacy_refit_equivalence_passed": true,
+  "legacy_score_equivalence_passed": true,
+  "fourier_selection_frozen_across_rows": true,
+  "model_rows": 3,
+  "cells": 9,
+  "readouts_per_cell": 3,
+  "tracking_accuracy": null,
+  "historical_tests_diagnostic_only": true,
+  "wall_seconds": 11.994803776004119
+}

@@ -1,0 +1,90 @@
+{
+  "splits": {
+    "validation": [
+      "S06/training/10",
+      "S06/training/16",
+      "S06/training/22",
+      "S06/training/23",
+      "S06/training/29",
+      "S06/training/31",
+      "S06/training/44",
+      "S06/training/45"
+    ],
+    "reference": [
+      "S06/training/01",
+      "S06/training/05",
+      "S06/training/06",
+      "S06/training/08",
+      "S06/training/11",
+      "S06/training/14",
+      "S06/training/35",
+      "S06/training/46"
+    ],
+    "threshold": [
+      "S06/training/18",
+      "S06/training/19",
+      "S06/training/24",
+      "S06/training/27",
+      "S06/training/32",
+      "S06/training/33",
+      "S06/training/34",
+      "S06/training/40"
+    ],
+    "fit": [
+      "S06/training/02",
+      "S06/training/03",
+      "S06/training/04",
+      "S06/training/07",
+      "S06/training/09",
+      "S06/training/12",
+      "S06/training/13",
+      "S06/training/15",
+      "S06/training/17",
+      "S06/training/20",
+      "S06/training/21",
+      "S06/training/25",
+      "S06/training/26",
+      "S06/training/28",
+      "S06/training/30",
+      "S06/training/36",
+      "S06/training/37",
+      "S06/training/38",
+      "S06/training/39",
+      "S06/training/41",
+      "S06/training/42",
+      "S06/training/43",
+      "S06/training/47",
+      "S06/training/48",
+      "S06/training/49",
+      "S06/training/50"
+    ]
+  },
+  "thresholds": {
+    "baseline": 12.023702576513603,
+    "global_nn": 2.218081156345512,
+    "patch_mean": 2.5145014968111776,
+    "patch_top": 2.8032392636010193,
+    "motion": 1.9507959859334758,
+    "ae": 2.354885802891462,
+    "gru": 2.3857792124529933,
+    "prototype": 2.3429650725402773,
+    "spatial_temporal": 2.1711827019883763,
+    "learned": 2.364703886257401,
+    "full_features": 2.221377657638369,
+    "cycle_prototype": 2.353033446027192,
+    "cycle_full": 2.2589305045694084,
+    "prototype_ema": 2.3213212579421083,
+    "full_ema": 2.187373510370662,
+    "cycle_full_ema": 2.235437736127343
+  },
+  "alarm_parameters": {
+    "gain": 0.3,
+    "persistence": 1,
+    "stall": true
+  },
+  "test_labels_used_for_training": false,
+  "pretrained_encoder_updated": false,
+  "seconds": 9.02251669999987,
+  "head_scoring_seconds": 0.3810207999999875,
+  "comparisons_are_exploratory_on_previously_inspected_test_set": true
+}

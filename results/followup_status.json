@@ -1,0 +1,23 @@
+{
+  "E6": "complete",
+  "E7": "predictions_ready_independent_annotations_required",
+  "E8": "complete",
+  "E8B": "complete",
+  "E9": "synthetic_complete_real_annotations_required",
+  "E9S": "complete",
+  "E9R": "independent_process_annotations_required",
+  "E10": "new_independent_recordings_required",
+  "E14": "boundary_analysis_complete_controls_pending",
+  "E11": "complete",
+  "E12": "complete",
+  "E13": "planned_not_run",
+  "E15": "calibration_fusion_complete_independent_normal_data_required",
+  "E11B": "complete",
+  "E15A": "complete",
+  "E15B0": "complete",
+  "E15B": "complete_no_operating_improvement",
+  "E15C": "complete_target_not_achieved",
+  "E15R01": "blinded_packet_prepared_human_review_required",
+  "E16": "jpeg_streaming_complete_camera_codec_pipeline_not_measured",
+  "E17": "complete_full_historical_causal_accuracy_frozen_seed42"
+}

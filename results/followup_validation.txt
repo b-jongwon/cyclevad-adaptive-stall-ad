@@ -1,0 +1,3 @@
+PASS: 60 completed scene-folds; 25677 per-video/readout metrics recomputed from saved scores.
+PASS: disjoint five-way splits, frozen CUDA feature identity, seed robustness hyperparameters and cache signatures.
+Independent cycle annotations: absent; no tracking accuracy claimed. Historical tests remain exploratory.

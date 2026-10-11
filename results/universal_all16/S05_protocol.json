@@ -1,0 +1,57 @@
+{
+  "splits": {
+    "validation": [
+      "S05/training/02",
+      "S05/training/11",
+      "S05/training/22",
+      "S05/training/24",
+      "S05/training/25",
+      "S05/training/39"
+    ],
+    "reference": [
+      "S05/training/03",
+      "S05/training/04",
+      "S05/training/07",
+      "S05/training/23",
+      "S05/training/26",
+      "S05/training/38"
+    ],
+    "threshold": [
+      "S05/training/06",
+      "S05/training/15",
+      "S05/training/16",
+      "S05/training/20",
+      "S05/training/27",
+      "S05/training/30"
+    ],
+    "fit": [
+      "S05/training/01",
+      "S05/training/05",
+      "S05/training/08",
+      "S05/training/09",
+      "S05/training/10",
+      "S05/training/12",
+      "S05/training/13",
+      "S05/training/14",
+      "S05/training/17",
+      "S05/training/18",
+      "S05/training/19",
+      "S05/training/21",
+      "S05/training/28",
+      "S05/training/29",
+      "S05/training/31",
+      "S05/training/32",
+      "S05/training/33",
+      "S05/training/34",
+      "S05/training/35",
+      "S05/training/36",
+      "S05/training/37",
+      "S05/training/40"
+    ]
+  },
+  "base_threshold": 6.034417602637191,
+  "stall_threshold": 1.7627560750273785,
+  "normal_baseline": 1.2193414643263585,
+  "ranking_score": "original CycleVAD combined, unchanged",
+  "test_labels_used_for_selection": false
+}

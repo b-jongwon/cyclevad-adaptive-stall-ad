@@ -1,0 +1,25 @@
+{
+  "scenes": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12"
+  ],
+  "scene_count": 16,
+  "seconds": 164.59605319999991,
+  "real_test_labels_used_for_rule_selection": false,
+  "preexisting_test_experiments": "R01-R04 previously explored; S01-S12 not used to tune this rule",
+  "normal_scene_calibration": "separate per-scene normal distribution, identical fitting algorithm"
+}

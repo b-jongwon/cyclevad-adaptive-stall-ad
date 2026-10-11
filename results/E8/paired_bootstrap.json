@@ -1,0 +1,90 @@
+{
+  "resamples": 2000,
+  "seed": 20261009,
+  "unit": "source_file",
+  "stratified_by": "scene",
+  "paired": true,
+  "readout": "appearance_conditional",
+  "contrast": "C-21 minus C-00",
+  "historical_fold": 0,
+  "macro_ap_gain_pp_ci95": [
+    -0.160665912609926,
+    0.3004321012372137
+  ],
+  "macro_auroc_gain_pp_ci95": [
+    -0.2601897343447003,
+    0.2605879251327141
+  ],
+  "finite_macro_ap_resamples": 2000,
+  "scene_historical": {
+    "R01": {
+      "valid_source_files": 15,
+      "ap_gain_pp": 0.0,
+      "ap_gain_pp_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "R02": {
+      "valid_source_files": 12,
+      "ap_gain_pp": 0.07733946096272204,
+      "ap_gain_pp_ci95": [
+        -0.5774337456524836,
+        1.023335642772667
+      ]
+    },
+    "R03": {
+      "valid_source_files": 17,
+      "ap_gain_pp": 0.07840834080655723,
+      "ap_gain_pp_ci95": [
+        -0.337391626007838,
+        0.5970490906804011
+      ]
+    },
+    "R04": {
+      "valid_source_files": 19,
+      "ap_gain_pp": 0.0009415944332236137,
+      "ap_gain_pp_ci95": [
+        -0.019502332061185068,
+        0.019613641098243373
+      ]
+    }
+  },
+  "normal_oof": {
+    "R01": {
+      "files": 34,
+      "fpr_gain_pp": 0.0,
+      "fpr_gain_pp_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "R02": {
+      "files": 30,
+      "fpr_gain_pp": 0.06758278891642262,
+      "fpr_gain_pp_ci95": [
+        0.0,
+        0.13647432920179786
+      ]
+    },
+    "R03": {
+      "files": 22,
+      "fpr_gain_pp": -0.7298318780138147,
+      "fpr_gain_pp_ci95": [
+        -2.2376076194498093,
+        0.05181154352493141
+      ]
+    },
+    "R04": {
+      "files": 25,
+      "fpr_gain_pp": 0.0,
+      "fpr_gain_pp_ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "group_independence_verified": false,
+  "uncertainty_scope": "Fixed fitted models and thresholds; does not include retraining uncertainty or prove recording independence.",
+  "metric_equivalence_to_sklearn_passed": true
+}

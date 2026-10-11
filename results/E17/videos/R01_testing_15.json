@@ -1,0 +1,198 @@
+{
+  "source_id": "R01/testing/15",
+  "scene": "R01",
+  "frames": 228,
+  "valid_frames": 228,
+  "unknown_frames": 0,
+  "joint_replay_seconds": 2.888588632005849,
+  "parity": {
+    "1": {
+      "frames": 228,
+      "max_trace_error": 2.5757174171303632e-14,
+      "max_C_error": 0.0,
+      "max_P_error": 0.0,
+      "alarm_agreement": 1.0
+    },
+    "2": {
+      "frames": 114,
+      "max_trace_error": 2.5757174171303632e-14,
+      "max_C_error": 0.0,
+      "max_P_error": 0.0,
+      "alarm_agreement": 1.0
+    }
+  },
+  "scores_sha256": "f6a72aa072af3f6a411e7279a6859f5643d5f165d49deed1e1e516da73d7a3d3",
+  "metrics": {
+    "stride1": {
+      "A": {
+        "frames": 228,
+        "valid_frames": 228,
+        "unknown_frames": 0,
+        "anomaly_frames": 0,
+        "auroc": null,
+        "ap": null,
+        "fpr": 0.0,
+        "recall": null,
+        "threshold": 6.658060150171918
+      },
+      "C": {
+        "frames": 228,
+        "valid_frames": 228,
+        "unknown_frames": 0,
+        "anomaly_frames": 0,
+        "auroc": null,
+        "ap": null,
+        "fpr": 0.0,
+        "recall": null,
+        "threshold": 6.5712010529700695
+      },
+      "P": {
+        "frames": 228,
+        "valid_frames": 228,
+        "unknown_frames": 0,
+        "anomaly_frames": 0,
+        "auroc": null,
+        "ap": null,
+        "fpr": 0.0,
+        "recall": null,
+        "threshold": 7.732798745027373
+      },
+      "CP": {
+        "frames": 228,
+        "valid_frames": 228,
+        "unknown_frames": 0,
+        "anomaly_frames": 0,
+        "auroc": null,
+        "ap": null,
+        "fpr": 0.0,
+        "recall": null,
+        "threshold": 7.732798745027373
+      },
+      "Full": {
+        "frames": 228,
+        "valid_frames": 228,
+        "unknown_frames": 0,
+        "anomaly_frames": 0,
+        "auroc": null,
+        "ap": null,
+        "fpr": 0.0,
+        "recall": null,
+        "threshold": 7.732798745027373
+      }
+    },
+    "stride2": {
+      "A": {
+        "frames": 228,
+        "valid_frames": 228,
+        "unknown_frames": 0,
+        "anomaly_frames": 0,
+        "auroc": null,
+        "ap": null,
+        "fpr": 0.0,
+        "recall": null,
+        "threshold": 6.658060150171918
+      },
+      "C": {
+        "frames": 228,
+        "valid_frames": 228,
+        "unknown_frames": 0,
+        "anomaly_frames": 0,
+        "auroc": null,
+        "ap": null,
+        "fpr": 0.0,
+        "recall": null,
+        "threshold": 6.5712010529700695
+      },
+      "P": {
+        "frames": 228,
+        "valid_frames": 228,
+        "unknown_frames": 0,
+        "anomaly_frames": 0,
+        "auroc": null,
+        "ap": null,
+        "fpr": 0.0,
+        "recall": null,
+        "threshold": 7.732798745027373
+      },
+      "CP": {
+        "frames": 228,
+        "valid_frames": 228,
+        "unknown_frames": 0,
+        "anomaly_frames": 0,
+        "auroc": null,
+        "ap": null,
+        "fpr": 0.0,
+        "recall": null,
+        "threshold": 7.732798745027373
+      },
+      "Full": {
+        "frames": 228,
+        "valid_frames": 228,
+        "unknown_frames": 0,
+        "anomaly_frames": 0,
+        "auroc": null,
+        "ap": null,
+        "fpr": 0.0,
+        "recall": null,
+        "threshold": 7.732798745027373
+      }
+    },
+    "cached": {
+      "A": {
+        "frames": 228,
+        "valid_frames": 228,
+        "unknown_frames": 0,
+        "anomaly_frames": 0,
+        "auroc": null,
+        "ap": null,
+        "fpr": 0.0,
+        "recall": null,
+        "threshold": 6.658060150171918
+      },
+      "C": {
+        "frames": 228,
+        "valid_frames": 228,
+        "unknown_frames": 0,
+        "anomaly_frames": 0,
+        "auroc": null,
+        "ap": null,
+        "fpr": 0.0,
+        "recall": null,
+        "threshold": 6.5712010529700695
+      },
+      "P": {
+        "frames": 228,
+        "valid_frames": 228,
+        "unknown_frames": 0,
+        "anomaly_frames": 0,
+        "auroc": null,
+        "ap": null,
+        "fpr": 0.0,
+        "recall": null,
+        "threshold": 7.732798745027373
+      },
+      "CP": {
+        "frames": 228,
+        "valid_frames": 228,
+        "unknown_frames": 0,
+        "anomaly_frames": 0,
+        "auroc": null,
+        "ap": null,
+        "fpr": 0.0,
+        "recall": null,
+        "threshold": 7.732798745027373
+      },
+      "Full": {
+        "frames": 228,
+        "valid_frames": 228,
+        "unknown_frames": 0,
+        "anomaly_frames": 0,
+        "auroc": null,
+        "ap": null,
+        "fpr": 0.0,
+        "recall": null,
+        "threshold": 7.732798745027373
+      }
+    }
+  }
+}

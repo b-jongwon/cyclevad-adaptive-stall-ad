@@ -1,0 +1,290 @@
+[
+  {
+    "scene": "R01",
+    "cell": "C-00",
+    "target": "normal",
+    "frames": 2431,
+    "activation_fraction": 0.0,
+    "mean_r": 0.1292579238996793,
+    "mean_confidence": 0.08374290930488472
+  },
+  {
+    "scene": "R02",
+    "cell": "C-00",
+    "target": "normal",
+    "frames": 5094,
+    "activation_fraction": 0.082842559874362,
+    "mean_r": 0.9757196699110706,
+    "mean_confidence": 0.8071828803072117
+  },
+  {
+    "scene": "R03",
+    "cell": "C-00",
+    "target": "normal",
+    "frames": 6937,
+    "activation_fraction": 0.011820671760126855,
+    "mean_r": 0.804407904080387,
+    "mean_confidence": 0.6552888515558754
+  },
+  {
+    "scene": "R04",
+    "cell": "C-00",
+    "target": "normal",
+    "frames": 3576,
+    "activation_fraction": 0.006152125279642058,
+    "mean_r": 0.2024721998341412,
+    "mean_confidence": 0.1734104514401194
+  },
+  {
+    "scene": "R01",
+    "cell": "C-01",
+    "target": "normal",
+    "frames": 2431,
+    "activation_fraction": 0.0,
+    "mean_r": 0.1292579238996793,
+    "mean_confidence": 0.08374290930488472
+  },
+  {
+    "scene": "R02",
+    "cell": "C-01",
+    "target": "normal",
+    "frames": 5094,
+    "activation_fraction": 0.23498233215547704,
+    "mean_r": 0.9757196699110706,
+    "mean_confidence": 0.8071828803072117
+  },
+  {
+    "scene": "R03",
+    "cell": "C-01",
+    "target": "normal",
+    "frames": 6937,
+    "activation_fraction": 0.045696987170246506,
+    "mean_r": 0.804407904080387,
+    "mean_confidence": 0.6552888515558754
+  },
+  {
+    "scene": "R04",
+    "cell": "C-01",
+    "target": "normal",
+    "frames": 3576,
+    "activation_fraction": 0.006152125279642058,
+    "mean_r": 0.2024721998341412,
+    "mean_confidence": 0.1734104514401194
+  },
+  {
+    "scene": "R01",
+    "cell": "C-21",
+    "target": "normal",
+    "frames": 2431,
+    "activation_fraction": 0.0,
+    "mean_r": 0.1292579238996793,
+    "mean_confidence": 0.08374290930488472
+  },
+  {
+    "scene": "R02",
+    "cell": "C-21",
+    "target": "normal",
+    "frames": 5094,
+    "activation_fraction": 0.2365528072241853,
+    "mean_r": 0.9757196699110706,
+    "mean_confidence": 0.8071828803072117
+  },
+  {
+    "scene": "R03",
+    "cell": "C-21",
+    "target": "normal",
+    "frames": 6937,
+    "activation_fraction": 0.045696987170246506,
+    "mean_r": 0.804407904080387,
+    "mean_confidence": 0.6552888515558754
+  },
+  {
+    "scene": "R04",
+    "cell": "C-21",
+    "target": "normal",
+    "frames": 3576,
+    "activation_fraction": 0.006152125279642058,
+    "mean_r": 0.2024721998341412,
+    "mean_confidence": 0.1734104514401194
+  },
+  {
+    "scene": "R01",
+    "cell": "C-22",
+    "target": "normal",
+    "frames": 2431,
+    "activation_fraction": 0.611682435211847,
+    "mean_r": 0.1292579238996793,
+    "mean_confidence": 0.08374290930488472
+  },
+  {
+    "scene": "R02",
+    "cell": "C-22",
+    "target": "normal",
+    "frames": 5094,
+    "activation_fraction": 0.30133490380840205,
+    "mean_r": 0.9757196699110706,
+    "mean_confidence": 0.8071828803072117
+  },
+  {
+    "scene": "R03",
+    "cell": "C-22",
+    "target": "normal",
+    "frames": 6937,
+    "activation_fraction": 0.5020902407380712,
+    "mean_r": 0.804407904080387,
+    "mean_confidence": 0.6552888515558754
+  },
+  {
+    "scene": "R04",
+    "cell": "C-22",
+    "target": "normal",
+    "frames": 3576,
+    "activation_fraction": 0.38814317673378074,
+    "mean_r": 0.2024721998341412,
+    "mean_confidence": 0.1734104514401194
+  },
+  {
+    "scene": "R01",
+    "cell": "C-00",
+    "target": "anomaly",
+    "frames": 1254,
+    "activation_fraction": 0.0,
+    "mean_r": 0.11894331895213638,
+    "mean_confidence": 0.07480844564290556
+  },
+  {
+    "scene": "R02",
+    "cell": "C-00",
+    "target": "anomaly",
+    "frames": 2612,
+    "activation_fraction": 0.04823889739663093,
+    "mean_r": 0.8907153297496959,
+    "mean_confidence": 0.5456004416945639
+  },
+  {
+    "scene": "R03",
+    "cell": "C-00",
+    "target": "anomaly",
+    "frames": 5068,
+    "activation_fraction": 0.007892659826361484,
+    "mean_r": 0.7764517605333837,
+    "mean_confidence": 0.6135945786093091
+  },
+  {
+    "scene": "R04",
+    "cell": "C-00",
+    "target": "anomaly",
+    "frames": 4578,
+    "activation_fraction": 0.003931847968545216,
+    "mean_r": 0.1760389523663252,
+    "mean_confidence": 0.14053482843934698
+  },
+  {
+    "scene": "R01",
+    "cell": "C-01",
+    "target": "anomaly",
+    "frames": 1254,
+    "activation_fraction": 0.0,
+    "mean_r": 0.11894331895213638,
+    "mean_confidence": 0.07480844564290556
+  },
+  {
+    "scene": "R02",
+    "cell": "C-01",
+    "target": "anomaly",
+    "frames": 2612,
+    "activation_fraction": 0.1324655436447167,
+    "mean_r": 0.8907153297496959,
+    "mean_confidence": 0.5456004416945639
+  },
+  {
+    "scene": "R03",
+    "cell": "C-01",
+    "target": "anomaly",
+    "frames": 5068,
+    "activation_fraction": 0.047158642462509864,
+    "mean_r": 0.7764517605333837,
+    "mean_confidence": 0.6135945786093091
+  },
+  {
+    "scene": "R04",
+    "cell": "C-01",
+    "target": "anomaly",
+    "frames": 4578,
+    "activation_fraction": 0.005242463958060288,
+    "mean_r": 0.1760389523663252,
+    "mean_confidence": 0.14053482843934698
+  },
+  {
+    "scene": "R01",
+    "cell": "C-21",
+    "target": "anomaly",
+    "frames": 1254,
+    "activation_fraction": 0.0,
+    "mean_r": 0.11894331895213638,
+    "mean_confidence": 0.07480844564290556
+  },
+  {
+    "scene": "R02",
+    "cell": "C-21",
+    "target": "anomaly",
+    "frames": 2612,
+    "activation_fraction": 0.1332312404287902,
+    "mean_r": 0.8907153297496959,
+    "mean_confidence": 0.5456004416945639
+  },
+  {
+    "scene": "R03",
+    "cell": "C-21",
+    "target": "anomaly",
+    "frames": 5068,
+    "activation_fraction": 0.04755327545382794,
+    "mean_r": 0.7764517605333837,
+    "mean_confidence": 0.6135945786093091
+  },
+  {
+    "scene": "R04",
+    "cell": "C-21",
+    "target": "anomaly",
+    "frames": 4578,
+    "activation_fraction": 0.005679335954565312,
+    "mean_r": 0.1760389523663252,
+    "mean_confidence": 0.14053482843934698
+  },
+  {
+    "scene": "R01",
+    "cell": "C-22",
+    "target": "anomaly",
+    "frames": 1254,
+    "activation_fraction": 0.9744816586921851,
+    "mean_r": 0.11894331895213638,
+    "mean_confidence": 0.07480844564290556
+  },
+  {
+    "scene": "R02",
+    "cell": "C-22",
+    "target": "anomaly",
+    "frames": 2612,
+    "activation_fraction": 0.26952526799387444,
+    "mean_r": 0.8907153297496959,
+    "mean_confidence": 0.5456004416945639
+  },
+  {
+    "scene": "R03",
+    "cell": "C-22",
+    "target": "anomaly",
+    "frames": 5068,
+    "activation_fraction": 0.5236779794790845,
+    "mean_r": 0.7764517605333837,
+    "mean_confidence": 0.6135945786093091
+  },
+  {
+    "scene": "R04",
+    "cell": "C-22",
+    "target": "anomaly",
+    "frames": 4578,
+    "activation_fraction": 0.6238532110091743,
+    "mean_r": 0.1760389523663252,
+    "mean_confidence": 0.14053482843934698
+  }
+]

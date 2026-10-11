@@ -1,0 +1,136 @@
+{
+  "conditional_subspace": {
+    "rank": 64,
+    "samples": 4089,
+    "retained_variance": 0.8195065259933472,
+    "variance_target_met": false
+  },
+  "pooled_subspace": {
+    "rank": 64,
+    "samples": 4089,
+    "retained_variance": 0.8958606123924255,
+    "variance_target_met": false
+  },
+  "cycle": {
+    "normal_cycle_candidates": 13,
+    "median_period_source_frames": 404.0,
+    "template_temperature": 0.21622570982220873,
+    "period_q10_q90": [
+      346.4,
+      417.0
+    ]
+  },
+  "mean_fit_cycle_confidence": 0.21721286972382775,
+  "selected_harmonics": 8,
+  "selected_ridge": 0.01,
+  "selection": [
+    {
+      "harmonics": 2,
+      "ridge": 0.01,
+      "normal_validation_mse": 3.7305333535186946e-05
+    },
+    {
+      "harmonics": 2,
+      "ridge": 0.1,
+      "normal_validation_mse": 3.830882633337751e-05
+    },
+    {
+      "harmonics": 2,
+      "ridge": 1.0,
+      "normal_validation_mse": 4.307366907596588e-05
+    },
+    {
+      "harmonics": 4,
+      "ridge": 0.01,
+      "normal_validation_mse": 2.8424668926163577e-05
+    },
+    {
+      "harmonics": 4,
+      "ridge": 0.1,
+      "normal_validation_mse": 3.1551579013466835e-05
+    },
+    {
+      "harmonics": 4,
+      "ridge": 1.0,
+      "normal_validation_mse": 4.137656287639402e-05
+    },
+    {
+      "harmonics": 8,
+      "ridge": 0.01,
+      "normal_validation_mse": 2.5612485842430033e-05
+    },
+    {
+      "harmonics": 8,
+      "ridge": 0.1,
+      "normal_validation_mse": 2.891839721996803e-05
+    },
+    {
+      "harmonics": 8,
+      "ridge": 1.0,
+      "normal_validation_mse": 4.043167064082809e-05
+    }
+  ],
+  "thresholds": {
+    "combined": 6.1903154058531475,
+    "appearance": 3.82319179172153,
+    "cycle_conditioned": 3.82319179172153
+  },
+  "scene": "R04",
+  "splits": {
+    "validation": [
+      "R04/training/03",
+      "R04/training/11",
+      "R04/training/18",
+      "R04/training/22"
+    ],
+    "reference": [
+      "R04/training/07",
+      "R04/training/12",
+      "R04/training/14",
+      "R04/training/16"
+    ],
+    "threshold": [
+      "R04/training/05",
+      "R04/training/19",
+      "R04/training/23",
+      "R04/training/24"
+    ],
+    "fit": [
+      "R04/training/01",
+      "R04/training/02",
+      "R04/training/04",
+      "R04/training/06",
+      "R04/training/08",
+      "R04/training/09",
+      "R04/training/10",
+      "R04/training/13",
+      "R04/training/15",
+      "R04/training/17",
+      "R04/training/20",
+      "R04/training/21",
+      "R04/training/25"
+    ]
+  },
+  "cycle_coordinate_sources": {
+    "R04/training/01": "weak_recording_alignment",
+    "R04/training/02": "weak_recording_alignment",
+    "R04/training/04": "weak_recording_alignment",
+    "R04/training/06": "weak_recording_alignment",
+    "R04/training/08": "weak_recording_alignment",
+    "R04/training/09": "weak_recording_alignment",
+    "R04/training/10": "weak_recording_alignment",
+    "R04/training/13": "weak_recording_alignment",
+    "R04/training/15": "weak_recording_alignment",
+    "R04/training/17": "weak_recording_alignment",
+    "R04/training/20": "weak_recording_alignment",
+    "R04/training/21": "weak_recording_alignment",
+    "R04/training/25": "weak_recording_alignment"
+  },
+  "recording_groups_provided": false,
+  "group_independence_verified": false,
+  "fit_calibrate_seconds": 7.231240254994191,
+  "normal_only_model_selection": true,
+  "cycle_accuracy": null,
+  "real_anomaly_performance": "not_yet_evaluated",
+  "frame_time_unit": "source_frame_index"
+}

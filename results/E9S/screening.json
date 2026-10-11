@@ -1,0 +1,198 @@
+{
+  "status": "screening_not_satisfied",
+  "primary_contrasts": [
+    {
+      "contrast": "P4-P0",
+      "seed42_macro_gain_ge_5pp": true,
+      "seed_event_gains_pp": [
+        42.36876598465472,
+        43.9420354439536,
+        39.41968706674589
+      ],
+      "same_positive_direction_all_seeds": true,
+      "scene_gains_pp": {
+        "R01": 32.55718954248364,
+        "R02": 52.63888888888888,
+        "R03": 45.138888888888886,
+        "R04": 39.14009661835748
+      },
+      "positive_scenes_ge_3": true,
+      "normal_guardrails": {
+        "matched_far": {
+          "R01": {
+            "p4_rate": 0.12663398692810457,
+            "increase_pp": 1.0212418300653572,
+            "pass": false
+          },
+          "R02": {
+            "p4_rate": 0.06388888888888888,
+            "increase_pp": 1.0185185185185166,
+            "pass": false
+          },
+          "R03": {
+            "p4_rate": 0.16414141414141417,
+            "increase_pp": 7.323232323232324,
+            "pass": false
+          },
+          "R04": {
+            "p4_rate": 0.03666666666666666,
+            "increase_pp": 2.3236714975845403,
+            "pass": false
+          }
+        },
+        "grid_far": {
+          "R01": {
+            "p4_rate": 0.10504201680672268,
+            "increase_pp": 0.0,
+            "pass": false
+          },
+          "R02": {
+            "p4_rate": 0.05892857142857143,
+            "increase_pp": 1.3095238095238098,
+            "pass": false
+          },
+          "R03": {
+            "p4_rate": 0.12905844155844157,
+            "increase_pp": 2.7597402597402607,
+            "pass": false
+          },
+          "R04": {
+            "p4_rate": 0.062190476190476185,
+            "increase_pp": 0.028571428571428498,
+            "pass": false
+          }
+        }
+      },
+      "all_normal_guardrails_pass": false
+    },
+    {
+      "contrast": "P4-P5",
+      "seed42_macro_gain_ge_5pp": true,
+      "seed_event_gains_pp": [
+        18.579997545790377,
+        20.194252843869208,
+        16.01875909564528
+      ],
+      "same_positive_direction_all_seeds": true,
+      "scene_gains_pp": {
+        "R01": 15.604575163398676,
+        "R02": 49.58333333333332,
+        "R03": -3.8510101010101105,
+        "R04": 12.98309178743961
+      },
+      "positive_scenes_ge_3": true,
+      "normal_guardrails": {
+        "matched_far": {
+          "R01": {
+            "p4_rate": 0.12663398692810457,
+            "increase_pp": -1.0212418300653585,
+            "pass": false
+          },
+          "R02": {
+            "p4_rate": 0.06388888888888888,
+            "increase_pp": 1.0185185185185166,
+            "pass": false
+          },
+          "R03": {
+            "p4_rate": 0.16414141414141417,
+            "increase_pp": 2.777777777777785,
+            "pass": false
+          },
+          "R04": {
+            "p4_rate": 0.03666666666666666,
+            "increase_pp": -1.9468599033816438,
+            "pass": true
+          }
+        },
+        "grid_far": {
+          "R01": {
+            "p4_rate": 0.10504201680672268,
+            "increase_pp": -0.8403361344537827,
+            "pass": false
+          },
+          "R02": {
+            "p4_rate": 0.05892857142857143,
+            "increase_pp": 1.3095238095238098,
+            "pass": false
+          },
+          "R03": {
+            "p4_rate": 0.12905844155844157,
+            "increase_pp": 1.0551948051948061,
+            "pass": false
+          },
+          "R04": {
+            "p4_rate": 0.062190476190476185,
+            "increase_pp": -1.257142857142858,
+            "pass": false
+          }
+        }
+      },
+      "all_normal_guardrails_pass": false
+    },
+    {
+      "contrast": "P4-P7",
+      "seed42_macro_gain_ge_5pp": true,
+      "seed_event_gains_pp": [
+        31.069313122701857,
+        31.913205477623634,
+        26.548447497136753
+      ],
+      "same_positive_direction_all_seeds": true,
+      "scene_gains_pp": {
+        "R01": 32.55718954248364,
+        "R02": 41.481481481481474,
+        "R03": 16.098484848484844,
+        "R04": 34.14009661835748
+      },
+      "positive_scenes_ge_3": true,
+      "normal_guardrails": {
+        "matched_far": {
+          "R01": {
+            "p4_rate": 0.12663398692810457,
+            "increase_pp": 1.0212418300653572,
+            "pass": false
+          },
+          "R02": {
+            "p4_rate": 0.06388888888888888,
+            "increase_pp": 1.0185185185185166,
+            "pass": false
+          },
+          "R03": {
+            "p4_rate": 0.16414141414141417,
+            "increase_pp": -0.2525252525252458,
+            "pass": false
+          },
+          "R04": {
+            "p4_rate": 0.03666666666666666,
+            "increase_pp": 2.3236714975845403,
+            "pass": false
+          }
+        },
+        "grid_far": {
+          "R01": {
+            "p4_rate": 0.10504201680672268,
+            "increase_pp": 0.0,
+            "pass": false
+          },
+          "R02": {
+            "p4_rate": 0.05892857142857143,
+            "increase_pp": 0.05952380952380931,
+            "pass": false
+          },
+          "R03": {
+            "p4_rate": 0.12905844155844157,
+            "increase_pp": -1.2175324675324672,
+            "pass": false
+          },
+          "R04": {
+            "p4_rate": 0.062190476190476185,
+            "increase_pp": 0.028571428571428498,
+            "pass": false
+          }
+        }
+      },
+      "all_normal_guardrails_pass": false
+    }
+  ],
+  "scope": "Exploratory controlled edits; phase accuracy and real industrial fault validation remain unmeasured."
+}

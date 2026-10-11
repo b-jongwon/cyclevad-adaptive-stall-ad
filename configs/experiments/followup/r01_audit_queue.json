@@ -1,0 +1,416 @@
+{
+  "sampling_seed": 20261009,
+  "status": "packet_prepared_human_review_required",
+  "scoring_checkpoint": "seed42/R01/fold0",
+  "uniform_target_sources_per_stratum": 5,
+  "cohorts_must_not_be_pooled_for_prevalence": true,
+  "queue": [
+    {
+      "cohort": "uniform",
+      "stratum": "historical_after",
+      "source_id": "R01/testing/02",
+      "center": 242,
+      "review_id": "Q001",
+      "start": 210,
+      "end": 256
+    },
+    {
+      "cohort": "score_enriched",
+      "stratum": "threshold",
+      "tail": "low",
+      "source_id": "R01/training/19",
+      "center": 154,
+      "review_id": "Q002",
+      "start": 122,
+      "end": 187
+    },
+    {
+      "cohort": "score_enriched",
+      "stratum": "historical_before",
+      "tail": "low",
+      "source_id": "R01/testing/13",
+      "center": 22,
+      "review_id": "Q003",
+      "start": 0,
+      "end": 55
+    },
+    {
+      "cohort": "uniform",
+      "stratum": "historical_after",
+      "source_id": "R01/testing/06",
+      "center": 231,
+      "review_id": "Q004",
+      "start": 199,
+      "end": 233
+    },
+    {
+      "cohort": "score_enriched",
+      "stratum": "reference",
+      "tail": "high",
+      "source_id": "R01/training/23",
+      "center": 2,
+      "review_id": "Q005",
+      "start": 0,
+      "end": 35
+    },
+    {
+      "cohort": "score_enriched",
+      "stratum": "historical_after",
+      "tail": "low",
+      "source_id": "R01/testing/08",
+      "center": 228,
+      "review_id": "Q006",
+      "start": 196,
+      "end": 235
+    },
+    {
+      "cohort": "uniform",
+      "stratum": "reference",
+      "source_id": "R01/training/29",
+      "center": 46,
+      "review_id": "Q007",
+      "start": 14,
+      "end": 79
+    },
+    {
+      "cohort": "score_enriched",
+      "stratum": "threshold",
+      "tail": "high",
+      "source_id": "R01/training/22",
+      "center": 20,
+      "review_id": "Q008",
+      "start": 0,
+      "end": 53
+    },
+    {
+      "cohort": "score_enriched",
+      "stratum": "reference",
+      "tail": "low",
+      "source_id": "R01/training/27",
+      "center": 158,
+      "review_id": "Q009",
+      "start": 126,
+      "end": 191
+    },
+    {
+      "cohort": "uniform",
+      "stratum": "reference",
+      "source_id": "R01/training/31",
+      "center": 48,
+      "review_id": "Q010",
+      "start": 16,
+      "end": 81
+    },
+    {
+      "cohort": "score_enriched",
+      "stratum": "historical_after",
+      "tail": "high",
+      "source_id": "R01/testing/02",
+      "center": 180,
+      "review_id": "Q011",
+      "start": 148,
+      "end": 213
+    },
+    {
+      "cohort": "uniform",
+      "stratum": "historical_before",
+      "source_id": "R01/testing/09",
+      "center": 218,
+      "review_id": "Q012",
+      "start": 186,
+      "end": 229
+    },
+    {
+      "cohort": "uniform",
+      "stratum": "normal_evaluation",
+      "source_id": "R01/training/16",
+      "center": 41,
+      "review_id": "Q013",
+      "start": 9,
+      "end": 74
+    },
+    {
+      "cohort": "score_enriched",
+      "stratum": "historical_after",
+      "tail": "low",
+      "source_id": "R01/testing/06",
+      "center": 232,
+      "review_id": "Q014",
+      "start": 200,
+      "end": 233
+    },
+    {
+      "cohort": "score_enriched",
+      "stratum": "historical_before",
+      "tail": "high",
+      "source_id": "R01/testing/01",
+      "center": 42,
+      "review_id": "Q015",
+      "start": 10,
+      "end": 75
+    },
+    {
+      "cohort": "uniform",
+      "stratum": "threshold",
+      "source_id": "R01/training/22",
+      "center": 180,
+      "review_id": "Q016",
+      "start": 148,
+      "end": 213
+    },
+    {
+      "cohort": "uniform",
+      "stratum": "historical_after",
+      "source_id": "R01/testing/04",
+      "center": 184,
+      "review_id": "Q017",
+      "start": 152,
+      "end": 191
+    },
+    {
+      "cohort": "score_enriched",
+      "stratum": "reference",
+      "tail": "high",
+      "source_id": "R01/training/29",
+      "center": 50,
+      "review_id": "Q018",
+      "start": 18,
+      "end": 83
+    },
+    {
+      "cohort": "uniform",
+      "stratum": "historical_after",
+      "source_id": "R01/testing/07",
+      "center": 223,
+      "review_id": "Q019",
+      "start": 191,
+      "end": 231
+    },
+    {
+      "cohort": "uniform",
+      "stratum": "historical_before",
+      "source_id": "R01/testing/02",
+      "center": 45,
+      "review_id": "Q020",
+      "start": 13,
+      "end": 78
+    },
+    {
+      "cohort": "uniform",
+      "stratum": "historical_before",
+      "source_id": "R01/testing/11",
+      "center": 14,
+      "review_id": "Q021",
+      "start": 0,
+      "end": 47
+    },
+    {
+      "cohort": "score_enriched",
+      "stratum": "normal_evaluation",
+      "tail": "high",
+      "source_id": "R01/training/01",
+      "center": 140,
+      "review_id": "Q022",
+      "start": 108,
+      "end": 173
+    },
+    {
+      "cohort": "score_enriched",
+      "stratum": "reference",
+      "tail": "low",
+      "source_id": "R01/training/31",
+      "center": 20,
+      "review_id": "Q023",
+      "start": 0,
+      "end": 53
+    },
+    {
+      "cohort": "uniform",
+      "stratum": "historical_after",
+      "source_id": "R01/testing/08",
+      "center": 225,
+      "review_id": "Q024",
+      "start": 193,
+      "end": 235
+    },
+    {
+      "cohort": "uniform",
+      "stratum": "reference",
+      "source_id": "R01/training/27",
+      "center": 219,
+      "review_id": "Q025",
+      "start": 187,
+      "end": 231
+    },
+    {
+      "cohort": "uniform",
+      "stratum": "normal_evaluation",
+      "source_id": "R01/training/07",
+      "center": 128,
+      "review_id": "Q026",
+      "start": 96,
+      "end": 161
+    },
+    {
+      "cohort": "uniform",
+      "stratum": "normal_evaluation",
+      "source_id": "R01/training/26",
+      "center": 79,
+      "review_id": "Q027",
+      "start": 47,
+      "end": 112
+    },
+    {
+      "cohort": "uniform",
+      "stratum": "threshold",
+      "source_id": "R01/training/30",
+      "center": 219,
+      "review_id": "Q028",
+      "start": 187,
+      "end": 229
+    },
+    {
+      "cohort": "uniform",
+      "stratum": "reference",
+      "source_id": "R01/training/23",
+      "center": 123,
+      "review_id": "Q029",
+      "start": 91,
+      "end": 156
+    },
+    {
+      "cohort": "score_enriched",
+      "stratum": "normal_evaluation",
+      "tail": "low",
+      "source_id": "R01/training/16",
+      "center": 138,
+      "review_id": "Q030",
+      "start": 106,
+      "end": 171
+    },
+    {
+      "cohort": "score_enriched",
+      "stratum": "threshold",
+      "tail": "high",
+      "source_id": "R01/training/30",
+      "center": 70,
+      "review_id": "Q031",
+      "start": 38,
+      "end": 103
+    },
+    {
+      "cohort": "uniform",
+      "stratum": "historical_before",
+      "source_id": "R01/testing/03",
+      "center": 5,
+      "review_id": "Q032",
+      "start": 0,
+      "end": 38
+    },
+    {
+      "cohort": "score_enriched",
+      "stratum": "historical_before",
+      "tail": "low",
+      "source_id": "R01/testing/15",
+      "center": 36,
+      "review_id": "Q033",
+      "start": 4,
+      "end": 69
+    },
+    {
+      "cohort": "score_enriched",
+      "stratum": "normal_evaluation",
+      "tail": "low",
+      "source_id": "R01/training/17",
+      "center": 140,
+      "review_id": "Q034",
+      "start": 108,
+      "end": 173
+    },
+    {
+      "cohort": "score_enriched",
+      "stratum": "normal_evaluation",
+      "tail": "high",
+      "source_id": "R01/training/26",
+      "center": 4,
+      "review_id": "Q035",
+      "start": 0,
+      "end": 37
+    },
+    {
+      "cohort": "score_enriched",
+      "stratum": "historical_before",
+      "tail": "high",
+      "source_id": "R01/testing/08",
+      "center": 2,
+      "review_id": "Q036",
+      "start": 0,
+      "end": 35
+    },
+    {
+      "cohort": "score_enriched",
+      "stratum": "historical_after",
+      "tail": "high",
+      "source_id": "R01/testing/03",
+      "center": 348,
+      "review_id": "Q037",
+      "start": 316,
+      "end": 381
+    },
+    {
+      "cohort": "uniform",
+      "stratum": "threshold",
+      "source_id": "R01/training/03",
+      "center": 32,
+      "review_id": "Q038",
+      "start": 0,
+      "end": 65
+    },
+    {
+      "cohort": "uniform",
+      "stratum": "threshold",
+      "source_id": "R01/training/19",
+      "center": 132,
+      "review_id": "Q039",
+      "start": 100,
+      "end": 165
+    },
+    {
+      "cohort": "uniform",
+      "stratum": "normal_evaluation",
+      "source_id": "R01/training/06",
+      "center": 188,
+      "review_id": "Q040",
+      "start": 156,
+      "end": 221
+    },
+    {
+      "cohort": "uniform",
+      "stratum": "historical_before",
+      "source_id": "R01/testing/07",
+      "center": 0,
+      "review_id": "Q041",
+      "start": 0,
+      "end": 33
+    },
+    {
+      "cohort": "score_enriched",
+      "stratum": "threshold",
+      "tail": "low",
+      "source_id": "R01/training/03",
+      "center": 52,
+      "review_id": "Q042",
+      "start": 20,
+      "end": 85
+    },
+    {
+      "cohort": "uniform",
+      "stratum": "normal_evaluation",
+      "source_id": "R01/training/17",
+      "center": 197,
+      "review_id": "Q043",
+      "start": 165,
+      "end": 230
+    }
+  ]
+}

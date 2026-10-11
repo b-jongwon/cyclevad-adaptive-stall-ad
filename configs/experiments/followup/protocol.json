@@ -1,0 +1,263 @@
+{
+  "version": "followup-v1",
+  "status": "planned_not_run",
+  "base_config": "../replay_pinned.json",
+  "scenes": [
+    "R01",
+    "R02",
+    "R03",
+    "R04"
+  ],
+  "model_seed": 42,
+  "robustness_seeds": [
+    43,
+    44
+  ],
+  "feature_policy": "Reuse verified frozen DINOv2 caches; recompute causal differences after temporal edits.",
+  "historical_test_policy": "R01-R04 have already informed design: diagnostic only, not untouched confirmation.",
+  "label_policy": "strict-v1: exclude complete mismatched-label videos, never trim or pad.",
+  "timing": {
+    "descriptor_lag_source_frames": 4,
+    "AR1_lag_source_frames": 2,
+    "progress_lags_source_frames": [
+      2,
+      8,
+      32
+    ],
+    "stride_values": [
+      2,
+      1
+    ],
+    "unknown_fps": "Do not convert frames to seconds without evidence."
+  },
+  "confidence": {
+    "r": "abs(sum_j likelihood_j * exp(2*pi*i*theta_j))",
+    "not_a_probability": true,
+    "training_weights": {
+      "legacy": "max(r * exp(-d_min / (4 * temperature)), 0.1)",
+      "location_only": "max(r, 0.1)",
+      "uniform": "1"
+    },
+    "inference_gates": {
+      "legacy": "r * exp(-d_min / (4 * temperature))",
+      "location_only": "r",
+      "none": "1"
+    },
+    "cells": [
+      {
+        "id": "C-00",
+        "training_weight": "legacy",
+        "inference_gate": "legacy",
+        "training_formula": "max(r * exp(-d_min / (4 * temperature)), 0.1)",
+        "inference_formula": "r * exp(-d_min / (4 * temperature))"
+      },
+      {
+        "id": "C-01",
+        "training_weight": "legacy",
+        "inference_gate": "location_only",
+        "training_formula": "max(r * exp(-d_min / (4 * temperature)), 0.1)",
+        "inference_formula": "r"
+      },
+      {
+        "id": "C-02",
+        "training_weight": "legacy",
+        "inference_gate": "none",
+        "training_formula": "max(r * exp(-d_min / (4 * temperature)), 0.1)",
+        "inference_formula": "1"
+      },
+      {
+        "id": "C-10",
+        "training_weight": "location_only",
+        "inference_gate": "legacy",
+        "training_formula": "max(r, 0.1)",
+        "inference_formula": "r * exp(-d_min / (4 * temperature))"
+      },
+      {
+        "id": "C-11",
+        "training_weight": "location_only",
+        "inference_gate": "location_only",
+        "training_formula": "max(r, 0.1)",
+        "inference_formula": "r"
+      },
+      {
+        "id": "C-12",
+        "training_weight": "location_only",
+        "inference_gate": "none",
+        "training_formula": "max(r, 0.1)",
+        "inference_formula": "1"
+      },
+      {
+        "id": "C-20",
+        "training_weight": "uniform",
+        "inference_gate": "legacy",
+        "training_formula": "1",
+        "inference_formula": "r * exp(-d_min / (4 * temperature))"
+      },
+      {
+        "id": "C-21",
+        "training_weight": "uniform",
+        "inference_gate": "location_only",
+        "training_formula": "1",
+        "inference_formula": "r"
+      },
+      {
+        "id": "C-22",
+        "training_weight": "uniform",
+        "inference_gate": "none",
+        "training_formula": "1",
+        "inference_formula": "1"
+      }
+    ],
+    "readouts": [
+      "conditional_only",
+      "max(appearance,conditional)",
+      "max(appearance,conditional,process)"
+    ],
+    "primary_diagnostic_contrasts": [
+      "C-00 vs C-01 vs C-02 (same trained model)",
+      "C-01 vs C-11 vs C-21 (same location-only inference gate)"
+    ],
+    "candidate_fixed_before_followup": "C-21",
+    "untuned_control": "C-22",
+    "historical_winner_selection_forbidden": true,
+    "hyperparameter_control": "Freeze tracker/theta, pooled/local model and C-00 normal-validation-selected Fourier order/ridge within each fold; refit mean and residual PCA only.",
+    "thresholds": "Recalibrate each readout using only reference and threshold splits."
+  },
+  "tracker": {
+    "variants": [
+      "T0_first_frame_initialized_clock",
+      "T1_framewise_template_match",
+      "T2_causal_filter"
+    ],
+    "template_and_initial_observation_shared": true,
+    "phase_origin": "Anchor coordinates and origin fixed by mapping manual FIT anchors to the shared training template; no equally spaced k/K assumption or test-time warping.",
+    "T1_control": "Same causal descriptor including the lag difference as T2; no recursive prior. This isolates filtering, not the existence of all temporal information.",
+    "primary_metrics": [
+      "anchor_circular_MAE_cycles",
+      "annotated_stage_interval_accuracy",
+      "transition_detection_delay_source_frames"
+    ],
+    "secondary_metrics": [
+      "risk_coverage_using_confidence",
+      "recovery_delay",
+      "annotation_coverage"
+    ],
+    "oracle_interpolated_phase_is_not_ground_truth": true,
+    "pilot_annotation_videos": 40,
+    "expansion_rule": "If pilot is interpretable, annotate all remaining outer-fold-0 normal-evaluation videos before claiming tracking benefit."
+  },
+  "process": {
+    "score_arms": [
+      "appearance",
+      "appearance_plus_alignment",
+      "appearance_plus_innovation",
+      "appearance_plus_progress",
+      "appearance_plus_all_process",
+      "appearance_plus_AR1_transition"
+    ],
+    "temporal_edits": [
+      "freeze",
+      "reverse",
+      "skip",
+      "swap_adjacent_blocks"
+    ],
+    "severity_training_period_fractions": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "onsets_training_period_fractions": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "speed_stress_factors": [
+      0.8,
+      1.0,
+      1.2
+    ],
+    "speed_stress_normality": "Unverified: report stress alarm rate, not industrial normal FPR.",
+    "window_length_training_period_fraction": 0.4,
+    "detection_deadline_training_period_fraction": 0.2,
+    "state_warmup": "Run causally from sequence start; no reset at edit/window onset.",
+    "source_mapping_hidden_from_model": true,
+    "AR1": "Ridge predictor across two source frames on same normal FIT PCA features; ridge from [0.01,0.1,1] using normal validation error.",
+    "exclusions": "Insufficient prefix/context/window is excluded for every arm; publish counts and reasons.",
+    "primary_metrics": [
+      "paired_fixed_window_AUROC",
+      "event_detection_rate_within_deadline",
+      "normal_evaluation_frame_FPR",
+      "normal_fixed_window_false_alarm_rate"
+    ],
+    "secondary_metrics": [
+      "AP_with_exact_prevalence",
+      "conditional_detection_delay_and_missed_count",
+      "per_type_per_severity_metrics"
+    ]
+  },
+  "uncertainty": {
+    "bootstrap_resamples": 2000,
+    "seed": 20261009,
+    "unit": "source recording group when verified, otherwise source file",
+    "stratify_by": "scene",
+    "paired": true,
+    "all_derivatives_resampled_together": true,
+    "CI": "95% percentile interval",
+    "scope": "Descriptive exploratory uncertainty; file bootstrap does not prove recording independence; pilot may be inconclusive."
+  },
+  "decision_rules": {
+    "engineering_targets_not_literature_standards": true,
+    "tracking": {
+      "pilot_absolute_target_anchor_MAE_cycles": 0.05,
+      "relative_target_vs_T1_MAE_reduction": 0.2,
+      "required_scenes_for_point_target": 3,
+      "all_eligible_annotations_reported": true,
+      "uncertainty_policy": "A broad paired CI means inconclusive, not success."
+    },
+    "confidence": {
+      "mechanism_check": "Gate intervention rescues conditional scores at fixed weights/angle; evaluate fitted-weight effect separately.",
+      "primary_readout": "max(appearance,conditional)",
+      "practical_target_macro_AP_gain_pp": 1.0,
+      "candidate": "C-21 compared with C-00",
+      "max_normal_evaluation_FPR_increase_pp": 1.0,
+      "caveat": "Historical-test gain is exploratory; no claim of solving calibration solely by meeting relative FPR target."
+    },
+    "process": {
+      "require_benefit_over": [
+        "appearance",
+        "appearance_plus_AR1_transition"
+      ],
+      "practical_target_event_detection_gain_pp": 5.0,
+      "max_normal_evaluation_FPR": 0.05,
+      "normal_threshold_quantile": 0.99,
+      "caveat": "5% is a lenient screening ceiling, not desired deployment FPR. All scene values remain visible."
+    }
+  },
+  "stages": [
+    {
+      "id": "E6",
+      "status": "ready_to_implement",
+      "scope": "Normal fold audit + R01 calibration diagnosis + 40-video annotation packet"
+    },
+    {
+      "id": "E7",
+      "status": "requires_independent_annotations",
+      "scope": "Tracker T0/T1/T2 and confidence risk-coverage"
+    },
+    {
+      "id": "E8",
+      "status": "ready_to_implement",
+      "scope": "3x3 fit/inference confidence factorial; 3 readouts; same theta"
+    },
+    {
+      "id": "E9",
+      "status": "ready_to_implement_after_E7_diagnosis",
+      "scope": "Controlled process deviations, normal speed stress, source-frame-matched stride comparison"
+    },
+    {
+      "id": "E10",
+      "status": "requires_new_independent_recordings",
+      "scope": "Frozen candidate confirmation; no automatic best-test variant selection"
+    }
+  ]
+}

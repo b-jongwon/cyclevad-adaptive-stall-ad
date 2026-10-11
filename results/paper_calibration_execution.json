@@ -1,0 +1,27 @@
+{
+  "status": "complete",
+  "units": 60,
+  "edited_cases": 11730,
+  "primary_conditions": 8,
+  "diagnostic_conditions": 2,
+  "nominal_alphas": [
+    0.01,
+    0.05,
+    0.1
+  ],
+  "unit_wall_seconds_sum": 223.85977989109233,
+  "feature_hardware": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "scoring_device": "CPU; frozen CUDA feature cache reused",
+  "timing_excludes": [
+    "feature extraction",
+    "summary bootstrap",
+    "validation",
+    "reporting"
+  ],
+  "baseline_commit": "4e5808bd14bf4df8f73dd5807e8ac03e46671047",
+  "B0_commit": "eed4e1b8b061c071dca2bfebe467e990a8d5c34e",
+  "frozen_scoring_source_sha256": "e1f870079da984652b6092714faff5219cd18e8ddb80c762e69e476f5c3f5417",
+  "independent_validation": "results/E15BC/validation.txt",
+  "test_suite": "results/paper_calibration_tests.txt",
+  "annotation_status": "R01 packet prepared; 0 independent human reviews; E7B labels pending"
+}

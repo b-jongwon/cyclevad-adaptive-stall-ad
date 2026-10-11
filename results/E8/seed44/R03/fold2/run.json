@@ -1,0 +1,150 @@
+{
+  "scene": "R03",
+  "fold": 2,
+  "splits": {
+    "validation": [
+      "R03/training/18",
+      "R03/training/10",
+      "R03/training/16"
+    ],
+    "reference": [
+      "R03/training/04",
+      "R03/training/02",
+      "R03/training/21"
+    ],
+    "threshold": [
+      "R03/training/09",
+      "R03/training/11",
+      "R03/training/07"
+    ],
+    "fit": [
+      "R03/training/17",
+      "R03/training/01",
+      "R03/training/06",
+      "R03/training/22",
+      "R03/training/14",
+      "R03/training/12",
+      "R03/training/05",
+      "R03/training/13",
+      "R03/training/19"
+    ],
+    "normal_evaluation": [
+      "R03/training/08",
+      "R03/training/20",
+      "R03/training/15",
+      "R03/training/03"
+    ]
+  },
+  "status": "complete",
+  "config": {
+    "seed": 42,
+    "scenes": [
+      "R01",
+      "R02",
+      "R03",
+      "R04"
+    ],
+    "stride": 2,
+    "batch_size": 8,
+    "workers": 4,
+    "encoder": {
+      "family": "dinov2",
+      "model_id": "facebook/dinov2-base",
+      "revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+      "image_size": 336,
+      "patch_grid": 6,
+      "patch_dim": 64,
+      "feature_layers": [
+        -1,
+        -3
+      ],
+      "seed": 42,
+      "device": "cuda"
+    },
+    "model": {
+      "seed": 44,
+      "cycle_grid": 128,
+      "cycle_latent": 24,
+      "harmonics_candidates": [
+        8
+      ],
+      "ridge_candidates": [
+        0.01
+      ],
+      "fit_samples": 4096,
+      "subspace_rank": 64,
+      "local_memory": 96,
+      "threshold_quantile": 0.99,
+      "process_weight": 1.0
+    }
+  },
+  "code_fingerprint": "889872bf3e5ae3f6d642dd9f351752dd1ac66976c7dea1f3ee46555690159c5f",
+  "diagnostics": {
+    "conditional_subspace": {
+      "rank": 64,
+      "samples": 3130,
+      "retained_variance": 0.8428797125816345,
+      "variance_target_met": false
+    },
+    "pooled_subspace": {
+      "rank": 64,
+      "samples": 3130,
+      "retained_variance": 0.9487172961235046,
+      "variance_target_met": false
+    },
+    "cycle": {
+      "normal_cycle_candidates": 9,
+      "median_period_source_frames": 704.0,
+      "template_temperature": 0.06606692537998396,
+      "period_q10_q90": [
+        660.4,
+        725.2
+      ]
+    },
+    "mean_fit_cycle_confidence": 0.6704058718109704,
+    "selected_harmonics": 8,
+    "selected_ridge": 0.01,
+    "selection": [
+      {
+        "harmonics": 8,
+        "ridge": 0.01,
+        "normal_validation_mse": 1.7235033737961203e-05
+      }
+    ]
+  },
+  "encoder_identity": "{\"device\": \"cuda\", \"extractor_version\": 1, \"family\": \"dinov2\", \"feature_layers\": [-1, -3], \"image_size\": 336, \"model_id\": \"facebook/dinov2-base\", \"patch_dim\": 64, \"patch_grid\": 6, \"preprocessing\": \"full_frame_letterbox\", \"resolved_revision\": \"f9e44c814b77203eaa57a6bdbbd535f21ede1415\", \"revision\": \"main\", \"seed\": 42, \"torch\": \"2.9.1+cu128\"}",
+  "cache_signatures": {
+    "R03/training/18": "40b158c258395c75bdd78687bab389072f256558e85b9c6245d7a8abf4867bc1",
+    "R03/training/10": "511c8e7c336be4d2d1dab238c3adc52beb613e79f7b6bdd9b4feec8d0c2b2568",
+    "R03/training/16": "162ebff517cc567475f911511f2f20e13a7c7ac078f9730bae29da17dadbc2dc",
+    "R03/training/04": "c5e055a2fd76c1140df6f5e73c580e53dbf66d46bf8d6ac083fb6ce2fcb6632c",
+    "R03/training/02": "b55ce18b38df7a14377943a416c3d8fbfcd5abd007a4694d534ea9598149763a",
+    "R03/training/21": "7c372faff7d5ea7397fc2f81f8b1fdcdb537a6551b87ff8fd5d957dd14039ecf",
+    "R03/training/09": "1419f346f7370b96880c8ae4ce4f9fecbbe359a44e6b62a37fc0cff3f3e81449",
+    "R03/training/11": "2d05ad9b989dc4a25b8019af546f4dba92f4328590adc5e16aff737582da72cf",
+    "R03/training/07": "dda292c00513fc0c9fe55d2a5b2e7089e6ac92ecdaa2c1072c7aaefb08d85248",
+    "R03/training/17": "f5b20c4703a5b8bf16ba8d342815896a9c9c79b8ee3ea4a474acda1707ff2ba1",
+    "R03/training/01": "da2865dccf9fb9151dc56bce3baa61ae26f24e2352fda5039d99300462c77827",
+    "R03/training/06": "07b757d56fa94278b5bc465c37762ca48b389c2ddf846c0c67da590156f9556e",
+    "R03/training/22": "125eec2715b985150b3e686db53de383d00d9148e8a31516ff481e9ae92ebf63",
+    "R03/training/14": "b16581e4819f15ea74885920c02bf069657f7509571eeb00d499473771dfa982",
+    "R03/training/12": "b8f96560990537c2e21ed16ec1c4cc557a32d1502f0e6531ae066b71ba3af2ca",
+    "R03/training/05": "d8e44016ae6951ca76f07959eaa07c94b6eb6bb9d9db6d049a99482492063cff",
+    "R03/training/13": "2be68675e5cb1be0b2b1086e318e95bdd779f3dcddf2bc956347d0f962d5db99",
+    "R03/training/19": "ff5d5c632e814e224c8774824b9ddf854460170eece718aa783b3c571665b844",
+    "R03/training/08": "3d049160becccce1ec3511863a45d18002331f21f35f4e1dff74fc9fbd6a0285",
+    "R03/training/20": "629a3e6592ab965a0a5415c77f77fa20062f506c74e2a085bfa2ce1aa31a4bf9",
+    "R03/training/15": "c3771601672fd204a962927ff594b9d0c45f2f399a9ab5f9ed4a665425b1ad62",
+    "R03/training/03": "b74916e634ae2c591222907d9e465a3c2fc28843e11544e296f8fed3bde8cf33"
+  },
+  "shared_tracker_and_appearance": true,
+  "legacy_refit_equivalence_passed": true,
+  "legacy_score_equivalence_passed": true,
+  "fourier_selection_frozen_across_rows": true,
+  "model_rows": 3,
+  "cells": 9,
+  "readouts_per_cell": 3,
+  "tracking_accuracy": null,
+  "historical_tests_diagnostic_only": true,
+  "wall_seconds": 9.85206433199346
+}

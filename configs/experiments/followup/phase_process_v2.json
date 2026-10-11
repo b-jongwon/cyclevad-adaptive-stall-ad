@@ -1,0 +1,293 @@
+{
+  "version": "phase-process-v2",
+  "created_date_kst": "2026-10-09",
+  "status": "planned_not_run",
+  "evidence_commit": "3b8c9baa89f072ad43c0639d2d787344d8abf001",
+  "supersedes": "followup-v1 E9 dependency, edit onset grid and primary alarm calibration; E0-E8 results unchanged",
+  "scenes": [
+    "R01",
+    "R02",
+    "R03",
+    "R04"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "splits": "normal_folds.json",
+  "feature_checkpoint": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+  "hardware": "Local RTX PRO 6000; reuse frozen GPU feature caches; statistical models on CPU",
+  "data_scope": "Existing videos have informed design; all comparisons exploratory. No new independent dataset.",
+  "E8B": {
+    "question": "Does correctly shared estimated phase improve conditional appearance beyond pooled subspace and extra Fourier capacity?",
+    "candidate": "C-22 style uniform fitting and no inference gate; selected AFTER E8, not a retroactive replacement of C-21",
+    "arms": [
+      {
+        "id": "M0",
+        "phase": "none",
+        "mean": "constant",
+        "residual": "centered pooled PCA; exact equivalent under same sampling/rank/seed"
+      },
+      {
+        "id": "M1",
+        "phase": "(first_observation_angle + elapsed_source_frames / FIT_period) mod 1",
+        "mean": "Fourier"
+      },
+      {
+        "id": "M2",
+        "phase": "framewise observation_angle with the same causal lag descriptor, no recursive prior",
+        "mean": "Fourier"
+      },
+      {
+        "id": "M3",
+        "phase": "causal filtered angle, C-22",
+        "mean": "Fourier"
+      },
+      {
+        "id": "M4",
+        "phase": "(M3 phase + source-specific hash offset) mod 1",
+        "mean": "Fourier",
+        "offset_seeds": [
+          1101,
+          1102,
+          1103,
+          1104,
+          1105
+        ]
+      }
+    ],
+    "scramble": "offset=(integer(first 13 hex digits of SHA256(canonical JSON [offset_seed,source_id]))+0.5)/2**52; source-constant, independent across sources; no test labels/length/futures",
+    "gauge_control": "A single common offset with refitted mean is a coordinate reparameterization, not a negative control",
+    "refit": "Refit Fourier mean and residual PCA for M1/M2/each M4; reuse M3 and M0 after equivalence checks. Recompute reference scales and threshold for every arm/readout.",
+    "fixed": "Within fold/seed share FIT tracker, appearance channels, fit sampling, rank cap, and E8 seed-42 selected Fourier order/ridge. M0 is the nested zero-harmonic exception.",
+    "readouts": [
+      "conditional_only",
+      "max(appearance,conditional)"
+    ],
+    "process_in_primary": false,
+    "primary_contrast": "M3 minus M0 on historical fold-0 macro AP with normal OOF FPR guardrail",
+    "mechanism_contrasts": [
+      "M3 vs M4 averaged over five fixed offsets",
+      "M3 vs M1",
+      "M3 vs M2"
+    ],
+    "normal_metrics": [
+      "per-video mean squared z-minus-mu error",
+      "residual PCA outside error",
+      "retained rank",
+      "frame-weighted FPR",
+      "mean video FPR"
+    ],
+    "historical_metrics": [
+      "frame AUROC",
+      "frame AP",
+      "normal-frame FPR",
+      "recall",
+      "conditional activation fraction"
+    ],
+    "normal_mse_scope": "Reconstruction/compactness using current observation, not forecasting accuracy or phase ground truth",
+    "capacity_sensitivity": {
+      "seed": 42,
+      "folds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "arms": [
+        "M0",
+        "M3"
+      ],
+      "rank": "min(64, min_arm(min_feature_dim_minus1, FIT_sample_count_minus2)) per scene/fold; keep exactly rank axes, disable variance truncation; refit and recalibrate both"
+    },
+    "screening": {
+      "macro_AP_gain_pp": 1.0,
+      "max_scene_normal_FPR_increase_pp": 1.0,
+      "paired_CI": "Report M3-M0 and M3-M4; a CI crossing zero is inconclusive",
+      "interpretation": "Historical gains do not constitute independent confirmation"
+    },
+    "normal_validation_sensitivity": {
+      "seed": 42,
+      "folds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "arms": [
+        "M1",
+        "M2",
+        "M3"
+      ],
+      "harmonics": [
+        2,
+        4,
+        8
+      ],
+      "ridge": [
+        0.01,
+        0.1,
+        1.0
+      ],
+      "selection": "Per-arm normal validation mean reconstruction MSE, identical search budgets; refit residual PCA and recalibrate; report separately from frozen-hyperparameter primary."
+    },
+    "feature_source": "Existing verified stride2_seed42 cache; projection seed stays 42 for all model seeds"
+  },
+  "E9S": {
+    "status": "planned_not_run",
+    "requires_E7_annotations": false,
+    "claim_scope": "Detection of controlled edits to held-out normal recordings; not verified industrial faults or phase accuracy",
+    "feature_source": "stride1 dense cache; edit full source-frame order THEN sample output timeline at stride2; derive normal FIT/validation/reference/threshold at same stride from dense cache and refit statistical models",
+    "main_stride": 2,
+    "secondary_stride": 1,
+    "secondary_stride_seed": 42,
+    "lags_source_frames": {
+      "descriptor": 4,
+      "AR1": 2,
+      "difference": [
+        2,
+        8,
+        32
+      ],
+      "progress": [
+        2,
+        8,
+        32
+      ]
+    },
+    "period": "Median actual full source-frame counts of weak normal FIT recording candidates; fix same T for stride 1/2 before phase predictions; not an annotated true cycle duration",
+    "edits": [
+      "freeze",
+      "reverse",
+      "skip",
+      "swap_adjacent_blocks"
+    ],
+    "severity_period_fractions": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "onset_period_fractions": [
+      0.2,
+      0.3,
+      0.4
+    ],
+    "rounding": "floor(x+0.5), edit length at least 2 source frames",
+    "minimum_prefix_source_frames": 32,
+    "evaluation_window_period_fraction": 0.4,
+    "detection_deadline_period_fraction": 0.2,
+    "maps": {
+      "freeze": "prefix [0,o) + last observed index o-1 repeated L times + suffix [o,N)",
+      "reverse": "prefix [0,o) + reverse([o,o+L)) + suffix [o+L,N)",
+      "skip": "prefix [0,o) + suffix [o+L,N)",
+      "swap_adjacent_blocks": "prefix [0,o) + [o+L,o+2L) + [o,o+L) + suffix [o+2L,N)"
+    },
+    "online_input": "Only output-time indices and current/past edited features; source map stays in evaluator; no state reset at edit",
+    "arms": {
+      "P0": "appearance",
+      "P1": "max(appearance,alignment)",
+      "P2": "max(appearance,innovation)",
+      "P3": "max(appearance,progress)",
+      "P4": "max(appearance,alignment,innovation,progress)",
+      "P5": "max(appearance,AR1_prediction_error)",
+      "P6": "max(appearance,two_sided_difference_lag2)",
+      "P7": "max(appearance,two_sided_difference_lags2_8_32)",
+      "P8": "max(appearance,innovation,progress)",
+      "P9": "P4 with observation-only angles for progress and prior=transition_kernel(previous likelihood), without recursively accumulated posterior"
+    },
+    "difference": "mean squared difference of the same FIT-PCA-whitened descriptors; low and high tails both anomalous; -log(max(min(1,2*min(smoothed_lower_CDF,smoothed_upper_CDF)),1/(n_ref+1))) per lag; maximum across valid lags",
+    "difference_CDF": "lower=(count_less+0.5*count_equal+0.5)/(n+1); upper=1-lower; n is valid reference observations for that lag; missing-history lags contribute neutral 0, not artificial zero-motion measurements",
+    "AR1": "Ridge prediction x_t from x_(t-2) on same FIT PCA; affine intercept unpenalized; ridge [0.01,0.1,1] normalized by training count, select normal validation MSE; upper-tail reference-calibrated prediction error",
+    "primary_calibration": {
+      "component": "normal reference only",
+      "alarm": "per-arm q99 of max score over normal THRESHOLD windows of length D=round(0.2T)",
+      "threshold_window_starts": "32 + k*max(2,round(0.1T)), while start+D<=N; no padding",
+      "window_weights": "Each threshold video has equal total mass; weighted empirical inverse-CDF q99 (smallest value with cumulative mass >= .99)",
+      "alarm_rule": "score > threshold; report actual normal-evaluation window alarm rate, never claim guaranteed 1%",
+      "short_videos": "No qualifying windows is recorded. Fewer than 2 threshold source videos => that scene/fold operating-point result unavailable, do not tune on eval",
+      "secondary": "Original frame-q99 operating point for comparability, clearly separate from primary",
+      "normal_eval_windows": "Report matched original [onset,onset+D) windows with the same source/case weights as event sensitivity; also report full fixed-grid normal-window alarm rate"
+    },
+    "primary_metrics": [
+      "0.4T original-vs-edited window-max AUROC",
+      "event hit in [o,o+0.2T)",
+      "unmodified normal 0.2T window alarm rate"
+    ],
+    "secondary_metrics": [
+      "AP with explicit weighted prevalence",
+      "frame FPR at each operating point",
+      "conditional delay plus miss fraction",
+      "per type/severity/scene",
+      "event hits after initial 32-frame transient for freeze/reverse/swap only where an edited interior remains"
+    ],
+    "aggregation": "Per source equal total case weight within scene/fold/type/severity; compute AUROC within fold, average folds by eligible-source count, then equal means over severities/types/scenes. Do not pool unnormalized scores from different fitted folds.",
+    "normal_FPR": "Frame-weighted and video-mean by scene; thresholds applied separately per fold",
+    "negative_controls": {
+      "identity_edit": "Must exactly preserve input sequence and reproduce scores within recorded numerical tolerance",
+      "speed_stress": [
+        0.8,
+        1.0,
+        1.2
+      ],
+      "speed_map": "m(t)=min(floor(speed*t),N-1) for integer t>=0 while floor(speed*t)<N; not labeled as verified normal operation",
+      "boundary_analysis": "Separate initial lag-length transients from edited interiors; skip is a point transition with no interior, never invent sustained skip GT"
+    },
+    "primary_contrasts": [
+      "P4 vs P0",
+      "P4 vs P5",
+      "P4 vs P7"
+    ],
+    "mechanism_contrasts": [
+      "P8 vs P1",
+      "P4 vs P9"
+    ],
+    "screening": {
+      "event_gain_pp_over_each_primary_baseline": 5.0,
+      "max_scene_normal_window_alarm_rate": 0.05,
+      "scene_direction": "positive primary effect in >=3 of 4 scenes; report exceptions",
+      "seed_direction": "same primary-effect direction in seeds 42/43/44",
+      "CI": "Report paired intervals for all primary contrasts; broad/cross-zero intervals are inconclusive, not proof of absence",
+      "max_scene_window_alarm_increase_pp_over_each_primary_baseline": 1.0,
+      "normal_window_guardrail_scope": "Both matched original windows and full fixed-grid normal windows; primary q99 fixed, no threshold chosen on evaluation data"
+    },
+    "auxiliary_conditional": "C-22 addition is secondary only; never let E8B winner selection change primary P0-P9",
+    "transition_time_matching": {
+      "reference_dt_source_frames": 2,
+      "mean_grid_shift": "g*dt/T",
+      "std_grid_shift": "sqrt(dt/2)*max(1, abs(g*2/T)*0.5)",
+      "restart_mass": "1-(1-0.001)**(dt/2)",
+      "note": "At stride2 matches legacy kernel parameterization; keeps nominal variance and restart hazard per unit source time matched. Observation density and fitted statistics still differ."
+    },
+    "alignment_scope": "Template matching uses x and a causal lag difference, so P1 is not a purely static appearance control and does not use the recursively filtered phase.",
+    "secondary_operating_curve_quantiles": [
+      0.9,
+      0.95,
+      0.975,
+      0.99,
+      0.995
+    ]
+  },
+  "uncertainty": {
+    "resamples": 2000,
+    "seed": 20261009,
+    "unit": "source file until recording groups verified",
+    "stratify": "scene",
+    "paired": true,
+    "derivatives": "All temporal edits, original windows, seeds and offset controls stay clustered by source; offsets/seeds are not extra independent videos",
+    "scope": "Descriptive 95% percentile intervals conditional on fitted models. No familywise significance claim or recording-independence claim."
+  },
+  "execution_order": [
+    "E8B fold0 seed42 equivalence and all-arm pilot",
+    "E8B all 5 folds and seeds42/43/44 without changing choices",
+    "E9S identity/causality/physical-lag checks and fold0 seed42 pilot",
+    "E9S all 5 folds seeds42/43/44, then stride1 seed42",
+    "E7 real-anchor validation and E9R real process-type evaluation when independent annotations exist",
+    "E10 fresh-recording confirmation"
+  ],
+  "publication": "Publish completed stage numeric artifacts, exclusions, frozen config, code hash and README tables/plots; planned artifacts are not results",
+  "base_config": "../replay_pinned.json",
+  "historical_label_policy": "Fold 0 only; strict-v1 excludes entire R02 testing 12/13/14 with label-length mismatch"
+}

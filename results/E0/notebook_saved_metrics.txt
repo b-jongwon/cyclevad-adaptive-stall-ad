@@ -1,0 +1,17 @@
+  scene             branch  frames  valid_frames  unknown_frames  \
+0   R02           combined    9618          7706            1912   
+1   R02         appearance    9618          7706            1912   
+2   R02  cycle_conditioned    9618          7706            1912   
+
+   anomaly_frames     auroc        ap       fpr    recall  threshold  events  \
+0            2612  0.916316  0.874450  0.010601  0.485452   5.993130      15   
+1            2612  0.796916  0.726953  0.010993  0.365237   5.299983      15   
+2            2612  0.796962  0.727088  0.010993  0.365237   5.299983      15   
+
+   detected_events  event_coverage  median_detected_event_delay_frames  
+0                8        0.533333                                 8.5  
+1                4        0.266667                                 0.5  
+2                4        0.266667                                 0.5                        auroc        ap       fpr    recall  event_coverage
+combined           0.916316  0.874450  0.010601  0.485452        0.533333
+appearance         0.796916  0.726953  0.010993  0.365237        0.266667
+cycle_conditioned  0.796962  0.727088  0.010993  0.365237        0.266667

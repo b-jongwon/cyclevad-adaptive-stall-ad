@@ -1,0 +1,51 @@
+{
+  "version": "e11b-e15a-v1",
+  "status_at_freeze": "planned_not_run",
+  "date_kst": "2026-10-09",
+  "evidence_commit": "33b0adaf211e427e333fd358f8630726c5b14ee1",
+  "scope": [
+    "E11B",
+    "E15A"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "scenes": [
+    "R01",
+    "R02",
+    "R03",
+    "R04"
+  ],
+  "arms": [
+    "B0",
+    "B1",
+    "B2",
+    "B3",
+    "C",
+    "P",
+    "CP"
+  ],
+  "new_arm": "CP=max(C,P)",
+  "primary_contrasts": [
+    "CP-C",
+    "B3-CP"
+  ],
+  "secondary_contrasts": [
+    "B3-C"
+  ],
+  "calibration": "unchanged E11 video-equal D-window thresholds [.90,.95,.975,.99,.995]; primary .99; CP independently calibrated from normal threshold",
+  "frozen_models": "E11 checkpoint, all original six branches preserved; no retraining or test-tuned choices",
+  "replay": "all11730 synthetic cases, new CP delay and W-window alarm duration recomputed; saved seven-arm edited windows for verification",
+  "diagnostics": "raw and calibrated eight components, component-own q99 and common Full q99 exceedance; equal-share tied winners; normal phase/startup/pre-post-first-anomaly strata; descriptive only",
+  "summary": "primary seed42 paired source bootstrap2000; seeds43/44 point robustness; all leave-one-scene-out historical macros; E15A fold0 split distributions and all5fold normal OOF rates separately",
+  "later_stages": "E15B/C, E13B, E7B, E14B, E12B and independent data remain pending"
+}

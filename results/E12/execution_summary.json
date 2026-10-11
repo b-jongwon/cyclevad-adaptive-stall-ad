@@ -1,0 +1,35 @@
+{
+  "stage": "E12",
+  "status": "complete",
+  "scene_fold_seed_units": 60,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "scenes": [
+    "R01",
+    "R02",
+    "R03",
+    "R04"
+  ],
+  "wall_seconds_sum": 539.5703011479927,
+  "runtime_scope": "sum of unit fit/evaluation durations; excludes feature extraction, bootstrap/reporting, and invalidated preliminary E11 run; not end-to-end latency",
+  "feature_scope": "reuse pinned local RTX PRO 6000 CUDA feature cache; new statistical fits use CPU 4 threads per job",
+  "source_sha256": {
+    "src/cycle_vad/paper_experiments.py": "f6dd47f804759d32bf2880020bdddcaa6f1a8f35471a90e592e2625c8b8a82af",
+    "src/cycle_vad/paper_subspaces.py": "31d18b7dc772e37760b6e1a0f9df38386c9830e0f7b4178871fc35719ecb4132",
+    "configs/experiments/followup/paper_stage1_v1.json": "4937fee8878fad76e098410cab2d606072e19c2a9424ef2955e4e4b46f93556e"
+  },
+  "package_fingerprints": [
+    "1e5d7240210f25300d7737f11ed51c84deb23e1714e5dc2fa770783472c96d0b",
+    "5adc6e148532b6c3f1fb34e7a8d51495c78717327a688c419611775795031647"
+  ],
+  "completed_heads": 1620,
+  "unavailable_heads": 0,
+  "pca_total_ranks": [
+    8,
+    64
+  ],
+  "fingerprint_note": "Package fingerprints also cover E11 conditional scoring, which changed precision during E12 execution; E12 AppearanceHead scoring did not use that changed function."
+}

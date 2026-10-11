@@ -1,0 +1,34 @@
+{
+  "status": "complete",
+  "scope": [
+    "E11B",
+    "E15A"
+  ],
+  "date_kst": "2026-10-09",
+  "baseline_commit": "33b0adaf211e427e333fd358f8630726c5b14ee1",
+  "scene_fold_seed_units": 60,
+  "synthetic_cases": 11730,
+  "unit_wall_seconds_sum": 258.7341265650757,
+  "timing_scope": "combined E11B and E15A replay/diagnostic work per unit; excludes original features, bootstrap, report and checks; not real-time latency",
+  "frozen_original_six_arms_reproduced": true,
+  "identity_max_error": 0.0,
+  "prefix_max_error": 1.7763568394002505e-15,
+  "feature_device": "pinned local RTX PRO 6000 CUDA cache",
+  "current_compute": "CPU4 threads per job; no encoder refit",
+  "source_sha256": {
+    "src/cycle_vad/paper_diagnostics.py": "91549eaa14421f203ff505810c45556b5989e340ae8aa225561f44aa0948fcd0",
+    "configs/experiments/followup/e11b_e15a_v1.json": "249b5e8f31ac5ea9ae3bbccade31da398ad802d076114590d5295979e5205e91"
+  },
+  "validation": [
+    "results/E11B/validation.txt",
+    "results/E15A/validation.txt",
+    "results/paper_diagnostics_tests.txt"
+  ],
+  "limits": [
+    "existing development data",
+    "no calibration improvements yet",
+    "no independent phase/type annotations",
+    "no new real-world data",
+    "no end-to-end streaming benchmark"
+  ]
+}

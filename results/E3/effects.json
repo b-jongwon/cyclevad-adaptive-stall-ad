@@ -1,0 +1,12 @@
+{
+  "auroc": {
+    "conditional_only": -1.016402766995661e-05,
+    "process_only": 0.022689409879575795,
+    "conditional_on_process": -4.847609204272629e-06
+  },
+  "ap": {
+    "conditional_only": 2.599731891161916e-05,
+    "process_only": 0.02719564054532464,
+    "conditional_on_process": -1.3935257308084203e-06
+  }
+}

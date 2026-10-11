@@ -1,0 +1,62 @@
+{
+  "splits": {
+    "validation": [
+      "R03/training/01",
+      "R03/training/15",
+      "R03/training/19"
+    ],
+    "reference": [
+      "R03/training/07",
+      "R03/training/14",
+      "R03/training/17"
+    ],
+    "threshold": [
+      "R03/training/09",
+      "R03/training/10",
+      "R03/training/21"
+    ],
+    "fit": [
+      "R03/training/02",
+      "R03/training/03",
+      "R03/training/04",
+      "R03/training/05",
+      "R03/training/06",
+      "R03/training/08",
+      "R03/training/11",
+      "R03/training/12",
+      "R03/training/13",
+      "R03/training/16",
+      "R03/training/18",
+      "R03/training/20",
+      "R03/training/22"
+    ]
+  },
+  "thresholds": {
+    "baseline": 5.658984331756306,
+    "global_nn": 1.7072634764514034,
+    "patch_mean": 1.918852368354842,
+    "patch_top": 1.649369353566072,
+    "motion": 1.521599165648777,
+    "ae": 1.5924982483910783,
+    "gru": 1.7860493895745795,
+    "prototype": 1.6783164150087377,
+    "spatial_temporal": 1.5126884142221475,
+    "learned": 1.5787919331696147,
+    "full_features": 1.4782584566741408,
+    "cycle_prototype": 1.6403822727205664,
+    "cycle_full": 1.4931068479352394,
+    "prototype_ema": 1.682144911179528,
+    "full_ema": 1.4610904888033136,
+    "cycle_full_ema": 1.4928962590048527
+  },
+  "alarm_parameters": {
+    "gain": 0.3,
+    "persistence": 1,
+    "stall": true
+  },
+  "test_labels_used_for_training": false,
+  "pretrained_encoder_updated": false,
+  "seconds": 5.002330400000119,
+  "head_scoring_seconds": 0.3164913000014167,
+  "comparisons_are_exploratory_on_previously_inspected_test_set": true
+}

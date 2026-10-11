@@ -1,0 +1,38 @@
+{
+  "phase_bins": 4,
+  "rank_cap_per_bin": 16,
+  "actual_ranks": [
+    16,
+    16,
+    16,
+    16
+  ],
+  "storage_bytes": 835840,
+  "continuous_storage_bytes": 1007872,
+  "bins": [
+    {
+      "rank": 16,
+      "samples": 982,
+      "retained_variance": 0.8007546663284302,
+      "variance_target_met": false
+    },
+    {
+      "rank": 16,
+      "samples": 1008,
+      "retained_variance": 0.7347061038017273,
+      "variance_target_met": false
+    },
+    {
+      "rank": 16,
+      "samples": 1008,
+      "retained_variance": 0.8563269376754761,
+      "variance_target_met": false
+    },
+    {
+      "rank": 16,
+      "samples": 1008,
+      "retained_variance": 0.8810462355613708,
+      "variance_target_met": false
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "status_at_freeze": "configured_before_measurement",
+  "batch_size": 1,
+  "seed": 42,
+  "fold": 0,
+  "frames_per_file": 128,
+  "files": [
+    "R01/training/01",
+    "R01/training/04",
+    "R01/testing/01",
+    "R01/testing/02",
+    "R02/training/02",
+    "R02/training/11",
+    "R02/testing/01",
+    "R02/testing/02",
+    "R03/training/01",
+    "R03/training/04",
+    "R03/testing/01",
+    "R03/testing/02",
+    "R04/training/02",
+    "R04/training/05",
+    "R04/testing/01",
+    "R04/testing/02"
+  ],
+  "warmup": 100,
+  "repetitions": 3,
+  "order": "rotate 4 conditions by repeat",
+  "paced_rates": [
+    30,
+    60
+  ],
+  "paced_frames_per_file": 128,
+  "paced_sources": [
+    "R01/training/01",
+    "R02/training/02",
+    "R03/training/01",
+    "R04/training/02"
+  ],
+  "input_scope": "source JPEG frame sequence; no H264/H265/camera/network capture",
+  "cadence1_scope": "runtime-only sensitivity of frozen stride2 model with dt=1; accuracy/calibration not revalidated",
+  "no_feature_cache_in_timing": true
+}

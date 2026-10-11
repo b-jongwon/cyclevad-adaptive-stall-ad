@@ -1,0 +1,6 @@
+{
+  "all_16_scenes_auroc_identical": true,
+  "all_16_scenes_ap_identical": true,
+  "score_arrays_identical_by_construction": true,
+  "note": "Ranking score and alarm decisions are separate outputs; stall affects alarm only."
+}

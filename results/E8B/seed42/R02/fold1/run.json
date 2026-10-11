@@ -1,0 +1,383 @@
+{
+  "status": "complete",
+  "scene": "R02",
+  "seed": 42,
+  "fold": 1,
+  "splits": {
+    "validation": [
+      "R02/training/28",
+      "R02/training/27",
+      "R02/training/13",
+      "R02/training/11"
+    ],
+    "reference": [
+      "R02/training/15",
+      "R02/training/04",
+      "R02/training/25",
+      "R02/training/09"
+    ],
+    "threshold": [
+      "R02/training/19",
+      "R02/training/10",
+      "R02/training/02",
+      "R02/training/24"
+    ],
+    "fit": [
+      "R02/training/12",
+      "R02/training/03",
+      "R02/training/05",
+      "R02/training/30",
+      "R02/training/17",
+      "R02/training/08",
+      "R02/training/16",
+      "R02/training/26",
+      "R02/training/14",
+      "R02/training/06",
+      "R02/training/18",
+      "R02/training/20"
+    ],
+    "normal_evaluation": [
+      "R02/training/07",
+      "R02/training/21",
+      "R02/training/29",
+      "R02/training/01",
+      "R02/training/23",
+      "R02/training/22"
+    ]
+  },
+  "models": [
+    {
+      "arm": "M0",
+      "harmonics": 0,
+      "ridge": 0.01,
+      "rank": 44,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 4.890349128221754,
+        "appearance_conditional": 5.295814236329918
+      }
+    },
+    {
+      "arm": "M1",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 64,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 5.988961416889864,
+        "appearance_conditional": 5.988961416889864
+      }
+    },
+    {
+      "arm": "M2",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 64,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 5.701279344438083,
+        "appearance_conditional": 5.701279344438083
+      }
+    },
+    {
+      "arm": "M3",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 64,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 5.988961416889864,
+        "appearance_conditional": 5.988961416889864
+      }
+    },
+    {
+      "arm": "M4_1101",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 52,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 5.988961416889864,
+        "appearance_conditional": 5.988961416889864
+      }
+    },
+    {
+      "arm": "M4_1102",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 48,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 6.394426524998028,
+        "appearance_conditional": 6.394426524998028
+      }
+    },
+    {
+      "arm": "M4_1103",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 49,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 5.988961416889864,
+        "appearance_conditional": 5.988961416889864
+      }
+    },
+    {
+      "arm": "M4_1104",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 47,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 5.701279344438083,
+        "appearance_conditional": 5.701279344438083
+      }
+    },
+    {
+      "arm": "M4_1105",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 46,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 5.478135793123873,
+        "appearance_conditional": 5.701279344438083
+      }
+    },
+    {
+      "arm": "M0_fixedrank",
+      "harmonics": 0,
+      "ridge": 0.01,
+      "rank": 64,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 5.988961416889864,
+        "appearance_conditional": 5.988961416889864
+      }
+    },
+    {
+      "arm": "M3_fixedrank",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 64,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 5.988961416889864,
+        "appearance_conditional": 5.988961416889864
+      }
+    },
+    {
+      "arm": "M1_retuned",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 64,
+      "selection": [
+        {
+          "harmonics": 2,
+          "ridge": 0.01,
+          "validation_mse": 1.6039957699831575e-05
+        },
+        {
+          "harmonics": 2,
+          "ridge": 0.1,
+          "validation_mse": 1.7683372789178975e-05
+        },
+        {
+          "harmonics": 2,
+          "ridge": 1.0,
+          "validation_mse": 3.424970054766163e-05
+        },
+        {
+          "harmonics": 4,
+          "ridge": 0.01,
+          "validation_mse": 1.2348571544862352e-05
+        },
+        {
+          "harmonics": 4,
+          "ridge": 0.1,
+          "validation_mse": 1.4190119145496283e-05
+        },
+        {
+          "harmonics": 4,
+          "ridge": 1.0,
+          "validation_mse": 3.235272379242815e-05
+        },
+        {
+          "harmonics": 8,
+          "ridge": 0.01,
+          "validation_mse": 1.0156018106499687e-05
+        },
+        {
+          "harmonics": 8,
+          "ridge": 0.1,
+          "validation_mse": 1.21137491078116e-05
+        },
+        {
+          "harmonics": 8,
+          "ridge": 1.0,
+          "validation_mse": 3.124513750663027e-05
+        }
+      ],
+      "thresholds": {
+        "conditional_only": 5.988961416889864,
+        "appearance_conditional": 5.988961416889864
+      }
+    },
+    {
+      "arm": "M2_retuned",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 64,
+      "selection": [
+        {
+          "harmonics": 2,
+          "ridge": 0.01,
+          "validation_mse": 1.4141719475446735e-05
+        },
+        {
+          "harmonics": 2,
+          "ridge": 0.1,
+          "validation_mse": 1.5274494217010215e-05
+        },
+        {
+          "harmonics": 2,
+          "ridge": 1.0,
+          "validation_mse": 3.213660966139287e-05
+        },
+        {
+          "harmonics": 4,
+          "ridge": 0.01,
+          "validation_mse": 1.0068761184811592e-05
+        },
+        {
+          "harmonics": 4,
+          "ridge": 0.1,
+          "validation_mse": 1.132175384555012e-05
+        },
+        {
+          "harmonics": 4,
+          "ridge": 1.0,
+          "validation_mse": 2.9910404919064604e-05
+        },
+        {
+          "harmonics": 8,
+          "ridge": 0.01,
+          "validation_mse": 7.350949999818113e-06
+        },
+        {
+          "harmonics": 8,
+          "ridge": 0.1,
+          "validation_mse": 8.65776019054465e-06
+        },
+        {
+          "harmonics": 8,
+          "ridge": 1.0,
+          "validation_mse": 2.8142960218247026e-05
+        }
+      ],
+      "thresholds": {
+        "conditional_only": 5.701279344438083,
+        "appearance_conditional": 5.701279344438083
+      }
+    },
+    {
+      "arm": "M3_retuned",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 64,
+      "selection": [
+        {
+          "harmonics": 2,
+          "ridge": 0.01,
+          "validation_mse": 1.4592214029107708e-05
+        },
+        {
+          "harmonics": 2,
+          "ridge": 0.1,
+          "validation_mse": 1.5716108464403078e-05
+        },
+        {
+          "harmonics": 2,
+          "ridge": 1.0,
+          "validation_mse": 3.2449665013700724e-05
+        },
+        {
+          "harmonics": 4,
+          "ridge": 0.01,
+          "validation_mse": 1.0550005754339509e-05
+        },
+        {
+          "harmonics": 4,
+          "ridge": 0.1,
+          "validation_mse": 1.1790232747443952e-05
+        },
+        {
+          "harmonics": 4,
+          "ridge": 1.0,
+          "validation_mse": 3.0238545150496066e-05
+        },
+        {
+          "harmonics": 8,
+          "ridge": 0.01,
+          "validation_mse": 7.839318641345017e-06
+        },
+        {
+          "harmonics": 8,
+          "ridge": 0.1,
+          "validation_mse": 9.134647370956372e-06
+        },
+        {
+          "harmonics": 8,
+          "ridge": 1.0,
+          "validation_mse": 2.8628339350689203e-05
+        }
+      ],
+      "thresholds": {
+        "conditional_only": 5.988961416889864,
+        "appearance_conditional": 5.988961416889864
+      }
+    }
+  ],
+  "M0_translation_score_max_abs_error": {
+    "fit": 4.38690185546875e-05,
+    "normal_evaluation": 3.24249267578125e-05
+  },
+  "M0_fusion_equivalence": true,
+  "M3_mean_equivalence": true,
+  "code_fingerprint": "90df7f8c7fd5ddf8bc4bb5460819fb7665fc44d819736d9e5990cdec24192889",
+  "protocol_sha256": "03c87d9e81f0b7c1bfde36fd03fddf2dcc331e714704de56689a917b723aaa5a",
+  "cache_signatures": {
+    "R02/training/28": "ed4686778cb892da97838d3a5fb96e00f2902e0556209809dcac33e0c25410fc",
+    "R02/training/27": "dc47d091d56562f0cd399263f4b249e3347b707fec0ebead866214c51ddb9e34",
+    "R02/training/13": "1cf4a6f085a40aa9e293964056c85ef050f7e788cd6f1831ac6d70d52c9d478d",
+    "R02/training/11": "852c29800367044725e809f51ec06583979bd690951fe77622b53c2283bcf043",
+    "R02/training/15": "0069e2cb7c79122f454a863e9cd895955a5608c4db76662003592f9281aba1f1",
+    "R02/training/04": "ae34cf74e28b4b57a97389388b199473977c1cee8fa89541d9ffb144634535f7",
+    "R02/training/25": "e2068b0810e641f2e8cc58aa1a55cdc74a21cd5e4aeab5882703c6d22458132b",
+    "R02/training/09": "a33b4adc57140a4121a13caa5bfcd458b85add6740a8936725e82417a831f936",
+    "R02/training/19": "23c23539dffa2973d77afba559a16894716d1f2ba35aa7fbc55cdfd3f4cb7774",
+    "R02/training/10": "b324dcab4dc9ac65a2b4675493c5269be3f6bd673ba04b0fe48f74e8d6c3a028",
+    "R02/training/02": "9ba9458134868375ce2fa89d15efbc01b243501270405a5182492ce0f3c8ced3",
+    "R02/training/24": "ea6df8113fdea60f003ea4687dca8fbcdde6a7c61cdcca63cd0063c30d0f8ba8",
+    "R02/training/12": "5fb40b6c52870396ba52d85eabb9989fbc88205b5471900215099fa221fa5379",
+    "R02/training/03": "5f066e51b3c4dcfe99345097390b713d5fce31b89b0788bc5bbc38be1d9c4921",
+    "R02/training/05": "2e11e7a3aeb68d4c2e984e50c20a94f351f1937ab7d9c1f6b505ccfbdd684ecd",
+    "R02/training/30": "c6c8c84eac6f6347742aca8027c0d200fa26d09ff0e27d2c8f851148c34d4724",
+    "R02/training/17": "8baee920e58a3064214a5c422133131b4bb173a0bfcd2cf31103d32b0e6b0944",
+    "R02/training/08": "13672a3b0c9b51b282c6c815b0c5cca9c175c99daa9f7825b289c98d7fdfb0b3",
+    "R02/training/16": "193aedc8fb4dfbc7074cf7e4ce1d260f71f03e5a9ba9959d8956e30e241bb2f0",
+    "R02/training/26": "1fbfe222c20e7cb645a61bfce93408288b9700bfd13b5d83bc69073cf10a12db",
+    "R02/training/14": "39f8d63d327c05096a5ac7b5c2005f4d20857e26a9b04e1637cb20380bbc9bb6",
+    "R02/training/06": "4341a7038fd2671404fd4a3fa2bb26658f7dcc07ddc7ecfe244e86642a1ea0eb",
+    "R02/training/18": "a94f5f1c19e885a0d9ab1eab704d8238d7d53375f2d5e1dc42538246f07b2f91",
+    "R02/training/20": "37d0a39221a190b69b3bc0d55530d55304058767c359d151fe78c001ba5f63b3",
+    "R02/training/07": "e5fcd40e771f605717153052b69bb87b692c9a0146944909f3b10f07e15f0daf",
+    "R02/training/21": "0653ba8889d333446624c995501e823ef123548bc17698003413ab1f266c977f",
+    "R02/training/29": "0190abe25b9cc1aed5abb7dddce7011e5f128dc039be34ec20991965b9d41f81",
+    "R02/training/01": "f529d2e81c27d9113972668041ca7aed1d99e05b09eb44d9d01b0cff5bbf2c5c",
+    "R02/training/23": "92036f2c046a35fe023a48a56c8a46ad066807f68993dc7b88cbfe53eefa1a98",
+    "R02/training/22": "b0b1bc24bce73c16de3d25a81c615c9b8572fc2a5a8e76dc3141de777c58a266"
+  },
+  "wall_seconds": 11.016687519004336
+}

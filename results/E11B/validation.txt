@@ -1,0 +1,2 @@
+PASS E11B: 60 units, 6657 per-video/arm metrics; original6 score arrays unchanged; all11730 synthetic windows/delays/durations independently recomputed.
+PASS E11B: normal thresholds recomputed, frozen checkpoint hashes verified, max replay/prefix error 1.78e-15.

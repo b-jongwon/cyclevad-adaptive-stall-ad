@@ -1,0 +1,65 @@
+{
+  "splits": {
+    "validation": [
+      "R04/training/03",
+      "R04/training/11",
+      "R04/training/18",
+      "R04/training/22"
+    ],
+    "reference": [
+      "R04/training/07",
+      "R04/training/12",
+      "R04/training/14",
+      "R04/training/16"
+    ],
+    "threshold": [
+      "R04/training/05",
+      "R04/training/19",
+      "R04/training/23",
+      "R04/training/24"
+    ],
+    "fit": [
+      "R04/training/01",
+      "R04/training/02",
+      "R04/training/04",
+      "R04/training/06",
+      "R04/training/08",
+      "R04/training/09",
+      "R04/training/10",
+      "R04/training/13",
+      "R04/training/15",
+      "R04/training/17",
+      "R04/training/20",
+      "R04/training/21",
+      "R04/training/25"
+    ]
+  },
+  "thresholds": {
+    "baseline": 5.905361848054571,
+    "global_nn": 1.400579270381412,
+    "patch_mean": 1.4958245046390182,
+    "patch_top": 1.2939776566533157,
+    "motion": 1.8265174615944877,
+    "ae": 1.3831873182499697,
+    "gru": 1.5740014536754303,
+    "prototype": 1.316108118235424,
+    "spatial_temporal": 1.342283130125661,
+    "learned": 1.4323910031091178,
+    "full_features": 1.2801131088123414,
+    "cycle_prototype": 1.4504749961911187,
+    "cycle_full": 1.3277617063741773,
+    "prototype_ema": 1.1340975942390576,
+    "full_ema": 1.091733411395237,
+    "cycle_full_ema": 1.1406616737015864
+  },
+  "alarm_parameters": {
+    "gain": 0.3,
+    "persistence": 1,
+    "stall": true
+  },
+  "test_labels_used_for_training": false,
+  "pretrained_encoder_updated": false,
+  "seconds": 3.450317499999983,
+  "head_scoring_seconds": 0.24849509999876318,
+  "comparisons_are_exploratory_on_previously_inspected_test_set": true
+}

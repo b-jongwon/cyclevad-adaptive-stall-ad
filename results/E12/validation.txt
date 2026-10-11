@@ -1,0 +1,2 @@
+PASS E12: 60 units, 1620 completed heads, 51354 per-video/readout metrics; frame thresholds recomputed.
+PASS E12: nested FIT-only subsets, identical total ranks across PCA conditions, explicit unavailable status; frozen full-data tracker scope.

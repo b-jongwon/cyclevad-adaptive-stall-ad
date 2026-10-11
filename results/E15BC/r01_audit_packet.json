@@ -1,0 +1,9 @@
+{
+  "status": "packet_prepared_human_review_required",
+  "clips": 43,
+  "uniform_clips": 23,
+  "score_enriched_clips": 20,
+  "independent_human_reviews_completed": 0,
+  "viewer": "runs/r01_audit/index.html",
+  "original_images_published": false
+}

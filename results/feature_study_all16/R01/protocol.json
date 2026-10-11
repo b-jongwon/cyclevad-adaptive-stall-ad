@@ -1,0 +1,74 @@
+{
+  "splits": {
+    "validation": [
+      "R01/training/03",
+      "R01/training/07",
+      "R01/training/19",
+      "R01/training/24",
+      "R01/training/27"
+    ],
+    "reference": [
+      "R01/training/12",
+      "R01/training/14",
+      "R01/training/18",
+      "R01/training/33",
+      "R01/training/34"
+    ],
+    "threshold": [
+      "R01/training/09",
+      "R01/training/10",
+      "R01/training/11",
+      "R01/training/22",
+      "R01/training/25"
+    ],
+    "fit": [
+      "R01/training/01",
+      "R01/training/02",
+      "R01/training/04",
+      "R01/training/05",
+      "R01/training/06",
+      "R01/training/08",
+      "R01/training/13",
+      "R01/training/15",
+      "R01/training/16",
+      "R01/training/17",
+      "R01/training/20",
+      "R01/training/21",
+      "R01/training/23",
+      "R01/training/26",
+      "R01/training/28",
+      "R01/training/29",
+      "R01/training/30",
+      "R01/training/31",
+      "R01/training/32"
+    ]
+  },
+  "thresholds": {
+    "baseline": 5.105079298012732,
+    "global_nn": 1.6013950539276616,
+    "patch_mean": 1.4617078695152017,
+    "patch_top": 1.6013950539276616,
+    "motion": 1.8968242040392622,
+    "ae": 1.4729558836362302,
+    "gru": 1.3356572211576936,
+    "prototype": 1.5089991323531442,
+    "spatial_temporal": 1.5016932263435754,
+    "learned": 1.3916720421459252,
+    "full_features": 1.4446324473746905,
+    "cycle_prototype": 1.391864720197016,
+    "cycle_full": 1.3798144481020436,
+    "prototype_ema": 1.4907193707210902,
+    "full_ema": 1.38981603562465,
+    "cycle_full_ema": 1.3479561416152772
+  },
+  "alarm_parameters": {
+    "gain": 0.3,
+    "persistence": 1,
+    "stall": true
+  },
+  "test_labels_used_for_training": false,
+  "pretrained_encoder_updated": false,
+  "seconds": 5.636745999999675,
+  "head_scoring_seconds": 0.09839180000017222,
+  "comparisons_are_exploratory_on_previously_inspected_test_set": true
+}

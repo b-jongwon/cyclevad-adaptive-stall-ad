@@ -1,0 +1,1 @@
+PASS E15B0: 60 units, 198 seed-specific historical events; original C/CP delays and normal grid alarms reproduced; OR preservation and normal cost identity verified.

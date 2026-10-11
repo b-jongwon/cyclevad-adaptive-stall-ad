@@ -1,0 +1,194 @@
+{
+  "status": "complete",
+  "scene": "R04",
+  "seed": 42,
+  "fold": 3,
+  "stride": 1,
+  "splits": {
+    "validation": [
+      "R04/training/07",
+      "R04/training/03",
+      "R04/training/17"
+    ],
+    "reference": [
+      "R04/training/24",
+      "R04/training/13",
+      "R04/training/20"
+    ],
+    "threshold": [
+      "R04/training/06",
+      "R04/training/11",
+      "R04/training/16"
+    ],
+    "fit": [
+      "R04/training/19",
+      "R04/training/04",
+      "R04/training/15",
+      "R04/training/09",
+      "R04/training/18",
+      "R04/training/02",
+      "R04/training/25",
+      "R04/training/01",
+      "R04/training/05",
+      "R04/training/08",
+      "R04/training/14"
+    ],
+    "normal_evaluation": [
+      "R04/training/22",
+      "R04/training/12",
+      "R04/training/21",
+      "R04/training/23",
+      "R04/training/10"
+    ]
+  },
+  "T": 408.0,
+  "D": 82,
+  "W": 163,
+  "arms": [
+    "P0",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "P8",
+    "P9"
+  ],
+  "threshold_quantiles": [
+    0.9,
+    0.95,
+    0.975,
+    0.99,
+    0.995
+  ],
+  "window_thresholds": [
+    [
+      7.060778480979756,
+      7.060778480979756,
+      7.060778480979756,
+      7.959328024778778,
+      7.959328024778778,
+      7.060778480979756,
+      7.060778480979756,
+      7.060778480979756,
+      7.959328024778778,
+      7.060778480979756
+    ],
+    [
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819
+    ],
+    [
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819
+    ],
+    [
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819
+    ],
+    [
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819,
+      8.323101396176819
+    ]
+  ],
+  "frame_thresholds": [
+    5.10594547390058,
+    5.10594547390058,
+    5.665561261836003,
+    7.368735683421345,
+    7.368735683421345,
+    5.665561261836003,
+    5.437209365414642,
+    5.442417710521793,
+    7.368735683421345,
+    5.442417710521793
+  ],
+  "threshold_window_counts": {
+    "R04/training/06": 9,
+    "R04/training/11": 6,
+    "R04/training/16": 7
+  },
+  "AR1_selection": [
+    {
+      "ridge": 0.01,
+      "normal_validation_mse": 0.17844693662729996
+    },
+    {
+      "ridge": 0.1,
+      "normal_validation_mse": 0.18263954864185092
+    },
+    {
+      "ridge": 1.0,
+      "normal_validation_mse": 0.3203631518114596
+    }
+  ],
+  "AR1_selected_ridge": 0.01,
+  "identity_max_score_error": 0.0,
+  "edited_cases": 176,
+  "normal_sources": 5,
+  "code_fingerprint": "90df7f8c7fd5ddf8bc4bb5460819fb7665fc44d819736d9e5990cdec24192889",
+  "protocol_sha256": "03c87d9e81f0b7c1bfde36fd03fddf2dcc331e714704de56689a917b723aaa5a",
+  "cache_signatures": {
+    "R04/training/07": "07a77104dc7618ad0a91b921854275a5a500af40c776dc41cf689345899a0e27",
+    "R04/training/03": "f2ce4964691c7d070a216ffeb41249e01251c1ac2eada1ac4997067232976121",
+    "R04/training/17": "c2f488bb335aaad64a74a52122091f2f318df92aa28b6619dde1c8559cb84d1b",
+    "R04/training/24": "ad51084ef47703583dfc4dbb1e515c50ad9ed9164a1c11a926968dceb979a62a",
+    "R04/training/13": "45361268296292afb236fa8918e13f09264d73f8f0192c1a20775628c7f14984",
+    "R04/training/20": "66b9e1092573e70fa3f8cf87a0cbdfa42676b56ef252c99c72af1e7a53bc232a",
+    "R04/training/06": "f6143bf6700a63fdb7a85aa1e4fde6e6b49c8d144da3728705adb69d6a2e51dd",
+    "R04/training/11": "df1048722a6be2f2b1b0788776223c20015ffe2574f4f2a092a405fdf6dc74d1",
+    "R04/training/16": "4792217e3dbeabb4bbc6603d0d3011ffcd65b803379dd07be8ebaabe20a8b000",
+    "R04/training/19": "567cd2928f12f50b58ca06395de26c493560a4c76d66c3173bda3d78eea0f80d",
+    "R04/training/04": "0b0c3ee631cd6a04e04ee34841c87e2a9ddce3c9c87bea6cb5b0e096f385ea7f",
+    "R04/training/15": "934ee26c343a848c09327f890b64b26ce6ef8b88defb8da191ee7615b5133784",
+    "R04/training/09": "a2141356a0ba52e143a32c9858ad110e23dd306e33cd1379ed28af3bc7c61df3",
+    "R04/training/18": "d26ab708627190f9bcf428fb26e344cd4dc36e487e4b0687fbd76577573291ea",
+    "R04/training/02": "e5ada20feac2ea0de72b27d904b0604d539e8c224fe08c7b6486a4b7363de599",
+    "R04/training/25": "9bf138455f888179d2bbe1efa8f288144fbabe4de0f93c2c76e6d4bb57d3d5a1",
+    "R04/training/01": "0788ab5b20043471adefb0ea32fc5be5d73a81fc8efc6156e89e1f5b58e96bf0",
+    "R04/training/05": "844cd4fe7919aee5bcbcd56465ea7a5d332b90dc66a97e5bd0f2115f59481233",
+    "R04/training/08": "53b03d31429d01c89a18a839db8f4aa97c2ad33a61c1315b97d969f5cb7c2830",
+    "R04/training/14": "179cb4cfd50a48e3018a6a2ec70e43100566334a45c33ce6e686a262da8df313",
+    "R04/training/22": "434a77626fae05286a56b9301de7230806bdcf5093e9d9e6cd6f95d0d671b727",
+    "R04/training/12": "74f5fd2549192603c268424f7d65b0403401d6d0af6c3f39b87e1e8be021d040",
+    "R04/training/21": "3cfc9af0214995eda83d6621bc53075f95543dc944a84d2953cc6aeb28ba9654",
+    "R04/training/23": "2a4b623b57e40323c488c950f0e4177c04d95d1c9d7e807725ba2d159ae0a3eb",
+    "R04/training/10": "a921b8b23590a75bc91585be9db71caace20785a951bf0ccdc3f6842774dae9f"
+  },
+  "wall_seconds": 7.10153672900924,
+  "claim_scope": "Controlled temporal edits, not verified industrial fault types or phase accuracy"
+}

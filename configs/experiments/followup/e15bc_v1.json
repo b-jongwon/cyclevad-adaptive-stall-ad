@@ -1,0 +1,21 @@
+{
+  "protocol": "E15B0_E15BC_v1",
+  "status_at_freeze": "planned_before_execution",
+  "baseline_commit": "4e5808bd14bf4df8f73dd5807e8ac03e46671047",
+  "design": "docs/PAPER_NEXT_EXPERIMENTS_20261009.md",
+  "seeds": [42,43,44],
+  "scenes": ["R01","R02","R03","R04"],
+  "folds": [0,1,2,3,4],
+  "historical_fold": 0,
+  "alphas": [0.01,0.05,0.10],
+  "policies": ["C","MAX","OR75","OR50","ORfree"],
+  "calibrations": ["G0","G1"],
+  "primary_alpha": 0.01,
+  "ORfree_role": "unbudgeted preservation diagnostic; not same-budget improvement",
+  "G1": "video-equal reference midrank CDF; frozen G0 N smoothing, maximum and extrapolation scale",
+  "selection": "none; report all frozen candidates; no historical or synthetic label selection",
+  "bootstrap": {"resamples":2000,"seed":20261009,"model_seed":42,"unit":"paired original source file within scene; edits clustered"},
+  "hardware": "local RTX PRO 6000 frozen CUDA features; statistical replay CPU",
+  "unchanged": ["FIT","VAL","REF","THR","normal_evaluation","checkpoint","stride2","startup32","T","D","W","case_manifest","strict_v1_labels"],
+  "deferred": ["confidence_gate","phase_conditional_calibration","independent_human_annotations","new_recordings"]
+}

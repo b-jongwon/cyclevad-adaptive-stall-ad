@@ -1,0 +1,2 @@
+PASS E8B: 60 scene-fold-seed units, 640 arm models, 20288 per-video/readout metrics replayed.
+PASS E8B: disjoint splits, frozen hyperparameters across seeds/arms, exact common fixed rank, M0/M3 equivalence checks.

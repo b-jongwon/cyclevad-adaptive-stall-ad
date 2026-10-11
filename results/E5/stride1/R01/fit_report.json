@@ -1,0 +1,151 @@
+{
+  "conditional_subspace": {
+    "rank": 64,
+    "samples": 4076,
+    "retained_variance": 0.7481529116630554,
+    "variance_target_met": false
+  },
+  "pooled_subspace": {
+    "rank": 64,
+    "samples": 4076,
+    "retained_variance": 0.8287938237190247,
+    "variance_target_met": false
+  },
+  "cycle": {
+    "normal_cycle_candidates": 19,
+    "median_period_source_frames": 232.0,
+    "template_temperature": 0.2607634205332699,
+    "period_q10_q90": [
+      225.2,
+      234.4
+    ]
+  },
+  "mean_fit_cycle_confidence": 0.1753568597197941,
+  "selected_harmonics": 8,
+  "selected_ridge": 0.01,
+  "selection": [
+    {
+      "harmonics": 2,
+      "ridge": 0.01,
+      "normal_validation_mse": 7.965269105625339e-06
+    },
+    {
+      "harmonics": 2,
+      "ridge": 0.1,
+      "normal_validation_mse": 8.944063665694557e-06
+    },
+    {
+      "harmonics": 2,
+      "ridge": 1.0,
+      "normal_validation_mse": 1.120082197303418e-05
+    },
+    {
+      "harmonics": 4,
+      "ridge": 0.01,
+      "normal_validation_mse": 7.348803592321929e-06
+    },
+    {
+      "harmonics": 4,
+      "ridge": 0.1,
+      "normal_validation_mse": 8.472315130347852e-06
+    },
+    {
+      "harmonics": 4,
+      "ridge": 1.0,
+      "normal_validation_mse": 1.1091008673247416e-05
+    },
+    {
+      "harmonics": 8,
+      "ridge": 0.01,
+      "normal_validation_mse": 7.30909869162133e-06
+    },
+    {
+      "harmonics": 8,
+      "ridge": 0.1,
+      "normal_validation_mse": 8.386382432945538e-06
+    },
+    {
+      "harmonics": 8,
+      "ridge": 1.0,
+      "normal_validation_mse": 1.1045987776014954e-05
+    }
+  ],
+  "thresholds": {
+    "combined": 5.255757752129241,
+    "appearance": 4.21430387730108,
+    "cycle_conditioned": 4.21430387730108
+  },
+  "scene": "R01",
+  "splits": {
+    "validation": [
+      "R01/training/03",
+      "R01/training/07",
+      "R01/training/19",
+      "R01/training/24",
+      "R01/training/27"
+    ],
+    "reference": [
+      "R01/training/12",
+      "R01/training/14",
+      "R01/training/18",
+      "R01/training/33",
+      "R01/training/34"
+    ],
+    "threshold": [
+      "R01/training/09",
+      "R01/training/10",
+      "R01/training/11",
+      "R01/training/22",
+      "R01/training/25"
+    ],
+    "fit": [
+      "R01/training/01",
+      "R01/training/02",
+      "R01/training/04",
+      "R01/training/05",
+      "R01/training/06",
+      "R01/training/08",
+      "R01/training/13",
+      "R01/training/15",
+      "R01/training/16",
+      "R01/training/17",
+      "R01/training/20",
+      "R01/training/21",
+      "R01/training/23",
+      "R01/training/26",
+      "R01/training/28",
+      "R01/training/29",
+      "R01/training/30",
+      "R01/training/31",
+      "R01/training/32"
+    ]
+  },
+  "cycle_coordinate_sources": {
+    "R01/training/01": "weak_recording_alignment",
+    "R01/training/02": "weak_recording_alignment",
+    "R01/training/04": "weak_recording_alignment",
+    "R01/training/05": "weak_recording_alignment",
+    "R01/training/06": "weak_recording_alignment",
+    "R01/training/08": "weak_recording_alignment",
+    "R01/training/13": "weak_recording_alignment",
+    "R01/training/15": "weak_recording_alignment",
+    "R01/training/16": "weak_recording_alignment",
+    "R01/training/17": "weak_recording_alignment",
+    "R01/training/20": "weak_recording_alignment",
+    "R01/training/21": "weak_recording_alignment",
+    "R01/training/23": "weak_recording_alignment",
+    "R01/training/26": "weak_recording_alignment",
+    "R01/training/28": "weak_recording_alignment",
+    "R01/training/29": "weak_recording_alignment",
+    "R01/training/30": "weak_recording_alignment",
+    "R01/training/31": "weak_recording_alignment",
+    "R01/training/32": "weak_recording_alignment"
+  },
+  "recording_groups_provided": false,
+  "group_independence_verified": false,
+  "fit_calibrate_seconds": 6.941068453998014,
+  "normal_only_model_selection": true,
+  "cycle_accuracy": null,
+  "real_anomaly_performance": "not_yet_evaluated",
+  "frame_time_unit": "source_frame_index"
+}

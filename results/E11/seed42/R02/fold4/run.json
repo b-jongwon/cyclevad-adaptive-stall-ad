@@ -1,0 +1,204 @@
+{
+  "status": "complete",
+  "scene": "R02",
+  "fold": 4,
+  "seed": 42,
+  "arms": [
+    "B0",
+    "B1",
+    "B2",
+    "B3",
+    "C",
+    "P"
+  ],
+  "splits": {
+    "validation": [
+      "R02/training/18",
+      "R02/training/26",
+      "R02/training/27",
+      "R02/training/08"
+    ],
+    "reference": [
+      "R02/training/28",
+      "R02/training/20",
+      "R02/training/05",
+      "R02/training/21"
+    ],
+    "threshold": [
+      "R02/training/01",
+      "R02/training/17",
+      "R02/training/02",
+      "R02/training/14"
+    ],
+    "fit": [
+      "R02/training/11",
+      "R02/training/06",
+      "R02/training/22",
+      "R02/training/24",
+      "R02/training/23",
+      "R02/training/10",
+      "R02/training/07",
+      "R02/training/13",
+      "R02/training/15",
+      "R02/training/29",
+      "R02/training/12",
+      "R02/training/25"
+    ],
+    "normal_evaluation": [
+      "R02/training/03",
+      "R02/training/30",
+      "R02/training/19",
+      "R02/training/16",
+      "R02/training/09",
+      "R02/training/04"
+    ]
+  },
+  "T": 593.0,
+  "D": 119,
+  "W": 237,
+  "harmonics": 8,
+  "ridge": 0.01,
+  "mean_selection": [
+    {
+      "harmonics": 2,
+      "ridge": 0.01,
+      "validation_mse": 1.4336823369376361e-05
+    },
+    {
+      "harmonics": 2,
+      "ridge": 0.1,
+      "validation_mse": 1.538181459181942e-05
+    },
+    {
+      "harmonics": 2,
+      "ridge": 1.0,
+      "validation_mse": 3.196464604116045e-05
+    },
+    {
+      "harmonics": 4,
+      "ridge": 0.01,
+      "validation_mse": 1.0391901014372706e-05
+    },
+    {
+      "harmonics": 4,
+      "ridge": 0.1,
+      "validation_mse": 1.1488035852380563e-05
+    },
+    {
+      "harmonics": 4,
+      "ridge": 1.0,
+      "validation_mse": 2.9613220249302685e-05
+    },
+    {
+      "harmonics": 8,
+      "ridge": 0.01,
+      "validation_mse": 7.728435775788967e-06
+    },
+    {
+      "harmonics": 8,
+      "ridge": 0.1,
+      "validation_mse": 8.893228368833661e-06
+    },
+    {
+      "harmonics": 8,
+      "ridge": 1.0,
+      "validation_mse": 2.7902629881282337e-05
+    }
+  ],
+  "window_thresholds": [
+    [
+      5.699607103245721,
+      5.699607103245721,
+      5.699607103245721,
+      5.699607103245721,
+      5.139991315310298,
+      4.8886768870293915
+    ],
+    [
+      5.9872891756975015,
+      6.392754283805666,
+      5.9872891756975015,
+      6.392754283805666,
+      6.392754283805666,
+      5.476463551931511
+    ],
+    [
+      5.9872891756975015,
+      6.392754283805666,
+      5.9872891756975015,
+      6.392754283805666,
+      6.392754283805666,
+      5.476463551931511
+    ],
+    [
+      5.9872891756975015,
+      6.392754283805666,
+      5.9872891756975015,
+      6.392754283805666,
+      6.392754283805666,
+      5.476463551931511
+    ],
+    [
+      5.9872891756975015,
+      6.392754283805666,
+      5.9872891756975015,
+      6.392754283805666,
+      6.392754283805666,
+      5.476463551931511
+    ]
+  ],
+  "frame_thresholds": [
+    5.699607103245721,
+    5.699607103245721,
+    5.9872891756975015,
+    5.9872891756975015,
+    5.294141995137556,
+    5.476463551931511
+  ],
+  "threshold_window_counts": {
+    "R02/training/01": 9,
+    "R02/training/17": 8,
+    "R02/training/02": 8,
+    "R02/training/14": 8
+  },
+  "edited_cases": 213,
+  "identity_max_error": 0.0,
+  "score_prefix_max_error": 0.0,
+  "tracker_prefix_invariance": true,
+  "conditional_rank": 64,
+  "protocol_sha256": "8aeaac7ab365e411d37c034c297dff7a033f6223423f63c07affe74f1a07a4b1",
+  "code_fingerprint": "1e5d7240210f25300d7737f11ed51c84deb23e1714e5dc2fa770783472c96d0b",
+  "cache_signatures": {
+    "R02/training/18": "583259be2392650493010c8d459b772d495ab10fa1ed9a8f92e63d3f612f99a1",
+    "R02/training/26": "1d8dbe89c24d366ff1cef43110bbe6a58e286b71ed6903da0db31a4d498d70f0",
+    "R02/training/27": "55026c052269759128bf3b3a07618cd3c7c66bd2b72f09af684c45850873975a",
+    "R02/training/08": "24411599b2638e216d0bf94650ef6c160520e34d50ebe5e738b4b26ce5c596b9",
+    "R02/training/28": "e874396c46cc5a856c63feba64a27491a4a7535ae53366127905c6893fbd2fdf",
+    "R02/training/20": "7ea93eb9f3c6cd4d87b8e445043455f8f2723b5d217ce3894ceb2dcc946e6e0b",
+    "R02/training/05": "55268f2753d7891babd5c33a64258a2f7f2f5c5fa8175c2cf8ab4ffb86e1b281",
+    "R02/training/21": "5c02f1e2453f619c5c6764553e57956492495c217fb10043a1766c48133c6695",
+    "R02/training/01": "03343de71e3ea6ab0afd7f6cc32b90d6283d0156e086cb2d72512b023394f788",
+    "R02/training/17": "9cae48eac7b3bf21a0ae41ef97834d3c66f5f38a3c32a2bd759d56879d6edcd1",
+    "R02/training/02": "1d91701ede598156631aef0658fb71130e9331653e1bdca6198084a7b13dba77",
+    "R02/training/14": "af81414d1a119fce0d12f69fb03faa9ba239de653c698c85ff400330b958bb71",
+    "R02/training/11": "f63940d805511bbaf4f124f73d5e3ea22ab615f855f19017b70dd6c3fedf6d17",
+    "R02/training/06": "688cdf99636b4fd8b07e612e636bc15d70d0dc841390102c82398b837f7227f3",
+    "R02/training/22": "b97b0e6706af78f0a1b602c58030900a9b7534d5b4fe76a506e535e981669d63",
+    "R02/training/24": "8b38deef77ee1735bb6f970cbffd60c4852ca4855ed31466571a1f2a32a78f3c",
+    "R02/training/23": "c1e0bad6203c3d77088800981c69f57754f86ce791a99378087432f28875f07e",
+    "R02/training/10": "3258c04258b483b01e635e9da7d765e3136550366118698bca9fbc5a0be55693",
+    "R02/training/07": "4248369fbb60c8665120b8b7ef83b62502f2581b65574b3a5e65a8a5137718bd",
+    "R02/training/13": "7ee39210ff6a8cec4942c49e9e67e0fd2f22ad1fd12b55e7ffc9ed5d24a6ad15",
+    "R02/training/15": "42e7ae680ca739d9ed8a2d14858a7d50480496f6b348f460ef449f97945b635a",
+    "R02/training/29": "fac74db0278e3f669823191e218e86900d03617fa36994577a66f41cd86b4d3e",
+    "R02/training/12": "029d04d1ed5ea3c459d395022c34fbd2edd2680d33d26565f643ac247987a2b2",
+    "R02/training/25": "3e017ca7d8bf9bc75ca2398b8736304ebdff12149320b0cad461d27b4d96f674",
+    "R02/training/03": "f1a154beaf5997f7570f9e815839327bb358e35a51c1e532bd5f485e08503ceb",
+    "R02/training/30": "36f98abbdf6d349dad1f9d9033e0ff19b80dabc0afe7a8d79776f75f2fb29ae5",
+    "R02/training/19": "1923bd31d027ee0812a453e051c89995d19f5407a3a99ce5e78b2f3136fb83b0",
+    "R02/training/16": "41826f2ece2257235b198273afdd37994c6a9bf19dd93b19c981c2a2c65d2f87",
+    "R02/training/09": "069ff9b2723441c1f984698512d9a08ba238258898c6bc73afa7cbb56203f220",
+    "R02/training/04": "f1bbdf21756a2adbe8e6065300c87c6ed13897e9e23416b030f8002b5d31de62"
+  },
+  "wall_seconds": 8.27673404799134
+}

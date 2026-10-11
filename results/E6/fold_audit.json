@@ -1,0 +1,246 @@
+{
+  "checks": [
+    {
+      "scene": "R01",
+      "fold": 0,
+      "disjoint": true,
+      "sizes": {
+        "validation": 4,
+        "reference": 4,
+        "threshold": 4,
+        "fit": 15,
+        "normal_evaluation": 7
+      }
+    },
+    {
+      "scene": "R01",
+      "fold": 1,
+      "disjoint": true,
+      "sizes": {
+        "validation": 4,
+        "reference": 4,
+        "threshold": 4,
+        "fit": 15,
+        "normal_evaluation": 7
+      }
+    },
+    {
+      "scene": "R01",
+      "fold": 2,
+      "disjoint": true,
+      "sizes": {
+        "validation": 4,
+        "reference": 4,
+        "threshold": 4,
+        "fit": 15,
+        "normal_evaluation": 7
+      }
+    },
+    {
+      "scene": "R01",
+      "fold": 3,
+      "disjoint": true,
+      "sizes": {
+        "validation": 4,
+        "reference": 4,
+        "threshold": 4,
+        "fit": 15,
+        "normal_evaluation": 7
+      }
+    },
+    {
+      "scene": "R01",
+      "fold": 4,
+      "disjoint": true,
+      "sizes": {
+        "validation": 4,
+        "reference": 4,
+        "threshold": 4,
+        "fit": 16,
+        "normal_evaluation": 6
+      }
+    },
+    {
+      "scene": "R02",
+      "fold": 0,
+      "disjoint": true,
+      "sizes": {
+        "validation": 4,
+        "reference": 4,
+        "threshold": 4,
+        "fit": 12,
+        "normal_evaluation": 6
+      }
+    },
+    {
+      "scene": "R02",
+      "fold": 1,
+      "disjoint": true,
+      "sizes": {
+        "validation": 4,
+        "reference": 4,
+        "threshold": 4,
+        "fit": 12,
+        "normal_evaluation": 6
+      }
+    },
+    {
+      "scene": "R02",
+      "fold": 2,
+      "disjoint": true,
+      "sizes": {
+        "validation": 4,
+        "reference": 4,
+        "threshold": 4,
+        "fit": 12,
+        "normal_evaluation": 6
+      }
+    },
+    {
+      "scene": "R02",
+      "fold": 3,
+      "disjoint": true,
+      "sizes": {
+        "validation": 4,
+        "reference": 4,
+        "threshold": 4,
+        "fit": 12,
+        "normal_evaluation": 6
+      }
+    },
+    {
+      "scene": "R02",
+      "fold": 4,
+      "disjoint": true,
+      "sizes": {
+        "validation": 4,
+        "reference": 4,
+        "threshold": 4,
+        "fit": 12,
+        "normal_evaluation": 6
+      }
+    },
+    {
+      "scene": "R03",
+      "fold": 0,
+      "disjoint": true,
+      "sizes": {
+        "validation": 3,
+        "reference": 3,
+        "threshold": 3,
+        "fit": 8,
+        "normal_evaluation": 5
+      }
+    },
+    {
+      "scene": "R03",
+      "fold": 1,
+      "disjoint": true,
+      "sizes": {
+        "validation": 3,
+        "reference": 3,
+        "threshold": 3,
+        "fit": 8,
+        "normal_evaluation": 5
+      }
+    },
+    {
+      "scene": "R03",
+      "fold": 2,
+      "disjoint": true,
+      "sizes": {
+        "validation": 3,
+        "reference": 3,
+        "threshold": 3,
+        "fit": 9,
+        "normal_evaluation": 4
+      }
+    },
+    {
+      "scene": "R03",
+      "fold": 3,
+      "disjoint": true,
+      "sizes": {
+        "validation": 3,
+        "reference": 3,
+        "threshold": 3,
+        "fit": 9,
+        "normal_evaluation": 4
+      }
+    },
+    {
+      "scene": "R03",
+      "fold": 4,
+      "disjoint": true,
+      "sizes": {
+        "validation": 3,
+        "reference": 3,
+        "threshold": 3,
+        "fit": 9,
+        "normal_evaluation": 4
+      }
+    },
+    {
+      "scene": "R04",
+      "fold": 0,
+      "disjoint": true,
+      "sizes": {
+        "validation": 3,
+        "reference": 3,
+        "threshold": 3,
+        "fit": 11,
+        "normal_evaluation": 5
+      }
+    },
+    {
+      "scene": "R04",
+      "fold": 1,
+      "disjoint": true,
+      "sizes": {
+        "validation": 3,
+        "reference": 3,
+        "threshold": 3,
+        "fit": 11,
+        "normal_evaluation": 5
+      }
+    },
+    {
+      "scene": "R04",
+      "fold": 2,
+      "disjoint": true,
+      "sizes": {
+        "validation": 3,
+        "reference": 3,
+        "threshold": 3,
+        "fit": 11,
+        "normal_evaluation": 5
+      }
+    },
+    {
+      "scene": "R04",
+      "fold": 3,
+      "disjoint": true,
+      "sizes": {
+        "validation": 3,
+        "reference": 3,
+        "threshold": 3,
+        "fit": 11,
+        "normal_evaluation": 5
+      }
+    },
+    {
+      "scene": "R04",
+      "fold": 4,
+      "disjoint": true,
+      "sizes": {
+        "validation": 3,
+        "reference": 3,
+        "threshold": 3,
+        "fit": 11,
+        "normal_evaluation": 5
+      }
+    }
+  ],
+  "normal_files": 111,
+  "recording_group_independence_verified": false
+}

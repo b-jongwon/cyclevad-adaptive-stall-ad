@@ -1,0 +1,104 @@
+{
+  "model_seed": 42,
+  "split_seed": 42,
+  "stride": 2,
+  "scene": "R01",
+  "splits": {
+    "validation": [
+      "R01/training/03",
+      "R01/training/07",
+      "R01/training/19",
+      "R01/training/24",
+      "R01/training/27"
+    ],
+    "reference": [
+      "R01/training/12",
+      "R01/training/14",
+      "R01/training/18",
+      "R01/training/33",
+      "R01/training/34"
+    ],
+    "threshold": [
+      "R01/training/09",
+      "R01/training/10",
+      "R01/training/11",
+      "R01/training/22",
+      "R01/training/25"
+    ],
+    "fit": [
+      "R01/training/01",
+      "R01/training/02",
+      "R01/training/04",
+      "R01/training/05",
+      "R01/training/06",
+      "R01/training/08",
+      "R01/training/13",
+      "R01/training/15",
+      "R01/training/16",
+      "R01/training/17",
+      "R01/training/20",
+      "R01/training/21",
+      "R01/training/23",
+      "R01/training/26",
+      "R01/training/28",
+      "R01/training/29",
+      "R01/training/30",
+      "R01/training/31",
+      "R01/training/32"
+    ]
+  },
+  "thresholds": {
+    "pooled": 3.872935616720099,
+    "appearance": 3.959946993709729,
+    "cycle_conditioned": 3.959946993709729,
+    "appearance_process": 5.105079298012732,
+    "full": 5.105079298012732,
+    "no_alignment": 5.105079298012732,
+    "no_innovation": 4.411932117452786,
+    "no_progress": 5.105079298012732,
+    "single_lag": 5.105079298012732,
+    "no_confidence": 5.105079298012732,
+    "no_local": 5.105079298012732,
+    "no_pooled": 5.105079298012732,
+    "outside_only": 5.105079298012732,
+    "discrete_phase": 5.105079298012732
+  },
+  "variants": [
+    "pooled",
+    "appearance",
+    "cycle_conditioned",
+    "appearance_process",
+    "full",
+    "no_alignment",
+    "no_innovation",
+    "no_progress",
+    "single_lag",
+    "no_confidence",
+    "no_local",
+    "no_pooled",
+    "outside_only",
+    "discrete_phase"
+  ],
+  "code_fingerprint": "c9294492a3f621eeb6898a6409e31aa91ade41035d503d2b8088d6d581d931ae",
+  "encoder_identity": {
+    "device": "cuda",
+    "extractor_version": 1,
+    "family": "dinov2",
+    "feature_layers": [
+      -1,
+      -3
+    ],
+    "image_size": 336,
+    "model_id": "facebook/dinov2-base",
+    "patch_dim": 64,
+    "patch_grid": 6,
+    "preprocessing": "full_frame_letterbox",
+    "resolved_revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+    "revision": "main",
+    "seed": 42,
+    "torch": "2.9.1+cu128"
+  },
+  "evaluation_seconds": 3.6188945950052585,
+  "timing_scope": "shared computation for all variants, not standalone inference latency",
+  "label_policy": "strict-v1"
+}

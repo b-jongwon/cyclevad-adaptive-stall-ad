@@ -1,0 +1,4 @@
+Review verification: unchanged existing test suite.
+63 passed in 28.73s
+Temporary directory: a new scoped folder inside the permitted workspace.
+These tests do not cover the separately documented startup motion prefix issue.

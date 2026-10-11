@@ -1,0 +1,33 @@
+{
+  "E0": {
+    "status": "completed",
+    "completed_at": "2026-10-09T10:44:01.027490+09:00",
+    "elapsed_seconds": 3.957,
+    "timing_scope": "test suite only; environment setup and audit excluded"
+  },
+  "E1": {
+    "status": "completed",
+    "completed_at": "2026-10-09T10:45:53.037939+09:00",
+    "elapsed_seconds": 96.18762787099695
+  },
+  "E2": {
+    "status": "completed",
+    "completed_at": "2026-10-09T10:49:23.756575+09:00",
+    "elapsed_seconds": 191.42692971900397
+  },
+  "E3": {
+    "status": "completed",
+    "completed_at": "2026-10-09T10:51:01.884594+09:00",
+    "elapsed_seconds": 0.018825111001206096
+  },
+  "E4": {
+    "status": "completed",
+    "completed_at": "2026-10-09T10:51:28.489339+09:00",
+    "elapsed_seconds": 24.87330443099927
+  },
+  "E5": {
+    "status": "completed",
+    "completed_at": "2026-10-09T11:02:05.729549+09:00",
+    "elapsed_seconds": 566.4623945639978
+  }
+}

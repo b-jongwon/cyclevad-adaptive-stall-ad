@@ -1,0 +1,49 @@
+{
+  "splits": {
+    "validation": [
+      "R04/training/03",
+      "R04/training/11",
+      "R04/training/18",
+      "R04/training/22"
+    ],
+    "reference": [
+      "R04/training/07",
+      "R04/training/12",
+      "R04/training/14",
+      "R04/training/16"
+    ],
+    "threshold": [
+      "R04/training/05",
+      "R04/training/19",
+      "R04/training/23",
+      "R04/training/24"
+    ],
+    "fit": [
+      "R04/training/01",
+      "R04/training/02",
+      "R04/training/04",
+      "R04/training/06",
+      "R04/training/08",
+      "R04/training/09",
+      "R04/training/10",
+      "R04/training/13",
+      "R04/training/15",
+      "R04/training/17",
+      "R04/training/20",
+      "R04/training/21",
+      "R04/training/25"
+    ]
+  },
+  "adaptive_thresholds": {
+    "phase_combined": 4.652598879559203,
+    "phase_branch": 5.212214667494625,
+    "warmup_phase": 5.885774714779266,
+    "adaptive_ema": 4.784134855651217,
+    "stall": 3.6917153670659424,
+    "adaptive_with_stall": 5.074844498562936
+  },
+  "base_threshold": 5.905361848054571,
+  "expected_warmup_median": 1.1517716569482057,
+  "expected_intensity_baseline": 0.4455726633108403,
+  "test_labels_used_for_fit_calibration_or_threshold": false
+}

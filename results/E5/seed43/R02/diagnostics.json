@@ -1,0 +1,92 @@
+[
+  {
+    "id": "R02/testing/01",
+    "mean_confidence": 0.8205336269424132,
+    "conditional_lifts_appearance_fraction": 0.2191780821917808,
+    "process_lifts_conditioned_fraction": 0.6164383561643836
+  },
+  {
+    "id": "R02/testing/02",
+    "mean_confidence": 0.7858279300429514,
+    "conditional_lifts_appearance_fraction": 0.09731543624161074,
+    "process_lifts_conditioned_fraction": 0.5738255033557047
+  },
+  {
+    "id": "R02/testing/03",
+    "mean_confidence": 0.5352859422140064,
+    "conditional_lifts_appearance_fraction": 0.1254355400696864,
+    "process_lifts_conditioned_fraction": 0.5470383275261324
+  },
+  {
+    "id": "R02/testing/04",
+    "mean_confidence": 0.6079351604313229,
+    "conditional_lifts_appearance_fraction": 0.04498269896193772,
+    "process_lifts_conditioned_fraction": 0.28027681660899656
+  },
+  {
+    "id": "R02/testing/05",
+    "mean_confidence": 0.6043631063986608,
+    "conditional_lifts_appearance_fraction": 0.030821917808219176,
+    "process_lifts_conditioned_fraction": 0.13356164383561644
+  },
+  {
+    "id": "R02/testing/06",
+    "mean_confidence": 0.5083482272805977,
+    "conditional_lifts_appearance_fraction": 0.033112582781456956,
+    "process_lifts_conditioned_fraction": 0.46357615894039733
+  },
+  {
+    "id": "R02/testing/07",
+    "mean_confidence": 0.7402304900347251,
+    "conditional_lifts_appearance_fraction": 0.033582089552238806,
+    "process_lifts_conditioned_fraction": 0.5373134328358209
+  },
+  {
+    "id": "R02/testing/08",
+    "mean_confidence": 0.8255904930563848,
+    "conditional_lifts_appearance_fraction": 0.02040816326530612,
+    "process_lifts_conditioned_fraction": 0.3903061224489796
+  },
+  {
+    "id": "R02/testing/09",
+    "mean_confidence": 0.7933961371732864,
+    "conditional_lifts_appearance_fraction": 0.03981264637002342,
+    "process_lifts_conditioned_fraction": 0.39344262295081966
+  },
+  {
+    "id": "R02/testing/10",
+    "mean_confidence": 0.7978293902592047,
+    "conditional_lifts_appearance_fraction": 0.0032679738562091504,
+    "process_lifts_conditioned_fraction": 0.5620915032679739
+  },
+  {
+    "id": "R02/testing/11",
+    "mean_confidence": 0.8130678479626724,
+    "conditional_lifts_appearance_fraction": 0.0,
+    "process_lifts_conditioned_fraction": 0.6406779661016949
+  },
+  {
+    "id": "R02/testing/12",
+    "mean_confidence": 0.7922312085034997,
+    "conditional_lifts_appearance_fraction": 0.04466501240694789,
+    "process_lifts_conditioned_fraction": 0.24069478908188585
+  },
+  {
+    "id": "R02/testing/13",
+    "mean_confidence": 0.7856863423030028,
+    "conditional_lifts_appearance_fraction": 0.022950819672131147,
+    "process_lifts_conditioned_fraction": 0.2360655737704918
+  },
+  {
+    "id": "R02/testing/14",
+    "mean_confidence": 0.7586703926031724,
+    "conditional_lifts_appearance_fraction": 0.008032128514056224,
+    "process_lifts_conditioned_fraction": 0.3534136546184739
+  },
+  {
+    "id": "R02/testing/15",
+    "mean_confidence": 0.7459638547055892,
+    "conditional_lifts_appearance_fraction": 0.004901960784313725,
+    "process_lifts_conditioned_fraction": 0.4215686274509804
+  }
+]

@@ -1,0 +1,896 @@
+{
+  "seed": 43,
+  "arms": [
+    {
+      "arm": "B0",
+      "historical_macro_ap": 0.684232183803994,
+      "historical_macro_auroc": 0.7673751322500408,
+      "historical_macro_frameq99_fpr": 0.18494698895387016,
+      "historical_by_scene": {
+        "R01": {
+          "scene": "R01",
+          "seed": 43,
+          "fold": 0,
+          "partition": "historical_test",
+          "arm": "B0",
+          "frames": 3685,
+          "valid_frames": 3685,
+          "unknown_frames": 0,
+          "anomaly_frames": 1254,
+          "auroc": 0.8468699421415435,
+          "ap": 0.6512144860463436,
+          "fpr": 0.5450431921020157,
+          "recall": 1.0,
+          "threshold": 6.6806089832399875,
+          "frame_q99": {
+            "frames": 3685,
+            "valid_frames": 3685,
+            "unknown_frames": 0,
+            "anomaly_frames": 1254,
+            "auroc": 0.8468699421415435,
+            "ap": 0.6512144860463436,
+            "fpr": 0.5935828877005348,
+            "recall": 1.0,
+            "threshold": 5.455321115357702
+          }
+        },
+        "R02": {
+          "scene": "R02",
+          "seed": 43,
+          "fold": 0,
+          "partition": "historical_test",
+          "arm": "B0",
+          "frames": 9618,
+          "valid_frames": 7706,
+          "unknown_frames": 1912,
+          "anomaly_frames": 2612,
+          "auroc": 0.7739665799057354,
+          "ap": 0.7230596166172261,
+          "fpr": 0.0,
+          "recall": 0.11332312404287902,
+          "threshold": 7.672555640462841,
+          "frame_q99": {
+            "frames": 9618,
+            "valid_frames": 7706,
+            "unknown_frames": 1912,
+            "anomaly_frames": 2612,
+            "auroc": 0.7739665799057354,
+            "ap": 0.7230596166172261,
+            "fpr": 0.015901060070671377,
+            "recall": 0.3885911179173048,
+            "threshold": 4.602667055769973
+          }
+        },
+        "R03": {
+          "scene": "R03",
+          "seed": 43,
+          "fold": 0,
+          "partition": "historical_test",
+          "arm": "B0",
+          "frames": 12005,
+          "valid_frames": 12005,
+          "unknown_frames": 0,
+          "anomaly_frames": 5068,
+          "auroc": 0.6578821099217571,
+          "ap": 0.541181349130341,
+          "fpr": 0.013118062563067608,
+          "recall": 0.03847671665351223,
+          "threshold": 6.252866810539282,
+          "frame_q99": {
+            "frames": 12005,
+            "valid_frames": 12005,
+            "unknown_frames": 0,
+            "anomaly_frames": 5068,
+            "auroc": 0.6578821099217571,
+            "ap": 0.541181349130341,
+            "fpr": 0.036903560616981405,
+            "recall": 0.07044198895027624,
+            "threshold": 5.154254521871173
+          }
+        },
+        "R04": {
+          "scene": "R04",
+          "seed": 43,
+          "fold": 0,
+          "partition": "historical_test",
+          "arm": "B0",
+          "frames": 8154,
+          "valid_frames": 8154,
+          "unknown_frames": 0,
+          "anomaly_frames": 4578,
+          "auroc": 0.7907818970311273,
+          "ap": 0.8214732834220655,
+          "fpr": 0.015100671140939598,
+          "recall": 0.1834862385321101,
+          "threshold": 7.034878810490732,
+          "frame_q99": {
+            "frames": 8154,
+            "valid_frames": 8154,
+            "unknown_frames": 0,
+            "anomaly_frames": 4578,
+            "auroc": 0.7907818970311273,
+            "ap": 0.8214732834220655,
+            "fpr": 0.09340044742729306,
+            "recall": 0.3929663608562691,
+            "threshold": 4.546834608975128
+          }
+        }
+      },
+      "normal_by_scene": {
+        "R01": {
+          "videos": 34,
+          "frame_fpr": 0.04175204918032787,
+          "video_fpr": 0.04181602714878864
+        },
+        "R02": {
+          "videos": 30,
+          "frame_fpr": 0.003041225501239018,
+          "video_fpr": 0.0030923317071684933
+        },
+        "R03": {
+          "videos": 22,
+          "frame_fpr": 0.024371171640818454,
+          "video_fpr": 0.023913990195175493
+        },
+        "R04": {
+          "videos": 25,
+          "frame_fpr": 0.0032881216605014385,
+          "video_fpr": 0.003465700260624951
+        }
+      }
+    },
+    {
+      "arm": "B1",
+      "historical_macro_ap": 0.71779491365188,
+      "historical_macro_auroc": 0.7844887647831897,
+      "historical_macro_frameq99_fpr": 0.16981395527155693,
+      "historical_by_scene": {
+        "R01": {
+          "scene": "R01",
+          "seed": 43,
+          "fold": 0,
+          "partition": "historical_test",
+          "arm": "B1",
+          "frames": 3685,
+          "valid_frames": 3685,
+          "unknown_frames": 0,
+          "anomaly_frames": 1254,
+          "auroc": 0.8822686367015102,
+          "ap": 0.7516638554237,
+          "fpr": 0.555738379267791,
+          "recall": 1.0,
+          "threshold": 6.6806089832399875,
+          "frame_q99": {
+            "frames": 3685,
+            "valid_frames": 3685,
+            "unknown_frames": 0,
+            "anomaly_frames": 1254,
+            "auroc": 0.8822686367015102,
+            "ap": 0.7516638554237,
+            "fpr": 0.6001645413410119,
+            "recall": 1.0,
+            "threshold": 5.455321115357702
+          }
+        },
+        "R02": {
+          "scene": "R02",
+          "seed": 43,
+          "fold": 0,
+          "partition": "historical_test",
+          "arm": "B1",
+          "frames": 9618,
+          "valid_frames": 7706,
+          "unknown_frames": 1912,
+          "anomaly_frames": 2612,
+          "auroc": 0.7871470790185854,
+          "ap": 0.7322183614233398,
+          "fpr": 0.0,
+          "recall": 0.11332312404287902,
+          "threshold": 7.672555640462841,
+          "frame_q99": {
+            "frames": 9618,
+            "valid_frames": 7706,
+            "unknown_frames": 1912,
+            "anomaly_frames": 2612,
+            "auroc": 0.7871470790185854,
+            "ap": 0.7322183614233398,
+            "fpr": 0.01629367883784845,
+            "recall": 0.4398928024502297,
+            "threshold": 4.602667055769973
+          }
+        },
+        "R03": {
+          "scene": "R03",
+          "seed": 43,
+          "fold": 0,
+          "partition": "historical_test",
+          "arm": "B1",
+          "frames": 12005,
+          "valid_frames": 12005,
+          "unknown_frames": 0,
+          "anomaly_frames": 5068,
+          "auroc": 0.6589006350877596,
+          "ap": 0.5483411375055744,
+          "fpr": 0.01801931670751045,
+          "recall": 0.049921073401736384,
+          "threshold": 6.252866810539282,
+          "frame_q99": {
+            "frames": 12005,
+            "valid_frames": 12005,
+            "unknown_frames": 0,
+            "anomaly_frames": 5068,
+            "auroc": 0.6589006350877596,
+            "ap": 0.5483411375055744,
+            "fpr": 0.03315554274181923,
+            "recall": 0.07162588792423047,
+            "threshold": 5.5597196299793366
+          }
+        },
+        "R04": {
+          "scene": "R04",
+          "seed": 43,
+          "fold": 0,
+          "partition": "historical_test",
+          "arm": "B1",
+          "frames": 8154,
+          "valid_frames": 8154,
+          "unknown_frames": 0,
+          "anomaly_frames": 4578,
+          "auroc": 0.8096387083249038,
+          "ap": 0.8389563002549059,
+          "fpr": 0.018456375838926176,
+          "recall": 0.22236784622105724,
+          "threshold": 7.034878810490732,
+          "frame_q99": {
+            "frames": 8154,
+            "valid_frames": 8154,
+            "unknown_frames": 0,
+            "anomaly_frames": 4578,
+            "auroc": 0.8096387083249038,
+            "ap": 0.8389563002549059,
+            "fpr": 0.0296420581655481,
+            "recall": 0.3040629095674967,
+            "threshold": 6.578748748586251
+          }
+        }
+      },
+      "normal_by_scene": {
+        "R01": {
+          "videos": 34,
+          "frame_fpr": 0.042264344262295084,
+          "video_fpr": 0.04232976976373855
+        },
+        "R02": {
+          "videos": 30,
+          "frame_fpr": 0.003491777427348502,
+          "video_fpr": 0.003551953303845927
+        },
+        "R03": {
+          "videos": 22,
+          "frame_fpr": 0.02567444285155741,
+          "video_fpr": 0.025237815134398142
+        },
+        "R04": {
+          "videos": 25,
+          "frame_fpr": 0.003904644471845458,
+          "video_fpr": 0.004176186491132438
+        }
+      }
+    },
+    {
+      "arm": "B2",
+      "historical_macro_ap": 0.7082687315138467,
+      "historical_macro_auroc": 0.7873496082754681,
+      "historical_macro_frameq99_fpr": 0.14182003088789696,
+      "historical_by_scene": {
+        "R01": {
+          "scene": "R01",
+          "seed": 43,
+          "fold": 0,
+          "partition": "historical_test",
+          "arm": "B2",
+          "frames": 3685,
+          "valid_frames": 3685,
+          "unknown_frames": 0,
+          "anomaly_frames": 1254,
+          "auroc": 0.8452461789078732,
+          "ap": 0.6438572514376201,
+          "fpr": 0.4520773344302756,
+          "recall": 1.0,
+          "threshold": 7.769530032859728,
+          "frame_q99": {
+            "frames": 3685,
+            "valid_frames": 3685,
+            "unknown_frames": 0,
+            "anomaly_frames": 1254,
+            "auroc": 0.8452461789078732,
+            "ap": 0.6438572514376201,
+            "fpr": 0.4751131221719457,
+            "recall": 1.0,
+            "threshold": 7.523143856771532
+          }
+        },
+        "R02": {
+          "scene": "R02",
+          "seed": 43,
+          "fold": 0,
+          "partition": "historical_test",
+          "arm": "B2",
+          "frames": 9618,
+          "valid_frames": 7706,
+          "unknown_frames": 1912,
+          "anomaly_frames": 2612,
+          "auroc": 0.9093033361772641,
+          "ap": 0.8482620413670038,
+          "fpr": 0.0,
+          "recall": 0.11638591117917305,
+          "threshold": 7.672555640462841,
+          "frame_q99": {
+            "frames": 9618,
+            "valid_frames": 7706,
+            "unknown_frames": 1912,
+            "anomaly_frames": 2612,
+            "auroc": 0.9093033361772641,
+            "ap": 0.8482620413670038,
+            "fpr": 0.01099332548095799,
+            "recall": 0.3652373660030628,
+            "threshold": 5.295814236329918
+          }
+        },
+        "R03": {
+          "scene": "R03",
+          "seed": 43,
+          "fold": 0,
+          "partition": "historical_test",
+          "arm": "B2",
+          "frames": 12005,
+          "valid_frames": 12005,
+          "unknown_frames": 0,
+          "anomaly_frames": 5068,
+          "auroc": 0.6046880914588268,
+          "ap": 0.5146660851645557,
+          "fpr": 0.018884243909470952,
+          "recall": 0.05347277032359905,
+          "threshold": 6.252866810539282,
+          "frame_q99": {
+            "frames": 12005,
+            "valid_frames": 12005,
+            "unknown_frames": 0,
+            "anomaly_frames": 5068,
+            "auroc": 0.6046880914588268,
+            "ap": 0.5146660851645557,
+            "fpr": 0.03978665129018308,
+            "recall": 0.07241515390686662,
+            "threshold": 5.847401702431117
+          }
+        },
+        "R04": {
+          "scene": "R04",
+          "seed": 43,
+          "fold": 0,
+          "partition": "historical_test",
+          "arm": "B2",
+          "frames": 8154,
+          "valid_frames": 8154,
+          "unknown_frames": 0,
+          "anomaly_frames": 4578,
+          "auroc": 0.7901608265579081,
+          "ap": 0.8262895480862078,
+          "fpr": 0.010626398210290829,
+          "recall": 0.1620795107033639,
+          "threshold": 8.115953056766735,
+          "frame_q99": {
+            "frames": 8154,
+            "valid_frames": 8154,
+            "unknown_frames": 0,
+            "anomaly_frames": 4578,
+            "auroc": 0.7901608265579081,
+            "ap": 0.8262895480862078,
+            "fpr": 0.04138702460850112,
+            "recall": 0.3333333333333333,
+            "threshold": 6.50457915865468
+          }
+        }
+      },
+      "normal_by_scene": {
+        "R01": {
+          "videos": 34,
+          "frame_fpr": 0.052894467213114756,
+          "video_fpr": 0.052996688795198525
+        },
+        "R02": {
+          "videos": 30,
+          "frame_fpr": 0.005293985131786439,
+          "video_fpr": 0.005423666197011818
+        },
+        "R03": {
+          "videos": 22,
+          "frame_fpr": 0.024045353838133717,
+          "video_fpr": 0.02363556246851154
+        },
+        "R04": {
+          "videos": 25,
+          "frame_fpr": 0.005034936292642828,
+          "video_fpr": 0.00618959391437799
+        }
+      }
+    },
+    {
+      "arm": "B3",
+      "historical_macro_ap": 0.7353577515352743,
+      "historical_macro_auroc": 0.7983236336025055,
+      "historical_macro_frameq99_fpr": 0.14097852254445553,
+      "historical_by_scene": {
+        "R01": {
+          "scene": "R01",
+          "seed": 43,
+          "fold": 0,
+          "partition": "historical_test",
+          "arm": "B3",
+          "frames": 3685,
+          "valid_frames": 3685,
+          "unknown_frames": 0,
+          "anomaly_frames": 1254,
+          "auroc": 0.8809125483766632,
+          "ap": 0.7412356187739391,
+          "fpr": 0.46524064171123,
+          "recall": 1.0,
+          "threshold": 7.769530032859728,
+          "frame_q99": {
+            "frames": 3685,
+            "valid_frames": 3685,
+            "unknown_frames": 0,
+            "anomaly_frames": 1254,
+            "auroc": 0.8809125483766632,
+            "ap": 0.7412356187739391,
+            "fpr": 0.48498560263266144,
+            "recall": 1.0,
+            "threshold": 7.523143856771532
+          }
+        },
+        "R02": {
+          "scene": "R02",
+          "seed": 43,
+          "fold": 0,
+          "partition": "historical_test",
+          "arm": "B3",
+          "frames": 9618,
+          "valid_frames": 7706,
+          "unknown_frames": 1912,
+          "anomaly_frames": 2612,
+          "auroc": 0.9080216884290501,
+          "ap": 0.8474120997358517,
+          "fpr": 0.0,
+          "recall": 0.11638591117917305,
+          "threshold": 7.672555640462841,
+          "frame_q99": {
+            "frames": 9618,
+            "valid_frames": 7706,
+            "unknown_frames": 1912,
+            "anomaly_frames": 2612,
+            "auroc": 0.9080216884290501,
+            "ap": 0.8474120997358517,
+            "fpr": 0.01099332548095799,
+            "recall": 0.3652373660030628,
+            "threshold": 5.295814236329918
+          }
+        },
+        "R03": {
+          "scene": "R03",
+          "seed": 43,
+          "fold": 0,
+          "partition": "historical_test",
+          "arm": "B3",
+          "frames": 12005,
+          "valid_frames": 12005,
+          "unknown_frames": 0,
+          "anomaly_frames": 5068,
+          "auroc": 0.6052983873692868,
+          "ap": 0.517931310234521,
+          "fpr": 0.023785498053913796,
+          "recall": 0.060576164167324385,
+          "threshold": 6.252866810539282,
+          "frame_q99": {
+            "frames": 12005,
+            "valid_frames": 12005,
+            "unknown_frames": 0,
+            "anomaly_frames": 5068,
+            "auroc": 0.6052983873692868,
+            "ap": 0.517931310234521,
+            "fpr": 0.036615251549661235,
+            "recall": 0.07636148382004736,
+            "threshold": 6.029723259225072
+          }
+        },
+        "R04": {
+          "scene": "R04",
+          "seed": 43,
+          "fold": 0,
+          "partition": "historical_test",
+          "arm": "B3",
+          "frames": 8154,
+          "valid_frames": 8154,
+          "unknown_frames": 0,
+          "anomaly_frames": 4578,
+          "auroc": 0.7990619102350215,
+          "ap": 0.8348519773967855,
+          "fpr": 0.010626398210290829,
+          "recall": 0.18042813455657492,
+          "threshold": 8.115953056766735,
+          "frame_q99": {
+            "frames": 8154,
+            "valid_frames": 8154,
+            "unknown_frames": 0,
+            "anomaly_frames": 4578,
+            "auroc": 0.7990619102350215,
+            "ap": 0.8348519773967855,
+            "fpr": 0.03131991051454139,
+            "recall": 0.3101791175185671,
+            "threshold": 6.7832045864964154
+          }
+        }
+      },
+      "normal_by_scene": {
+        "R01": {
+          "videos": 34,
+          "frame_fpr": 0.052894467213114756,
+          "video_fpr": 0.052996688795198525
+        },
+        "R02": {
+          "videos": 30,
+          "frame_fpr": 0.005631899076368551,
+          "video_fpr": 0.0057620756724771315
+        },
+        "R03": {
+          "videos": 22,
+          "frame_fpr": 0.025478952169946566,
+          "video_fpr": 0.025079112531969507
+        },
+        "R04": {
+          "videos": 25,
+          "frame_fpr": 0.005445951500205507,
+          "video_fpr": 0.0067073932671288
+        }
+      }
+    },
+    {
+      "arm": "C",
+      "historical_macro_ap": 0.7240578802775453,
+      "historical_macro_auroc": 0.7935187909504594,
+      "historical_macro_frameq99_fpr": 0.16913313309494513,
+      "historical_by_scene": {
+        "R01": {
+          "scene": "R01",
+          "seed": 43,
+          "fold": 0,
+          "partition": "historical_test",
+          "arm": "C",
+          "frames": 3685,
+          "valid_frames": 3685,
+          "unknown_frames": 0,
+          "anomaly_frames": 1254,
+          "auroc": 0.8825901090184795,
+          "ap": 0.7540899503730358,
+          "fpr": 0.555738379267791,
+          "recall": 1.0,
+          "threshold": 6.662518783115355,
+          "frame_q99": {
+            "frames": 3685,
+            "valid_frames": 3685,
+            "unknown_frames": 0,
+            "anomaly_frames": 1254,
+            "auroc": 0.8825901090184795,
+            "ap": 0.7540899503730358,
+            "fpr": 0.6001645413410119,
+            "recall": 1.0,
+            "threshold": 5.455321115357702
+          }
+        },
+        "R02": {
+          "scene": "R02",
+          "seed": 43,
+          "fold": 0,
+          "partition": "historical_test",
+          "arm": "C",
+          "frames": 9618,
+          "valid_frames": 7706,
+          "unknown_frames": 1912,
+          "anomaly_frames": 2612,
+          "auroc": 0.8055291755426767,
+          "ap": 0.7410537123374024,
+          "fpr": 0.001177856301531213,
+          "recall": 0.24961715160796324,
+          "threshold": 4.890349128221754,
+          "frame_q99": {
+            "frames": 9618,
+            "valid_frames": 7706,
+            "unknown_frames": 1912,
+            "anomaly_frames": 2612,
+            "auroc": 0.8055291755426767,
+            "ap": 0.7410537123374024,
+            "fpr": 0.01707891637220259,
+            "recall": 0.4598009188361409,
+            "threshold": 4.254360361501758
+          }
+        },
+        "R03": {
+          "scene": "R03",
+          "seed": 43,
+          "fold": 0,
+          "partition": "historical_test",
+          "arm": "C",
+          "frames": 12005,
+          "valid_frames": 12005,
+          "unknown_frames": 0,
+          "anomaly_frames": 5068,
+          "auroc": 0.6778358080999374,
+          "ap": 0.5621990029638992,
+          "fpr": 0.03704771515064149,
+          "recall": 0.07853196527229676,
+          "threshold": 4.173425268859446,
+          "frame_q99": {
+            "frames": 12005,
+            "valid_frames": 12005,
+            "unknown_frames": 0,
+            "anomaly_frames": 5068,
+            "auroc": 0.6778358080999374,
+            "ap": 0.5621990029638992,
+            "fpr": 0.03272307914083898,
+            "recall": 0.06985003946329914,
+            "threshold": 4.381064633637691
+          }
+        },
+        "R04": {
+          "scene": "R04",
+          "seed": 43,
+          "fold": 0,
+          "partition": "historical_test",
+          "arm": "C",
+          "frames": 8154,
+          "valid_frames": 8154,
+          "unknown_frames": 0,
+          "anomaly_frames": 4578,
+          "auroc": 0.8081200711407441,
+          "ap": 0.8388888554358436,
+          "fpr": 0.016778523489932886,
+          "recall": 0.22062035823503715,
+          "threshold": 7.015262861219323,
+          "frame_q99": {
+            "frames": 8154,
+            "valid_frames": 8154,
+            "unknown_frames": 0,
+            "anomaly_frames": 4578,
+            "auroc": 0.8081200711407441,
+            "ap": 0.8388888554358436,
+            "fpr": 0.026565995525727068,
+            "recall": 0.2929226736566186,
+            "threshold": 6.578748748586251
+          }
+        }
+      },
+      "normal_by_scene": {
+        "R01": {
+          "videos": 34,
+          "frame_fpr": 0.04610655737704918,
+          "video_fpr": 0.046167405048375104
+        },
+        "R02": {
+          "videos": 30,
+          "frame_fpr": 0.0027033115566569045,
+          "video_fpr": 0.0027664481689415547
+        },
+        "R03": {
+          "videos": 22,
+          "frame_fpr": 0.04418089404405057,
+          "video_fpr": 0.04443248542580828
+        },
+        "R04": {
+          "videos": 25,
+          "frame_fpr": 0.005959720509658858,
+          "video_fpr": 0.0063580012318499015
+        }
+      }
+    },
+    {
+      "arm": "P",
+      "historical_macro_ap": 0.624871616199931,
+      "historical_macro_auroc": 0.6958483590634738,
+      "historical_macro_frameq99_fpr": 0.016207187105491152,
+      "historical_by_scene": {
+        "R01": {
+          "scene": "R01",
+          "seed": 43,
+          "fold": 0,
+          "partition": "historical_test",
+          "arm": "P",
+          "frames": 3685,
+          "valid_frames": 3685,
+          "unknown_frames": 0,
+          "anomaly_frames": 1254,
+          "auroc": 0.6188596327211582,
+          "ap": 0.45190184592883115,
+          "fpr": 0.020567667626491155,
+          "recall": 0.06220095693779904,
+          "threshold": 7.769530032859728,
+          "frame_q99": {
+            "frames": 3685,
+            "valid_frames": 3685,
+            "unknown_frames": 0,
+            "anomaly_frames": 1254,
+            "auroc": 0.6188596327211582,
+            "ap": 0.45190184592883115,
+            "fpr": 0.02385849444672974,
+            "recall": 0.06698564593301436,
+            "threshold": 7.523143856771532
+          }
+        },
+        "R02": {
+          "scene": "R02",
+          "seed": 43,
+          "fold": 0,
+          "partition": "historical_test",
+          "arm": "P",
+          "frames": 9618,
+          "valid_frames": 7706,
+          "unknown_frames": 1912,
+          "anomaly_frames": 2612,
+          "auroc": 0.8961714258915543,
+          "ap": 0.7880409370896778,
+          "fpr": 0.006281900274833137,
+          "recall": 0.020673813169984685,
+          "threshold": 5.0081321638781375,
+          "frame_q99": {
+            "frames": 9618,
+            "valid_frames": 7706,
+            "unknown_frames": 1912,
+            "anomaly_frames": 2612,
+            "auroc": 0.8961714258915543,
+            "ap": 0.7880409370896778,
+            "fpr": 0.006281900274833137,
+            "recall": 0.020673813169984685,
+            "threshold": 5.0081321638781375
+          }
+        },
+        "R03": {
+          "scene": "R03",
+          "seed": 43,
+          "fold": 0,
+          "partition": "historical_test",
+          "arm": "P",
+          "frames": 12005,
+          "valid_frames": 12005,
+          "unknown_frames": 0,
+          "anomaly_frames": 5068,
+          "auroc": 0.5707468240207646,
+          "ap": 0.5085499782690427,
+          "fpr": 0.005766181346403345,
+          "recall": 0.03235990528808208,
+          "threshold": 6.252866810539282,
+          "frame_q99": {
+            "frames": 12005,
+            "valid_frames": 12005,
+            "unknown_frames": 0,
+            "anomaly_frames": 5068,
+            "auroc": 0.5707468240207646,
+            "ap": 0.5085499782690427,
+            "fpr": 0.019028398443131037,
+            "recall": 0.07517758484609313,
+            "threshold": 4.866572449419391
+          }
+        },
+        "R04": {
+          "scene": "R04",
+          "seed": 43,
+          "fold": 0,
+          "partition": "historical_test",
+          "arm": "P",
+          "frames": 8154,
+          "valid_frames": 8154,
+          "unknown_frames": 0,
+          "anomaly_frames": 4578,
+          "auroc": 0.6976155536204178,
+          "ap": 0.7509937035121723,
+          "fpr": 0.009507829977628635,
+          "recall": 0.051550895587592835,
+          "threshold": 8.115953056766735,
+          "frame_q99": {
+            "frames": 8154,
+            "valid_frames": 8154,
+            "unknown_frames": 0,
+            "anomaly_frames": 4578,
+            "auroc": 0.6976155536204178,
+            "ap": 0.7509937035121723,
+            "fpr": 0.015659955257270694,
+            "recall": 0.09305373525557012,
+            "threshold": 6.50457915865468
+          }
+        }
+      },
+      "normal_by_scene": {
+        "R01": {
+          "videos": 34,
+          "frame_fpr": 0.041111680327868855,
+          "video_fpr": 0.041201578188153176
+        },
+        "R02": {
+          "videos": 30,
+          "frame_fpr": 0.011151160171209732,
+          "video_fpr": 0.011328574000565611
+        },
+        "R03": {
+          "videos": 22,
+          "frame_fpr": 0.003779486511142969,
+          "video_fpr": 0.0037588432628374805
+        },
+        "R04": {
+          "videos": 25,
+          "frame_fpr": 0.008939580764488286,
+          "video_fpr": 0.010918617843505157
+        }
+      }
+    }
+  ],
+  "event_overlap": [
+    {
+      "scene": "R01",
+      "events": 8,
+      "appearance_only": 7,
+      "process_only": 0,
+      "both": 1,
+      "neither": 0,
+      "B3_detected": 8,
+      "union_detected": 8,
+      "B3_added_over_B1": 0,
+      "B3_lost_from_B1": 0,
+      "B3_added_over_B2": 0,
+      "B3_lost_from_B2": 0,
+      "B3_lost_from_union": 0
+    },
+    {
+      "scene": "R02",
+      "events": 15,
+      "appearance_only": 0,
+      "process_only": 1,
+      "both": 4,
+      "neither": 10,
+      "B3_detected": 5,
+      "union_detected": 5,
+      "B3_added_over_B1": 1,
+      "B3_lost_from_B1": 0,
+      "B3_added_over_B2": 0,
+      "B3_lost_from_B2": 0,
+      "B3_lost_from_union": 0
+    },
+    {
+      "scene": "R03",
+      "events": 17,
+      "appearance_only": 0,
+      "process_only": 1,
+      "both": 3,
+      "neither": 13,
+      "B3_detected": 4,
+      "union_detected": 4,
+      "B3_added_over_B1": 1,
+      "B3_lost_from_B1": 0,
+      "B3_added_over_B2": 0,
+      "B3_lost_from_B2": 0,
+      "B3_lost_from_union": 0
+    },
+    {
+      "scene": "R04",
+      "events": 26,
+      "appearance_only": 6,
+      "process_only": 1,
+      "both": 8,
+      "neither": 11,
+      "B3_detected": 13,
+      "union_detected": 15,
+      "B3_added_over_B1": 1,
+      "B3_lost_from_B1": 2,
+      "B3_added_over_B2": 0,
+      "B3_lost_from_B2": 0,
+      "B3_lost_from_union": 2
+    }
+  ],
+  "event_scope": "contiguous historical labels, deadline min(D,event length); actual anomaly types unannotated"
+}

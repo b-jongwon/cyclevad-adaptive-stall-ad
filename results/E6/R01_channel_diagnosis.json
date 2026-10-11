@@ -1,0 +1,47 @@
+{
+  "scene": "R01",
+  "fold": 0,
+  "cell": "C-00",
+  "readout": "full",
+  "threshold": 7.463292054382657,
+  "results": [
+    {
+      "partition": "historical_test",
+      "normal_frames": 2431,
+      "false_alarm_frames": 1165,
+      "fpr": 0.47922665569724393,
+      "dominant_channel_false_alarms": {
+        "pooled": 1143,
+        "pooled_inside": 4,
+        "local": 0,
+        "conditional_gated": 0,
+        "alignment": 0,
+        "innovation": 0,
+        "progress": 18
+      },
+      "channel_exceedances_within_saved_false_alarms": {
+        "pooled": 1161,
+        "pooled_inside": 26,
+        "local": 10,
+        "conditional_gated": 0,
+        "alignment": 16,
+        "innovation": 0,
+        "progress": 42
+      }
+    }
+  ],
+  "interpretation": "Descriptive maximum-channel attribution, not a causal ablation; ties use listed channel order.",
+  "channel_order": [
+    "pooled",
+    "pooled_inside",
+    "local",
+    "conditional_gated",
+    "alignment",
+    "innovation",
+    "progress"
+  ],
+  "alarm_mask_source": "original saved full scores",
+  "replayed_max_score_abs_difference": 7.009528813384236e-06,
+  "replayed_alarm_disagreements_near_threshold": 0,
+  "numerical_note": "Recomputed floating-point channels may cross a tied threshold by roundoff. Published metrics and attribution counts use original saved score alarms."
+}

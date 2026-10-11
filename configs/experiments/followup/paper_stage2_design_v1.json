@@ -1,0 +1,305 @@
+{
+  "version": "paper-stage2-design-v1",
+  "status": "design_only_not_run",
+  "runner_compatible": false,
+  "date_kst": "2026-10-09",
+  "evidence_commit": "33b0adaf211e427e333fd358f8630726c5b14ee1",
+  "report_attachment_sha256": "eedc69efb628b6a5b1fee7c9f4f99875aaa9b8b1201db1e42e3e95a44bab0d79",
+  "document": "docs/PAPER_STAGE2_DESIGN.md",
+  "first_execution_bundle": [
+    "E11B",
+    "E15A"
+  ],
+  "common": {
+    "scenes": [
+      "R01",
+      "R02",
+      "R03",
+      "R04"
+    ],
+    "folds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "primary_seed": 42,
+    "replication_seeds": [
+      43,
+      44
+    ],
+    "split_file": "configs/experiments/followup/normal_folds.json",
+    "label_policy": "strict-v1",
+    "device": "local RTX PRO 6000; frozen CUDA features for statistical experiments; fresh frame inference for streaming benchmark",
+    "data_scope": "Existing historical test and edited normal sources are development evidence, including repeated OOF analyses. New seeds/edits do not restore independence.",
+    "fit": "normal FIT only; neural hyperparameter selection by normal validation loss",
+    "calibration": "reference score distributions; separate threshold split for final operating threshold; never tune thresholds to evaluated anomaly recall",
+    "primary_window_far_target": 0.01,
+    "secondary_window_far_targets": [
+      0.005,
+      0.02,
+      0.05
+    ],
+    "far_warning": "Calibration target is not achieved test FAR. Do not choose test thresholds to force matched test FAR.",
+    "bootstrap": {
+      "unit": "paired source file within scene; new data use recording session",
+      "resamples": 2000,
+      "scope": "fixed fitted models; primary seed42"
+    },
+    "metric_separation": [
+      "frame ranking AP/AUROC",
+      "D-window false alarms",
+      "frame FPR",
+      "event recall with fixed deadline",
+      "detected-event delay and censoring",
+      "verified-time alarm rate"
+    ],
+    "timebase": "existing recording-length T, D=round-half-up(.2T), W=round-half-up(.4T); hold evaluation windows fixed during tracker-period comparisons"
+  },
+  "E11B": {
+    "status": "planned_not_run",
+    "arms": [
+      "A",
+      "C",
+      "P",
+      "A+C",
+      "A+P",
+      "C+P",
+      "A+C+P"
+    ],
+    "fusion": "max",
+    "primary_contrasts": [
+      "C+P minus C",
+      "A+C+P minus C+P"
+    ],
+    "secondary_contrasts": [
+      "A+C+P minus C"
+    ],
+    "units": 60,
+    "existing_edited_cases": 11730,
+    "reuse": "exact full historical/normal scores and branch window maxima; recalibrate new arm thresholds from normal threshold scores",
+    "replay_required": "new-threshold synthetic delay and alarm duration cannot be recovered from old scalar delay summaries",
+    "sensitivity": "Report all four leave-one-scene-out macros, explicitly R02 excluded; not unseen-scene generalization."
+  },
+  "E15A": {
+    "status": "planned_not_run",
+    "scope": "frozen component distributions, branch winners, phase/startup and pre/post-anomaly normal strata; score shifts are not automatically attributed to lighting"
+  },
+  "E15BC": {
+    "status": "planned_not_run",
+    "calibration_arms": {
+      "G0": "existing reference tails and video-equal window-q99",
+      "G1": "video-equal reference component CDFs; same threshold-window weighting",
+      "G2": "G1 plus 4-bin conditional CDF with fixed 0.5 global shrinkage"
+    },
+    "phase_calibration_min_reference_sources": 3,
+    "phase_calibration_min_stride_samples": 128,
+    "insufficient_support": "global fallback, no dropped frames",
+    "fusion_arms": {
+      "F0": "max then recalibrate joint score",
+      "F1": "branch empirical D-window tail budget alpha/m with OR alarms; continuous ranking from reference-window minimum tail probability"
+    },
+    "normal_far_guarantee": false,
+    "configurations": 6,
+    "screening_only": {
+      "macro_normal_window_far_max": 0.02,
+      "per_scene_normal_window_far_max": 0.05,
+      "synthetic_event_recall_drop_max_pp": 3,
+      "warning": "Engineering screening on existing development data; adopting based on synthetic outcomes must be disclosed and independently confirmed."
+    }
+  },
+  "E7B": {
+    "status": "requires_independent_annotations",
+    "queue": "configs/experiments/followup/annotation_queue.json",
+    "queue_videos": 40,
+    "normal_evaluation_videos": 16,
+    "historical_evaluation_videos": 8,
+    "double_annotation_evaluation_videos": 24,
+    "preflight": [
+      "audit official periodicity annotation semantics",
+      "recording groups and fps",
+      "visible repeated cycles and normal waits"
+    ],
+    "arms": [
+      "T0 first-observation-initialized FIT clock",
+      "T1 observation likelihood using same causal descriptor",
+      "T2 current E11 PhysicalTracker"
+    ],
+    "primary_metrics": [
+      "stage-interval correctness",
+      "transition delay and misses"
+    ],
+    "secondary_metrics": [
+      "FIT-anchor circular MAE",
+      "confidence risk-coverage",
+      "annotation coverage/agreement"
+    ],
+    "forbidden_ground_truth": [
+      "frame index divided by full test length",
+      "uniform k/K anchor placement",
+      "linear interpolation presented as continuous GT",
+      "per-test phase-offset alignment"
+    ]
+  },
+  "E13B": {
+    "status": "planned_not_run",
+    "arms": {
+      "Q0": "existing P alone",
+      "Q1": "two-tail multiscale difference alone",
+      "Q2": "global low-motion dwell survival",
+      "Q3": "entry-phase-conditioned dwell survival",
+      "Q4": "max(Q0,Q3)",
+      "Q5": "multihorizon AR and causal TCN"
+    },
+    "appearance_scope": "No A in process-only comparison; add same C after temporal comparison. Old P7 includes A and cannot be relabeled Q1.",
+    "dwell": {
+      "low_motion_quantile_fit": 0.1,
+      "movement_lag_frames": 2,
+      "phase_bins": 4,
+      "context": "observation phase at run entry",
+      "min_reference_sources": 3,
+      "min_complete_runs": 20,
+      "global_mix": 0.5,
+      "fallback": "Q2",
+      "right_censor_end_runs": true,
+      "no_complete_global_reference_runs": "unavailable"
+    },
+    "prediction": {
+      "horizons_original_frames": [
+        2,
+        8,
+        32
+      ],
+      "history_original_frames": 128,
+      "tcn_channels": [
+        32,
+        64
+      ],
+      "learning_rates": [
+        0.0001,
+        0.0003,
+        0.001
+      ],
+      "max_epochs": 50,
+      "patience": 5,
+      "selection": "normal validation prediction loss",
+      "score": "past-issued forecast versus current observation"
+    },
+    "freeze_lengths_recording_T": [
+      0.05,
+      0.1,
+      0.2,
+      0.4
+    ],
+    "period_controls": [
+      "recording-length T",
+      "FIT-only self-similarity/autocorrelation T",
+      "FIT-annotation T diagnostic with disclosed extra normal supervision"
+    ],
+    "screening_only": {
+      "freeze_recall_gain_pp_min": 10,
+      "other_three_edit_mean_recall_drop_pp_max": 3,
+      "require_E15_normal_far_screening": true
+    }
+  },
+  "E14B": {
+    "status": "planned_not_run",
+    "controls": [
+      "continuous-onset reverse versus same-initial-frame forward continuation",
+      "lag-2/8/32 change-magnitude matched order-preserving stress windows"
+    ],
+    "matching_scope": "normal feature distances; no anomaly score matching; publish eligible/matched coverage; stress controls are not automatically genuine normal process states",
+    "interior_exclusion_frames": 32,
+    "alarm_recovery_clear_frames": 32,
+    "state_recovery": "separate comparison to original trajectory using source map only for evaluation",
+    "oracle_reset": "diagnostic only, not deployable online score"
+  },
+  "E12B": {
+    "status": "planned_not_run",
+    "continuous_mean_fixed": true,
+    "total_rank_grid": [
+      32,
+      64,
+      128
+    ],
+    "per_phase_rank_grid": [
+      16,
+      32,
+      64
+    ],
+    "phase_bins": [
+      4,
+      8
+    ],
+    "seed42_scope": "full FIT, all20 scene/fold units",
+    "seed43_44_scope": "predeclared total-rank64 and per-phase-rank64 contrasts only",
+    "unsupported_rank": "unavailable; report common-supported subset and full coverage, do not silently relabel a lower rank",
+    "metrics": [
+      "head AP/AUROC",
+      "actual model and calibration bytes",
+      "head latency",
+      "actual retained rank"
+    ]
+  },
+  "external_baselines": {
+    "status": "planned_not_run",
+    "methods": [
+      "official SubspaceAD framewise",
+      "official IPAD period-memory",
+      "INFP subject to reproducible implementation availability",
+      "same-feature causal TCN"
+    ],
+    "tracks": [
+      "matched-feature mechanism controls",
+      "original-method reproduction with disclosed preprocessing/data/budget"
+    ],
+    "offline_methods": "separate reference table or explicitly labeled causal adaptation"
+  },
+  "streaming": {
+    "status": "planned_not_run",
+    "device": "local RTX PRO 6000",
+    "batch_size": 1,
+    "strides": [
+      1,
+      2
+    ],
+    "warmup_frames": 100,
+    "measurement_frames_min": 1000,
+    "repeats": 3,
+    "feature_cache_allowed": false,
+    "metrics": [
+      "end-to-end latency p50/p95/p99",
+      "arrival-to-alarm latency",
+      "backlog",
+      "peak VRAM",
+      "host RAM"
+    ],
+    "causality_check": "same prefix output after different suffixes",
+    "unknown_fps": "report ms/frame and configured-rate replay only"
+  },
+  "independent_confirmation": {
+    "status": "requires_new_data_and_method_freeze",
+    "existing_S01_S12": "audit prior use and asset/session overlap before freezing all unused scenes; synthetic same-dataset extension, not independent real validation",
+    "new_real_pilot": {
+      "processes_min": 2,
+      "test_sessions_per_process": 10,
+      "normal_minutes_per_test_session": 30,
+      "episode_types": [
+        "appearance only",
+        "progress only",
+        "both"
+      ],
+      "episodes_per_type_per_session_min": 1,
+      "normal_hours_total_target": 10
+    },
+    "normal_fit_calibration_sessions": "separate from test sessions; normal fitting allowed with frozen algorithm, not zero-shot",
+    "groups": "recording session; derivatives and episodes remain clustered",
+    "main_contrasts": [
+      "C versus global mean baseline",
+      "C+P versus C",
+      "Full versus C+P"
+    ]
+  },
+  "publication": "New experiment stages remain pending until execution, artifact validation and stage report. Publish completed stage metrics/logs and README tables/figures without overwriting old E11/E12/E14A."
+}

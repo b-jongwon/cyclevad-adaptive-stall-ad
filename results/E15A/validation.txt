@@ -1,0 +1,1 @@
+PASS E15A: 60 units, 7500 per-video strata recomputed from saved raw/calibrated arrays; component thresholds and Full alarm union verified; tied winner shares sum to1.

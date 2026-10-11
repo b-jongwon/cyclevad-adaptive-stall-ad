@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "units": 80,
+  "readout_arms": 10,
+  "total_edited_evaluations": 15640,
+  "unique_edit_cases": 3910,
+  "unique_source_videos": 111,
+  "excluded_candidates": 86,
+  "primary_seeds": [
+    42,
+    43,
+    44
+  ],
+  "primary_stride": 2,
+  "secondary_stride": 1,
+  "secondary_seed": 42,
+  "wall_seconds_sum": 511.9837815370556,
+  "identity_replay_max_abs_error": 0.0,
+  "serialized_model_replay_max_abs_error": 9.93e-06,
+  "serialized_replays": 320,
+  "serialized_replay_note": "Float32 linear algebra may change slightly after model serialization; tolerance rtol=1e-5, atol=1e-6; tested detection delays unchanged. Saved run scores define the published metrics.",
+  "published_source_sha256": {
+    "src/cycle_vad/process_experiment.py": "eecd8124e1e9f393c413a147c5632b0e8a43a10e9fa42aaa86bd48c7025b96ee",
+    "scripts/run_phase_process.py": "5d6f8c4c618ebbce0e8a1f76707a46230addefb09b02dcd5f72d1bbd822c9be2",
+    "scripts/summarize_phase_process.py": "ef0e5470773cf523cf6edcf0d89c2ab93007173a1c2a7345ab818578fcce7851",
+    "scripts/check_phase_process.py": "ed27b512b752ba6b5436c338bb5e14c46417eda5a45811a17bf8c64d6c3ade1b"
+  },
+  "feature_source": "Pinned local RTX PRO 6000 stride1 dense CUDA feature cache; statistical models CPU, 4 threads per job"
+}

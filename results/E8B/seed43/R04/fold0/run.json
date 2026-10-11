@@ -1,0 +1,199 @@
+{
+  "status": "complete",
+  "scene": "R04",
+  "seed": 43,
+  "fold": 0,
+  "splits": {
+    "validation": [
+      "R04/training/14",
+      "R04/training/22",
+      "R04/training/23"
+    ],
+    "reference": [
+      "R04/training/21",
+      "R04/training/17",
+      "R04/training/15"
+    ],
+    "threshold": [
+      "R04/training/16",
+      "R04/training/10",
+      "R04/training/24"
+    ],
+    "fit": [
+      "R04/training/04",
+      "R04/training/25",
+      "R04/training/18",
+      "R04/training/12",
+      "R04/training/01",
+      "R04/training/11",
+      "R04/training/03",
+      "R04/training/13",
+      "R04/training/07",
+      "R04/training/06",
+      "R04/training/19"
+    ],
+    "normal_evaluation": [
+      "R04/training/05",
+      "R04/training/08",
+      "R04/training/09",
+      "R04/training/20",
+      "R04/training/02"
+    ]
+  },
+  "models": [
+    {
+      "arm": "M0",
+      "harmonics": 0,
+      "ridge": 0.01,
+      "rank": 64,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 4.546834608975128,
+        "appearance_conditional": 4.546834608975128
+      }
+    },
+    {
+      "arm": "M1",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 64,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 4.546834608975128,
+        "appearance_conditional": 4.546834608975128
+      }
+    },
+    {
+      "arm": "M2",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 64,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 7.419913473612176,
+        "appearance_conditional": 7.419913473612176
+      }
+    },
+    {
+      "arm": "M3",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 64,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 6.57856809639334,
+        "appearance_conditional": 6.57856809639334
+      }
+    },
+    {
+      "arm": "M4_1101",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 64,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 5.239981789535073,
+        "appearance_conditional": 5.239981789535073
+      }
+    },
+    {
+      "arm": "M4_1102",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 64,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 4.729156165769083,
+        "appearance_conditional": 4.729156165769083
+      }
+    },
+    {
+      "arm": "M4_1103",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 64,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 4.729156165769083,
+        "appearance_conditional": 4.729156165769083
+      }
+    },
+    {
+      "arm": "M4_1104",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 64,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 4.546834608975128,
+        "appearance_conditional": 4.729156165769083
+      }
+    },
+    {
+      "arm": "M4_1105",
+      "harmonics": 8,
+      "ridge": 0.01,
+      "rank": 64,
+      "selection": [],
+      "thresholds": {
+        "conditional_only": 4.259152536523347,
+        "appearance_conditional": 4.546834608975128
+      }
+    }
+  ],
+  "M0_translation_score_max_abs_error": {
+    "fit": 1.7881393432617188e-06,
+    "normal_evaluation": 1.7285346984863281e-06
+  },
+  "M0_fusion_equivalence": true,
+  "M3_mean_equivalence": true,
+  "code_fingerprint": "90df7f8c7fd5ddf8bc4bb5460819fb7665fc44d819736d9e5990cdec24192889",
+  "protocol_sha256": "03c87d9e81f0b7c1bfde36fd03fddf2dcc331e714704de56689a917b723aaa5a",
+  "cache_signatures": {
+    "R04/training/14": "18228cec8c2c51b925864258ec4843bed3150955070738fafd51669441af6c41",
+    "R04/training/22": "0880addf8136b4e77bb602afbac354c3e915e7ec4a153604f22570e345093df4",
+    "R04/training/23": "dc10263b5cd60e4beae17404fc39b6faf2a501a6578d7fea9fa5c36571327eda",
+    "R04/training/21": "ae1bf9a5147d2fafe836aed72b0eb0401b92a01d764e289f761f903e0f9f5706",
+    "R04/training/17": "9f59b9067693f43f844a784f259688c6c7b1eff9c4afb6e214555215d9771adf",
+    "R04/training/15": "2a82412e4a6e7639a912260b64847be766c69925f7004013fb7ebc81e8e874ba",
+    "R04/training/16": "bf09fe09fda14ceafc4464743fc25efe4daf0a914d03f582e3f6e51ecfdc5231",
+    "R04/training/10": "70ec3ac9c4ac89ff51fd0f9b246ba28dc40fc868f281659ac1dc6dfdf5ef1993",
+    "R04/training/24": "4dab41cd41b071677033e49223d152823a190bee458287f68f928d19b0b99557",
+    "R04/training/04": "19da71b61fbd37a0db8d8f24a18956e9de2814298c84979a5431a4afad45c5e9",
+    "R04/training/25": "a739dc97cdc8cb21ab5ce6c95c1144e220cbd674dde529eb8be67b11e56d4240",
+    "R04/training/18": "44e11738e74de1d0702a7064c90ee35093ee1401869a7a59a67254e7afc0adab",
+    "R04/training/12": "68019db4be63ecd92cfc47dc783ef08af1b035804afc96691f5f3084e3fd4ed0",
+    "R04/training/01": "777e2b5e473b0e5173e0dcb14c7104201b62c8727a494ae73e29977421f3aa3d",
+    "R04/training/11": "0077952973bc45422524e2682bf9a8fcd842f0c009de20a4cacc1218a6aa8fd8",
+    "R04/training/03": "3caf237c087e3497b4f2e136a356d4096b4f9eeef21303afe941632287faec05",
+    "R04/training/13": "c2334a5880c904524012fa9069012ab1b59409ea6fff5dad6d1e5b45e8d40a7d",
+    "R04/training/07": "56f1cabce66c151bf86f7e74fa05227a9bff657cf86bd329082820b178d5a143",
+    "R04/training/06": "4549e3dbe4fe14acd1df8d3d81c4ee415c18422b300697f59c4137f27afdde48",
+    "R04/training/19": "98542be82b3ecec69344cfe1782ed9aecfb56102de0485d0c431c28e18bfd251",
+    "R04/training/05": "9af6090f4701a9368a21ba1becdb0af2107ee2d39869d3474ab7aec1daa835c5",
+    "R04/training/08": "f2444e8f55f5ff6040209c49ce661dfaaf219edc9ceb33d7443d75f465387ae0",
+    "R04/training/09": "bd992e34012818cf7d2404ca4293095488896a03d4d9fb51363f1c6f52c74a50",
+    "R04/training/20": "c761f56a0f7659699d613ecbc013aa5e5f4f2f6c40155b1b43ef6872d418e8ff",
+    "R04/training/02": "bb78d2b2e432f6c403c15ba9a62eb20b0e59647196babeb7b400b3c54dc94dec",
+    "R04/testing/01": "716fbd9b9c35b60205caab339e0a68a03ba962a2d969c80071406004cb84151c",
+    "R04/testing/02": "15ec35b804cd797c43317c20adbacbd3e3cda365e058c57cda4cd99696254dc9",
+    "R04/testing/03": "cdf04588d3692270a36837d742dcf9141e0030d22421b0682704703287721d4a",
+    "R04/testing/04": "2ff879d7acd419796cd850ab781f159f7f2b15fdd7961f358142b63a18449426",
+    "R04/testing/05": "a4fb40e1081b99c42ea181d443c5fbc020386d9f8ad47bae9017454af3ef2b44",
+    "R04/testing/06": "c01e3eb07b1174a8adb914e4214faf2287b42d78363bfa7c73feefa9f87913f3",
+    "R04/testing/07": "64b34a74447307f1653c5c6e9849444a8f6c8abfd15e05660651890620068ea4",
+    "R04/testing/08": "86d67a8de6c343e8fc8f03438be3dee9ca6d8647648528eb4e44bfb9e5029569",
+    "R04/testing/09": "c2150fb04495d9cd7fbfb2d3f7c26786d6fabd2bd1bd2a2c158ad679be01e91e",
+    "R04/testing/10": "0653a637e90a7911ea3c1a1a7045e511204d5c3a1e10d91c43701c24c0b50eb4",
+    "R04/testing/11": "03a8340142702be9e1bdf082a83f60a766bb8914629313952d11866e8f9bcb72",
+    "R04/testing/12": "100268310622f7f955799b5baa7fa1b3236ea562a01fa372c225258ac6403ebc",
+    "R04/testing/13": "94ed4d07f36a0aac0d4eec4a31a5d0cd88a2add53255e7f60ccf7344b7d4d53c",
+    "R04/testing/14": "8948b177b2ac7850e2661360e8a79f816f13f511fa058aa873ea7976a8febc88",
+    "R04/testing/15": "dffe2207eddbc752f2951cf6e46fffaca752bdd862757c45311ec05f3f1902db",
+    "R04/testing/16": "6672e0b617403f2856c9c5140c3212045bf11485c8a4586c3add7ff161252c4d",
+    "R04/testing/17": "40e77fe6d6a542dd7d08b0916cfa43dcc8f13dbb46be5a65bad332ccc8d27815",
+    "R04/testing/18": "cc5d9590fc2fcad589b367db6ffb58d58b760913d4a8e54b5c3ae5fb1b8e062f",
+    "R04/testing/19": "3883e43fe28ab9883c167c529968ab9a4892ea0f182fa6fdfe9d56f0d8b485b6"
+  },
+  "wall_seconds": 9.505232547002379
+}

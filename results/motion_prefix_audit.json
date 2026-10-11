@@ -1,0 +1,9 @@
+{
+  "unchanged_prefix_observations": 4,
+  "modified_observation_zero_based": 4,
+  "lag": 4,
+  "original_initial_motion": [0.0, 0.0, 0.0, 0.0],
+  "changed_initial_motion": [1.0, 1.0, 1.0, 1.0],
+  "prefix_invariant": false,
+  "status": "known limitation; no correction or new training performed in this audit"
+}

@@ -1,0 +1,90 @@
+{
+  "resamples": 2000,
+  "seed": 20261009,
+  "unit": "source_file",
+  "stratified_by": "scene",
+  "paired": true,
+  "readout": "appearance_conditional",
+  "contrast": "C-22 minus C-00",
+  "historical_fold": 0,
+  "macro_ap_gain_pp_ci95": [
+    1.7839908529924202,
+    4.915566012841779
+  ],
+  "macro_auroc_gain_pp_ci95": [
+    0.8700588043244601,
+    2.6021074749760276
+  ],
+  "finite_macro_ap_resamples": 2000,
+  "scene_historical": {
+    "R01": {
+      "valid_source_files": 15,
+      "ap_gain_pp": 9.204180246726034,
+      "ap_gain_pp_ci95": [
+        4.399973842927029,
+        15.78580821213694
+      ]
+    },
+    "R02": {
+      "valid_source_files": 12,
+      "ap_gain_pp": 0.37602828546517975,
+      "ap_gain_pp_ci95": [
+        -0.45867400108429296,
+        1.613404586921883
+      ]
+    },
+    "R03": {
+      "valid_source_files": 17,
+      "ap_gain_pp": 0.7656870127559778,
+      "ap_gain_pp_ci95": [
+        -0.26598927343410905,
+        2.1475142993345755
+      ]
+    },
+    "R04": {
+      "valid_source_files": 19,
+      "ap_gain_pp": 2.0121842028770653,
+      "ap_gain_pp_ci95": [
+        0.7128443130826787,
+        4.49666169395163
+      ]
+    }
+  },
+  "normal_oof": {
+    "R01": {
+      "files": 34,
+      "fpr_gain_pp": -0.08965163934426229,
+      "fpr_gain_pp_ci95": [
+        -0.5563012947509888,
+        0.2307115532506456
+      ]
+    },
+    "R02": {
+      "files": 30,
+      "fpr_gain_pp": 0.04505519261094841,
+      "fpr_gain_pp_ci95": [
+        -0.0446487129681527,
+        0.12514345327700788
+      ]
+    },
+    "R03": {
+      "files": 22,
+      "fpr_gain_pp": -0.7558973022285937,
+      "fpr_gain_pp_ci95": [
+        -2.4704137544048814,
+        0.1574468674175046
+      ]
+    },
+    "R04": {
+      "files": 25,
+      "fpr_gain_pp": 0.4521167283189478,
+      "fpr_gain_pp_ci95": [
+        -1.0070337533293516,
+        2.719117275268324
+      ]
+    }
+  },
+  "group_independence_verified": false,
+  "uncertainty_scope": "Fixed fitted models and thresholds; does not include retraining uncertainty or prove recording independence.",
+  "metric_equivalence_to_sklearn_passed": true
+}

@@ -1,0 +1,82 @@
+{
+  "model_seed": 42,
+  "split_seed": 42,
+  "stride": 2,
+  "scene": "R02",
+  "splits": {
+    "validation": [
+      "R02/training/07",
+      "R02/training/26",
+      "R02/training/27",
+      "R02/training/30"
+    ],
+    "reference": [
+      "R02/training/10",
+      "R02/training/13",
+      "R02/training/22",
+      "R02/training/23"
+    ],
+    "threshold": [
+      "R02/training/19",
+      "R02/training/20",
+      "R02/training/24",
+      "R02/training/28"
+    ],
+    "fit": [
+      "R02/training/01",
+      "R02/training/02",
+      "R02/training/03",
+      "R02/training/04",
+      "R02/training/05",
+      "R02/training/06",
+      "R02/training/08",
+      "R02/training/09",
+      "R02/training/11",
+      "R02/training/12",
+      "R02/training/14",
+      "R02/training/15",
+      "R02/training/16",
+      "R02/training/17",
+      "R02/training/18",
+      "R02/training/21",
+      "R02/training/25",
+      "R02/training/29"
+    ]
+  },
+  "thresholds": {
+    "pooled": 4.789157022101107,
+    "appearance": 5.2999826458670976,
+    "cycle_conditioned": 5.2999826458670976,
+    "appearance_process": 5.993129826427043,
+    "full": 5.993129826427043
+  },
+  "variants": [
+    "pooled",
+    "appearance",
+    "cycle_conditioned",
+    "appearance_process",
+    "full"
+  ],
+  "code_fingerprint": "c9294492a3f621eeb6898a6409e31aa91ade41035d503d2b8088d6d581d931ae",
+  "encoder_identity": {
+    "device": "cuda",
+    "extractor_version": 1,
+    "family": "dinov2",
+    "feature_layers": [
+      -1,
+      -3
+    ],
+    "image_size": 336,
+    "model_id": "facebook/dinov2-base",
+    "patch_dim": 64,
+    "patch_grid": 6,
+    "preprocessing": "full_frame_letterbox",
+    "resolved_revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+    "revision": "main",
+    "seed": 42,
+    "torch": "2.9.1+cu128"
+  },
+  "evaluation_seconds": 4.256514481996419,
+  "timing_scope": "shared computation for all variants, not standalone inference latency",
+  "label_policy": "strict-v1"
+}

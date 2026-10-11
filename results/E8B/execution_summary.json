@@ -1,0 +1,31 @@
+{
+  "status": "complete",
+  "units": 60,
+  "arm_models": 640,
+  "wall_seconds_sum": 536.5861879619624,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "folds": 5,
+  "scenes": [
+    "R01",
+    "R02",
+    "R03",
+    "R04"
+  ],
+  "feature_extraction": "Reused pinned local RTX PRO 6000 CUDA feature cache; statistical refits on CPU (4 threads per job)",
+  "module_fingerprints_at_run": [
+    "322eedb549a7c4205d38436421e814a190fff8f4062754e1162b070c4d90296e",
+    "90df7f8c7fd5ddf8bc4bb5460819fb7665fc44d819736d9e5990cdec24192889"
+  ],
+  "fingerprint_note": "Package-wide fingerprints also include unrelated modules. E9S module was added while E8B ran; E8B experiment module stayed unchanged. Relevant published source hashes are below.",
+  "published_source_sha256": {
+    "src/cycle_vad/phase_experiment.py": "3fe73e58ca872c0de0e59a20bcd6da8adb25eb4d5f8815b2bc933505d62b41a4",
+    "src/cycle_vad/process_experiment.py": "eecd8124e1e9f393c413a147c5632b0e8a43a10e9fa42aaa86bd48c7025b96ee",
+    "scripts/run_phase_process.py": "5d6f8c4c618ebbce0e8a1f76707a46230addefb09b02dcd5f72d1bbd822c9be2",
+    "scripts/summarize_phase_process.py": "ef0e5470773cf523cf6edcf0d89c2ab93007173a1c2a7345ab818578fcce7851",
+    "scripts/check_phase_process.py": "ed27b512b752ba6b5436c338bb5e14c46417eda5a45811a17bf8c64d6c3ade1b"
+  }
+}

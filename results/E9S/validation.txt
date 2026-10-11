@@ -1,0 +1,2 @@
+PASS E9S: 80 units, 444 original normal streams, 320 edit replays; maximum score difference 9.93e-06.
+PASS E9S: fixed dense CUDA cache, disjoint normal splits, frozen protocol, identity controls, output-time tracking, saved-window and delay consistency.

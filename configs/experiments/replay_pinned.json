@@ -1,0 +1,46 @@
+{
+  "seed": 42,
+  "scenes": [
+    "R01",
+    "R02",
+    "R03",
+    "R04"
+  ],
+  "stride": 2,
+  "batch_size": 8,
+  "workers": 4,
+  "encoder": {
+    "family": "dinov2",
+    "model_id": "facebook/dinov2-base",
+    "revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+    "image_size": 336,
+    "patch_grid": 6,
+    "patch_dim": 64,
+    "feature_layers": [
+      -1,
+      -3
+    ],
+    "seed": 42,
+    "device": "cuda"
+  },
+  "model": {
+    "seed": 42,
+    "cycle_grid": 128,
+    "cycle_latent": 24,
+    "harmonics_candidates": [
+      2,
+      4,
+      8
+    ],
+    "ridge_candidates": [
+      0.01,
+      0.1,
+      1.0
+    ],
+    "fit_samples": 4096,
+    "subspace_rank": 64,
+    "local_memory": 96,
+    "threshold_quantile": 0.99,
+    "process_weight": 1.0
+  }
+}

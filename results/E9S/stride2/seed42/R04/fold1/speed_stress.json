@@ -1,0 +1,17 @@
+[
+{"source_id":"R04/training/13","speed":0.8,"output_frames":478,"windows":9,"frame_alarm_primary":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],"window_alarm_primary":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]},
+{"source_id":"R04/training/13","speed":1.0,"output_frames":382,"windows":7,"frame_alarm_primary":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],"window_alarm_primary":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]},
+{"source_id":"R04/training/13","speed":1.2,"output_frames":319,"windows":5,"frame_alarm_primary":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],"window_alarm_primary":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]},
+{"source_id":"R04/training/19","speed":0.8,"output_frames":495,"windows":10,"frame_alarm_primary":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],"window_alarm_primary":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]},
+{"source_id":"R04/training/19","speed":1.0,"output_frames":396,"windows":7,"frame_alarm_primary":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],"window_alarm_primary":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]},
+{"source_id":"R04/training/19","speed":1.2,"output_frames":330,"windows":6,"frame_alarm_primary":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],"window_alarm_primary":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]},
+{"source_id":"R04/training/01","speed":0.8,"output_frames":387,"windows":7,"frame_alarm_primary":[0.0,0.0,0.0,0.07235142118863049,0.07235142118863049,0.0,0.0,0.0,0.07235142118863049,0.0],"window_alarm_primary":[0.0,0.0,0.0,0.5714285714285714,0.5714285714285714,0.0,0.0,0.0,0.5714285714285714,0.0]},
+{"source_id":"R04/training/01","speed":1.0,"output_frames":309,"windows":5,"frame_alarm_primary":[0.0,0.0,0.0,0.11974110032362459,0.11974110032362459,0.0,0.0,0.0,0.11974110032362459,0.0],"window_alarm_primary":[0.0,0.0,0.0,0.4,0.4,0.0,0.0,0.0,0.4,0.0]},
+{"source_id":"R04/training/01","speed":1.2,"output_frames":258,"windows":4,"frame_alarm_primary":[0.0,0.0,0.0,0.13953488372093023,0.13953488372093023,0.0,0.0,0.0,0.13953488372093023,0.0],"window_alarm_primary":[0.0,0.0,0.0,0.75,0.75,0.0,0.0,0.0,0.75,0.0]},
+{"source_id":"R04/training/18","speed":0.8,"output_frames":515,"windows":10,"frame_alarm_primary":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],"window_alarm_primary":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]},
+{"source_id":"R04/training/18","speed":1.0,"output_frames":412,"windows":8,"frame_alarm_primary":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],"window_alarm_primary":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]},
+{"source_id":"R04/training/18","speed":1.2,"output_frames":344,"windows":6,"frame_alarm_primary":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],"window_alarm_primary":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]},
+{"source_id":"R04/training/15","speed":0.8,"output_frames":425,"windows":8,"frame_alarm_primary":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],"window_alarm_primary":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]},
+{"source_id":"R04/training/15","speed":1.0,"output_frames":340,"windows":6,"frame_alarm_primary":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],"window_alarm_primary":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]},
+{"source_id":"R04/training/15","speed":1.2,"output_frames":284,"windows":5,"frame_alarm_primary":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],"window_alarm_primary":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]}
+]

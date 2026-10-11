@@ -1,0 +1,133 @@
+{
+  "conditional_subspace": {
+    "rank": 64,
+    "samples": 4095,
+    "retained_variance": 0.8246548175811768,
+    "variance_target_met": false
+  },
+  "pooled_subspace": {
+    "rank": 64,
+    "samples": 4095,
+    "retained_variance": 0.9420976042747498,
+    "variance_target_met": false
+  },
+  "cycle": {
+    "normal_cycle_candidates": 13,
+    "median_period_source_frames": 703.0,
+    "template_temperature": 0.06987658555804621,
+    "period_q10_q90": [
+      688.4,
+      722.4
+    ]
+  },
+  "mean_fit_cycle_confidence": 0.6373865117298384,
+  "selected_harmonics": 8,
+  "selected_ridge": 0.01,
+  "selection": [
+    {
+      "harmonics": 2,
+      "ridge": 0.01,
+      "normal_validation_mse": 2.9122895284672268e-05
+    },
+    {
+      "harmonics": 2,
+      "ridge": 0.1,
+      "normal_validation_mse": 3.0660525226267055e-05
+    },
+    {
+      "harmonics": 2,
+      "ridge": 1.0,
+      "normal_validation_mse": 4.1955496271839365e-05
+    },
+    {
+      "harmonics": 4,
+      "ridge": 0.01,
+      "normal_validation_mse": 2.5298839318566024e-05
+    },
+    {
+      "harmonics": 4,
+      "ridge": 0.1,
+      "normal_validation_mse": 2.669165587576572e-05
+    },
+    {
+      "harmonics": 4,
+      "ridge": 1.0,
+      "normal_validation_mse": 3.9528811612399295e-05
+    },
+    {
+      "harmonics": 8,
+      "ridge": 0.01,
+      "normal_validation_mse": 1.98597972485004e-05
+    },
+    {
+      "harmonics": 8,
+      "ridge": 0.1,
+      "normal_validation_mse": 2.1526675482164137e-05
+    },
+    {
+      "harmonics": 8,
+      "ridge": 1.0,
+      "normal_validation_mse": 3.664536416181363e-05
+    }
+  ],
+  "thresholds": {
+    "combined": 6.50478705107256,
+    "appearance": 5.038449982279133,
+    "cycle_conditioned": 5.038449982279133
+  },
+  "scene": "R03",
+  "splits": {
+    "validation": [
+      "R03/training/01",
+      "R03/training/15",
+      "R03/training/19"
+    ],
+    "reference": [
+      "R03/training/07",
+      "R03/training/14",
+      "R03/training/17"
+    ],
+    "threshold": [
+      "R03/training/09",
+      "R03/training/10",
+      "R03/training/21"
+    ],
+    "fit": [
+      "R03/training/02",
+      "R03/training/03",
+      "R03/training/04",
+      "R03/training/05",
+      "R03/training/06",
+      "R03/training/08",
+      "R03/training/11",
+      "R03/training/12",
+      "R03/training/13",
+      "R03/training/16",
+      "R03/training/18",
+      "R03/training/20",
+      "R03/training/22"
+    ]
+  },
+  "cycle_coordinate_sources": {
+    "R03/training/02": "weak_recording_alignment",
+    "R03/training/03": "weak_recording_alignment",
+    "R03/training/04": "weak_recording_alignment",
+    "R03/training/05": "weak_recording_alignment",
+    "R03/training/06": "weak_recording_alignment",
+    "R03/training/08": "weak_recording_alignment",
+    "R03/training/11": "weak_recording_alignment",
+    "R03/training/12": "weak_recording_alignment",
+    "R03/training/13": "weak_recording_alignment",
+    "R03/training/16": "weak_recording_alignment",
+    "R03/training/18": "weak_recording_alignment",
+    "R03/training/20": "weak_recording_alignment",
+    "R03/training/22": "weak_recording_alignment"
+  },
+  "recording_groups_provided": false,
+  "group_independence_verified": false,
+  "fit_calibrate_seconds": 10.426097206000122,
+  "normal_only_model_selection": true,
+  "cycle_accuracy": null,
+  "real_anomaly_performance": "not_yet_evaluated",
+  "frame_time_unit": "source_frame_index"
+}

@@ -1,0 +1,20 @@
+{
+  "seed": 42,
+  "scenes": ["R01", "R02", "R03", "R04"],
+  "adaptive": {
+    "phase_bins": 16,
+    "minimum_bin_samples": 64,
+    "threshold_quantile": 0.99,
+    "warmup_samples": 24,
+    "warmup_baseline_fraction": 0.2,
+    "max_warmup_shift": 8.0,
+    "intensity_threshold_gain": 0.3,
+    "ema_alpha": 0.4,
+    "stall_lags": [1, 4],
+    "stall_ema_alpha": 0.5,
+    "alarm_k": 3,
+    "alarm_window": 8,
+    "freeze_fractions": [0.05, 0.1, 0.2],
+    "freeze_onsets": [0.2, 0.4, 0.6]
+  }
+}

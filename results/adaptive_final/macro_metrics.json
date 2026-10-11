@@ -1,0 +1,74 @@
+{
+  "fixed_cyclevad": {
+    "auroc": 0.7828297509525364,
+    "ap": 0.6976557368035642,
+    "fpr": 0.18931748184913938,
+    "recall": 0.43799949656576287,
+    "event_coverage": 0.6650075414781297,
+    "synthetic_freeze_event_recall": 0.1625
+  },
+  "intensity_threshold": {
+    "auroc": 0.7828297509525364,
+    "ap": 0.6976557368035642,
+    "fpr": 0.12756626560417444,
+    "recall": 0.38676673456510874,
+    "event_coverage": 0.6650075414781297,
+    "synthetic_freeze_event_recall": 0.1625
+  },
+  "intensity_threshold_with_stall": {
+    "auroc": 0.7828297509525364,
+    "ap": 0.6976557368035642,
+    "fpr": 0.1469513939872576,
+    "recall": 0.4753905652601941,
+    "event_coverage": 0.8156108597285068,
+    "synthetic_freeze_event_recall": 0.9333333333333333
+  },
+  "phase_combined": {
+    "auroc": 0.7213216271608712,
+    "ap": 0.6228775150673465,
+    "fpr": 0.1858287808309058,
+    "recall": 0.37302269107450214,
+    "event_coverage": 0.7003016591251885,
+    "synthetic_freeze_event_recall": 0.24583333333333332
+  },
+  "phase_branch": {
+    "auroc": 0.6921811005542735,
+    "ap": 0.5730628113256209,
+    "fpr": 0.18295057568534998,
+    "recall": 0.3227650011702173,
+    "event_coverage": 0.5836349924585218,
+    "synthetic_freeze_event_recall": 0.1625
+  },
+  "warmup_phase": {
+    "auroc": 0.5751511649146315,
+    "ap": 0.5527579671465904,
+    "fpr": 0.014514750022596813,
+    "recall": 0.043693053601450975,
+    "event_coverage": 0.17756410256410254,
+    "synthetic_freeze_event_recall": 0.1625
+  },
+  "adaptive_ema": {
+    "auroc": 0.5764738313574728,
+    "ap": 0.5641347768886535,
+    "fpr": 0.016382832434754482,
+    "recall": 0.06522543230591477,
+    "event_coverage": 0.21346153846153848,
+    "synthetic_freeze_event_recall": 0.11805555555555555
+  },
+  "stall": {
+    "auroc": 0.5743342715402073,
+    "ap": 0.5272155224252544,
+    "fpr": 0.02276942624877781,
+    "recall": 0.11561425305587543,
+    "event_coverage": 0.3647530165912519,
+    "synthetic_freeze_event_recall": 0.9333333333333333
+  },
+  "adaptive_with_stall": {
+    "auroc": 0.6137675084847876,
+    "ap": 0.5756154997326394,
+    "fpr": 0.015683727289340612,
+    "recall": 0.05932766035309694,
+    "event_coverage": 0.20384615384615384,
+    "synthetic_freeze_event_recall": 0.6111111111111112
+  }
+}
