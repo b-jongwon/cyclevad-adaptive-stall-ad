@@ -9,6 +9,7 @@
 - [기초·데이터·지표](docs/review/01_foundations.md)
 - [팀원 구성 요소 A to Z](docs/review/02_team_components.md)
 - [팀원 A/C/P/CP/Full·E0–E17](docs/review/03_team_experiments.md)
+- [팀원 E11/E11B/E12 통합·phase 공간 비교 수치](docs/review/03b_integrated_evidence.md)
 - [초기 경보 실험과 전체16 공통 규칙](docs/review/04_local_alarm.md)
 - [AE/GRU와 memory 직접 학습](docs/review/05_feature_learning.md)
 - [최종 정지 연속 score 결합](docs/review/06_final_fusion.md)
